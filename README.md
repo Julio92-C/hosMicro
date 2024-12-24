@@ -1,10 +1,10 @@
 # hosMicro
 The spread of antimicrobial-resistant bacteria globally is a pressing issue that has captured my attention.
 
-- It's concerning to see how certain bacteria are becoming resistant to the drugs we use to treat them, leading to the rise of superbugs that are difficult to control.
-- In 2017, WHO priority pathogens: A list of antibiotic-resistant bacteria assessed to be of highest priority for new antibiotic development.
-- In 2019, nearly 1.3 million deaths including 140 thousand newborns were caused by AMR. This is expected to rise to 10 million deaths by 2050.
-- Understanding the patterns and drivers of antimicrobial resistance, we can develop strategies to prevent its spread and improve patient outcomes.
+- It's concerning to see how certain bacteria are becoming resistant to the drugs we use to treat them, leading to the rise of difficult-to-control superbugs.
+- In 2017, the WHO published a list of priority pathogens including antibiotic-resistant bacteria, that were identified as high priority for new antibiotic development.
+- In 2019, nearly 1.3 million deaths, including 140,000 newborns, were caused by antimicrobial resistance (AMR). This number is expected to rise to 10 million deaths by 2050.
+- By understanding the patterns and drivers of antimicrobial resistance, we can create strategies to prevent its spread and enhance patient outcomes.
 
 ![](www/hosMicro_shinnyApp.png)
 
