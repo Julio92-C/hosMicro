@@ -37,10 +37,12 @@ The application is designed to provide a user-friendly interface for researchers
 
 It offers a range of tools and features to help users identify taxonomy, track the spread of the pathogen, and understand their AMR, VFs, and MGEs profiles.
 
-# Authors:
+# Author:
 Julio C. Ortega Cambara 
 
-PhD C. School of Biomedical Sciences
+PhD C. Bioinformatics
+
+School of Biomedical Sciences
 
 University of West London
 
