@@ -21,11 +21,11 @@ The spread of antimicrobial-resistant bacteria globally is a pressing issue that
 - reshape2 1.4.4
 - tidyr 1.3.0
 - VennDiagram 1.7.3
-- tidyverse
-- stringr
-- ggsignif
+- tidyverse 1.3.1
+- stringr 1.5.1
+- ggsignif 0.6.2
 - vegan 2.6-4
-- circlize
+- circlize 0.4.16
 - pheatmap 1.0.12
 - rmarkdown 2.25
 
