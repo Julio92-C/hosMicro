@@ -8,27 +8,6 @@ The spread of antimicrobial-resistant bacteria globally is a pressing issue that
 
 ![](www/hosMicro_shinnyApp.png)
 
-## R package requirements:
-- R 4.1.0
-- shiny 1.6.0
-- DT 0.19
-- plotly 4.9.4.1
-- ggplot2 3.4.4
-- dplyr 1.1.0
-- gtsummary 1.7.2
-- paletteer 1.5.0
-- scales 1.2.1
-- reshape2 1.4.4
-- tidyr 1.3.0
-- VennDiagram 1.7.3
-- tidyverse 1.3.1
-- stringr 1.5.1
-- ggsignif 0.6.2
-- vegan 2.6-4
-- circlize 0.4.16
-- pheatmap 1.0.12
-- rmarkdown 2.25
-
 ## Quick start
 If docker is available, pull the image and run the Shiny app using the following command:
 ```Sh
