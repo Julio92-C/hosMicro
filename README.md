@@ -29,6 +29,18 @@ The spread of antimicrobial-resistant bacteria globally is a pressing issue that
 - pheatmap 1.0.12
 - rmarkdown 2.25
 
+## Installation
+If installing from the source, an  R version >= 4.1.0 with the corresponding packages listed above is required. Most of these are easy to install on a linux-based system:
+```Sh
+sudo apt update
+sudo apt install r-base
+R --version
+### Install packages and dependecies
+R -e "install.packages(pkgs=c('shiny','shinydashboard', 'shinydashboardPlus', 'DT', 'dplyr', 'plotly', 'readr', 'ggplot2', 'scales', 'forcats','thematic', 'gtsummary', 'paletteer', 'reshape2', 'tidyr', 'VennDiagram', 'tidyverse', 'stringr', 'ggsignif', 'vegan', 'circlize', 'pheatmap'), repos='https://cran.rstudio.com/')"
+R -e "shiny::runApp('/root/shiny_save', host='0.0.0.0', port=3838)"
+
+```
+
 ## Features:
 
 This web-based application has been developed to facilitate the exploration of the hospital microbiome.
