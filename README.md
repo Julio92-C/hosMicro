@@ -1,46 +1,49 @@
 # hosMicro
-The spread of antimicrobial-resistant bacteria globally is a pressing issue that has captured my attention.
+Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
 
-- It's concerning to see how certain bacteria are becoming resistant to the drugs we use to treat them, leading to the rise of difficult-to-control superbugs.
-- In 2017, the WHO published a list of priority pathogens including antibiotic-resistant bacteria, that were identified as high priority for new antibiotic development.
-- In 2019, nearly 1.3 million deaths, including 140,000 newborns, were caused by antimicrobial resistance (AMR). This number is expected to rise to 10 million deaths by 2050.
-- By understanding the patterns and drivers of antimicrobial resistance, we can create strategies to prevent its spread and enhance patient outcomes.
+## Key Features:
+- Hospital Microbiome: Gain insights into the microbiome specific to hospital settings and its impact on patient health.
+- Pathogen Identification: Identify and study various pathogens present in hospital environments.
+- Antimicrobial Resistance: Investigate antimicrobial resistance patterns and their implications for public health.
+- Virulence Factors: Analyze virulence factors to understand the mechanisms of pathogenicity.
+- Mobile Genetic Elements: Explore the role of mobile genetic elements in the spread of resistance and virulence factors.
+
+We hope this application will be a valuable resource for your research and help advance our understanding of the hospital microbiome and its genetic components.
 
 ![](www/hosMicro_shinnyApp.png)
 
-## R package requirements:
-- R 4.1.0
-- shiny 1.6.0
-- DT 0.19
-- plotly 4.9.4.1
-- ggplot2 3.4.4
-- dplyr 1.1.0
-- gtsummary 1.7.2
-- paletteer 1.5.0
-- scales 1.2.1
-- reshape2 1.4.4
-- tidyr 1.3.0
-- VennDiagram 1.7.3
-- tidyverse
-- stringr
-- ggsignif
-- vegan 2.6-4
-- circlize
-- pheatmap 1.0.12
-- rmarkdown 2.25
+## Quick start
+If docker is available, pull the image and run the Shiny app using the following command:
+```Sh
+docker run --rm -p 3838:3838 -v /root/shiny_save julio92ont/hosmicro:1.1.2 R -e "shiny::runApp('/root/shiny_save', host='0.0.0.0', port=3838)"
+```
 
-## Features:
+## Installation
+If installing from the source, an  R version >= 4.1.0 with the corresponding packages listed below is required. Most of these are easy to install on a linux-based system:
+```Sh
+### Clone the repository and move to the hosMicro directory
+git clone https://github.com/Julio92-C/hosMicro.git
+cd hosMicro
 
-This web-based application has been developed to facilitate the exploration of the hospital microbiome.
+### Install packages and dependencies
+sudo apt update
+sudo apt install r-base
+R --version
+R -e "install.packages(pkgs=c('shiny','shinydashboard', 'shinydashboardPlus', 'DT', 'dplyr', 'plotly', 'readr', 'ggplot2', 'scales', 'forcats','thematic', 'gtsummary', 'paletteer', 'reshape2', 'tidyr', 'VennDiagram', 'tidyverse', 'stringr', 'ggsignif', 'vegan', 'circlize', 'pheatmap'), repos='https://cran.rstudio.com/')"
 
-The application is designed to provide a user-friendly interface for researchers and clinicians to analyze and visualize the metagenomic data generated from the hospital environment.
+### Run the shiny app
+R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
+```
 
-It offers a range of tools and features to help users identify taxonomy, track the spread of the pathogen, and understand their AMR, VFs, and MGEs profiles.
+## Acknowledgments:
+We want to express our sincere gratitude to our colleague, PhD C. Oscar Previtali, for his support in curating and sharing the dataset that forms the backbone of this application. Our supervisors, Prof. Hermine V Mkrtchyan, PhD Piotr Cuber, and PhD Raju Misra, thank you for your invaluable contributions to this project. Their expertise has greatly advanced our understanding and implementation of the bioinformatics pipeline and overall project goals. Their guidance throughout the development process has been instrumental in building this application. This project would not have been possible without your continuous encouragement and expertise. We are deeply grateful for your contributions.
 
-# Authors:
+# Author:
 Julio C. Ortega Cambara 
 
-PhD C. School of Biomedical Sciences
+PhD C. Bioinformatics
+
+School of Biomedical Sciences
 
 University of West London
 
