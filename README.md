@@ -1,10 +1,14 @@
 # hosMicro
-The spread of antimicrobial-resistant bacteria globally is a pressing issue that has captured my attention.
+Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
 
-- It's concerning to see how certain bacteria are becoming resistant to the drugs we use to treat them, leading to the rise of difficult-to-control superbugs.
-- In 2017, the WHO published a list of priority pathogens including antibiotic-resistant bacteria, that were identified as high priority for new antibiotic development.
-- In 2019, nearly 1.3 million deaths, including 140,000 newborns, were caused by antimicrobial resistance (AMR). This number is expected to rise to 10 million deaths by 2050.
-- By understanding the patterns and drivers of antimicrobial resistance, we can create strategies to prevent its spread and enhance patient outcomes.
+## Key Features:
+- Hospital Microbiome: Gain insights into the microbiome specific to hospital settings and its impact on patient health.
+- Pathogen Identification: Identify and study various pathogens present in hospital environments.
+- Antimicrobial Resistance: Investigate antimicrobial resistance patterns and their implications for public health.
+- Virulence Factors: Analyze virulence factors to understand the mechanisms of pathogenicity.
+- Mobile Genetic Elements: Explore the role of mobile genetic elements in the spread of resistance and virulence factors.
+
+We hope this application will be a valuable resource for your research and help advance our understanding of the hospital microbiome and its genetic components.
 
 ![](www/hosMicro_shinnyApp.png)
 
@@ -31,13 +35,8 @@ R -e "install.packages(pkgs=c('shiny','shinydashboard', 'shinydashboardPlus', 'D
 R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ```
 
-## Features:
-
-This web-based application has been developed to facilitate the exploration of the hospital microbiome.
-
-The application is designed to provide a user-friendly interface for researchers and clinicians to analyze and visualize the metagenomic data generated from the hospital environment.
-
-It offers a range of tools and features to help users identify taxonomy, track the spread of the pathogen, and understand their AMR, VFs, and MGEs profiles.
+## Acknowledgments:
+We want to express our sincere gratitude to our colleague, PhD C. Oscar Previtali, for his support in curating and sharing the dataset that forms the backbone of this application. Our supervisors, Prof. Hermine V Mkrtchyan, PhD Piotr Cuber, and PhD Raju Misra, thank you for your invaluable contributions to this project. Their expertise has greatly advanced our understanding and implementation of the bioinformatics pipeline and overall project goals. Their guidance throughout the development process has been instrumental in building this application. This project would not have been possible without your continuous encouragement and expertise. We are deeply grateful for your contributions.
 
 # Author:
 Julio C. Ortega Cambara 
