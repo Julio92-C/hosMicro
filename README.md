@@ -15,7 +15,7 @@ docker run --rm -p 3838:3838 -v /root/shiny_save julio92ont/hosmicro:1.1.2 R -e 
 ```
 
 ## Installation
-If installing from the source, an  R version >= 4.1.0 with the corresponding packages listed above is required. Most of these are easy to install on a linux-based system:
+If installing from the source, an  R version >= 4.1.0 with the corresponding packages listed below is required. Most of these are easy to install on a linux-based system:
 ```Sh
 ### Clone the repository and move to the hosMicro directory
 git clone https://github.com/Julio92-C/hosMicro.git
