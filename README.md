@@ -36,7 +36,7 @@ R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ```
 
 ## Acknowledgments:
-We want to express our sincere gratitude to our colleague, PhD C. Oscar Previtali, for his support in curating and sharing the dataset that forms the backbone of this application. Our supervisors, Prof. Hermine V Mkrtchyan, PhD Piotr Cuber, and PhD Raju Misra, thank you for your invaluable contributions to this project. Their expertise has greatly advanced our understanding and implementation of the bioinformatics pipeline and overall project goals. Their guidance throughout the development process has been instrumental in building this application. This project would not have been possible without your continuous encouragement and expertise. We are deeply grateful for your contributions.
+We want to thank our colleague, PhD C. Oscar Previtali, for his support in curating the dataset essential to this application. We also appreciate our supervisors, Prof. Hermine V Mkrtchyan, PhD Piotr Cuber, and PhD Raju Misra, for their invaluable contributions and guidance throughout the project. Your expertise has been crucial in advancing our understanding and implementation of the bioinformatics pipeline. We are truly grateful for everything you've done.
 
 # Author:
 Julio C. Ortega Cambara 
