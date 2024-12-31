@@ -13,8 +13,10 @@ We hope this application will be a valuable resource for your research and help 
 ![](www/hosMicro_shinnyApp.png)
 
 ## Quick start
-If docker is available, pull the image and run the Shiny app using the following command:
+If docker is available, pull the image and run the Shiny app using the following commands:
 ```Sh
+docker pull julio92ont/hosmicro:1.1.2
+
 docker run --rm -p 3838:3838 -v /root/shiny_save julio92ont/hosmicro:1.1.2 R -e "shiny::runApp('/root/shiny_save', host='0.0.0.0', port=3838)"
 ```
 
