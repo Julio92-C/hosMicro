@@ -172,6 +172,8 @@ ggplot(abri_kraken2_filtered, aes(x = sample, y = Gene_log_count, fill = sample)
            label = paste("p =", format(p_value, digits = 2)), 
            size = 4, color = "black")
 
+
+
 # CLEAN UP #################################################
 
 # Clear environment

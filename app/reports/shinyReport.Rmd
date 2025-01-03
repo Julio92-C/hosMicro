@@ -1,0 +1,821 @@
+---
+title: "Data Analysis Report"
+output: html_document
+date: "`r Sys.Date()`"
+runtime: shiny
+params:
+  filter_data: NA
+  dataframe: NA
+  mainVar_freq: NA
+  metadata: NA
+  row_count: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Load the libraries
+library(dplyr)
+library(DT)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(forcats)
+library(thematic)
+library(gtsummary)
+library(paletteer)
+library(scales)
+library(reshape2)
+library(tidyr)
+library(VennDiagram)
+library(tidyverse)
+library(stringr)
+library(ggsignif) 
+library(vegan)
+library(circlize)
+library(pheatmap)
+
+# Load the data sets
+filter_data <- as.data.frame(params$filter_data)
+dataframe <- as.data.frame(params$dataframe)
+metadata <- as.data.frame(params$metadata)
+```
+
+
+
+```{r generalStats, echo=FALSE}
+# Check if filter_data is a data frame
+if (!is.data.frame(filter_data)) {
+  stop("filter_data is not a data frame. Please check the input.")
+}
+
+general_stat <- paste("No. of Reads:", length(unique(filter_data$SEQUENCE_ID)), "|",
+                      "Samples:", length(unique(filter_data$SAMPLE)), "|",
+                      "Taxa:", length(unique(filter_data$NAME)), "|",
+                      "Genes:", length(unique(filter_data$GENE)), "|",
+                      "Resistance:", length(unique(filter_data$RESISTANCE)) 
+                      
+                      )
+
+print(general_stat)
+```
+
+
+
+```{=html}
+
+<h3>Hospital microbiome dataset</h3>
+
+<p>In this report, we will explore the Hospital microbiome dataset using the DataTable package in R. Filtering datasets is a common task in data analysis and visualization, as it allows us to focus on specific subsets of data that meet certain criteria. The DataTable package provides an interactive and customizable way to display data in a tabular format.</p>
+
+<p>By leveraging the power of filtering and interactive data visualization, you can gain valuable insights from the current datasets and present them in a user-friendly manner using the DataTable package in R.</p>
+
+```
+
+
+```{r fiterData, echo=FALSE}
+# Render dataTable
+suppressWarnings({
+DT::datatable(filter_data,
+                      options = list(pageLength = 5, 
+                                     scrollX = TRUE))
+  })
+```
+
+
+
+```{=html}
+<h3>Analyzing Hospital microbiome community</h3>
+
+<p>In this analysis, we will be examining the Taxa found in the hospital environmnet in air and surface sample groups. 
+
+<h4>Key Concepts</h4>
+
+<p>Before we dive into the analyis, let's familiarize ourselves with some key concepts:</p>
+
+<ol>
+<li>Diverse Microbial Community: The hospital microbiome consists of a wide variety of microorganisms, including bacteria, fungi, and viruses, found on surfaces, medical equipment, and within the hospital environment.</li>
+<li>Interaction with Humans: There is a dynamic interaction between the microbiota of hospital staff, patients, and the hospital environment. Patients can acquire microbes from their surroundings and also contribute their own microbiota to the environment.</li>
+<li>Role in Infections: The hospital microbiome can include both commensal and pathogenic microorganisms. It plays a significant role in healthcare-associated infections (HAIs), with certain pathogens persisting on surfaces and contributing to the spread of infections.</li>
+</ol>
+
+<p> Understanding the hospital microbiome is crucial for developing effective infection control strategies and preventing healthcare-associated infections, ultimately improving patient outcomes and hospital safety.</p>
+
+
+```
+
+```{r AirSur_vennDiagram, echo=FALSE, fig.width=6, fig.height=6}
+      # Check if SAMPLE column exists
+      if ("SAMPLE" %in% colnames(dataframe)) {
+        df_wide <- dataframe %>%
+          arrange(SAMPLE) %>%
+          pivot_wider(names_from = SAMPLE, values_from = c(TAXID)) %>%
+          group_by(NAME) %>%
+          summarise(across(16:75, ~ paste(., collapse = ", "))) %>%
+          mutate(across(2:61, ~ str_replace_all(., "(NA,|,NA|,NA,|NA|,| )", "")))
+      } else {
+        stop("Error: The SAMPLE column is missing from the dataframe.")
+        colnames(dataframe)
+      }
+      
+      # Assign the values of col1 as row names
+      # Air dataset
+      air_dataset <- df_wide %>%
+        unite("Air", 2:28, sep = ",") %>%
+        select(NAME, Air) %>%
+        mutate(across(2, ~ str_replace_all(., "(,| )", "")))
+      
+      
+      # Surface dataset
+      Surface_dataset <- df_wide %>%
+        unite("Surface", 29:61, sep = ",") %>%
+        select(NAME, Surface) %>%
+        mutate(across(2, ~ str_replace_all(., "(,| )", "")))
+      
+      # Merge Air and Surface dataset
+      air_Sur_dataset <- merge(air_dataset, Surface_dataset, by="NAME", all = TRUE)
+      
+      # Assign the values of col1 as row names
+      air_Sur_dataset <- air_Sur_dataset %>%
+        remove_rownames %>% 
+        column_to_rownames(var="NAME") %>%
+        mutate(across(everything(), ~ if_else(. == "", NA_character_, .)))
+      
+      
+      # Convert from a dataframe to a matrix
+      sample2arg_data_matrix <- data.matrix(air_Sur_dataset, rownames.force = NA)
+      
+      # Count NA in data sets
+      # sum(is.na(sample2arg_data_matrix))
+      
+      # Replace all NA values with 0 values
+      sample2arg_data_matrix <- sample2arg_data_matrix %>% replace(is.na(.), 0)
+      
+      # Convert to a binary matrix
+      sample2arg_data_Bmatrix <- as.matrix((sample2arg_data_matrix > 0) + 0)
+      
+      # Create a list of sets
+      sets <- apply(sample2arg_data_Bmatrix, 2, function(col) which(col == 1))
+      names(sets) <- colnames(sample2arg_data_Bmatrix)
+      # print(sets)
+      # class(sets)
+      
+      ### Plot the Venn diagram
+      venn.plot <- venn.diagram(
+        x = sets,
+        category.names = c("Air", "Surface"),
+        fill = c(Air="#04b5d9", Surface="#aeb6b8"), 
+        alpha = 0.3,
+        height = 300, 
+        width = 300,
+        filename = NULL,
+        cat.cex = 1.5,  # Adjust this value to change the font size
+        cex = 2       # Adjust this value to change the font size of the numbers
+      )
+      
+      grid.newpage()
+      grid.draw(venn.plot)
+```
+
+
+```{r taxaDistribution, echo=FALSE, fig.width=8, fig.height=6}
+library(plotly)
+
+      # Plot ST type frequency
+      a <- ggplot(filter_data, aes(x= fct_infreq(.data[[params$mainVar_freq]]),
+                                     ))
+      a <- a + geom_bar(fill = "skyblue")
+      a <- a + theme_classic()
+      a <- a + geom_text(stat = "count", aes(label = after_stat(count)), vjust = -0.5)  
+      a <- a + labs(fill = "Legend")
+      a <- a + theme(legend.position = "Bottom")
+      a <- a + theme(legend.justification = "center")
+      a <- a + theme(axis.text = element_text(size = 10.5))
+      a <- a + theme(plot.title = element_text(hjust = 0.5))
+      a <- a + theme(axis.text.x = element_text(angle = 45))
+      a <- a + labs(x="", y="Count")
+      
+      # Plot Model type frequency with PLOTLY ####
+      ST_frequency_plot <- plotly::ggplotly(a)
+      ST_frequency_plot
+```
+
+
+
+
+```{=html}
+<h3>Analyzing Species Distribution</h3>
+
+<p>In this section, we will explore the relative abundance of the hospital microbiome across different samples. The code filters species data, calculates their relative abundance, and visualizes the results using a stacked bar plot. This analysis is crucial for understanding ecological dynamics and biodiversity.</p>
+
+<h4>Key Concepts</h4>
+
+<ul>
+<li>Figure features a stacked bar plot that enables a comprehensive comparison of microbial diversity across multiple samples, illustrating the complexity of the hospital microbiome.</li>
+<li>Each bar corresponds to an individual sample, with distinct segments within each bar representing the percentage distribution of different identified taxa.</li>
+<li></li>
+</ul>
+
+<p> The final interactive plot enhances user engagement, making it easier to interpret complex biological data. This approach is invaluable for researchers and ecologists aiming to understand biodiversity and species distribution in various environments.
+</p>
+
+```
+
+
+
+```{r relativeAbundance, echo=FALSE, fig.width=10, fig.height=5.5}
+      # Filter by Species and counts greater than 30
+       df_species <- filter_data %>%
+         group_by(NAME) %>%
+         arrange(NAME) %>%
+         group_by(SAMPLE, NAME) %>%
+         summarise(Count = n(), .groups = "drop") %>%
+         group_by(SAMPLE) %>%
+         mutate(Percentage = Count / sum(Count) * 100)
+       
+         # Annotation col colors for taxa
+         # Description variable
+         taxa <- as.factor(df_species$NAME)
+         
+         # Generate a color palette based on the number of levels in gene_family
+         t <- length(levels(taxa))
+         t_palette <- paletteer_d("palettesForR::Cranes", n = t)
+         #t_palette
+         
+         
+         
+         #  stacked barplot where each bar represents a sample, 
+         #  and the segments within each bar represent the relative abundance of different taxa
+          ra <- ggplot(df_species, aes(x = factor(SAMPLE), y = Percentage, fill = NAME)) +
+           geom_bar(stat = "identity") +
+           scale_fill_manual(values = t_palette) +
+           labs(x = "Air and Surface sample groups", y = "Percentage", fill = "NAME") +
+           theme_classic() +
+           theme(legend.position="top") +
+           theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+           theme(text = element_text(size = 16))
+         
+         # Plot Coverage vs seq_length with PLOTLY ####
+         Relative_abundace_plotly <- plotly::ggplotly(ra)
+         Relative_abundace_plotly
+```
+
+
+
+
+```{=html}
+<h3>Genetics Elements profile</h3>
+
+<p>In this section, we will discuss how to identify ARG, VFs and MGEs in the hospital mocrobiomes.</p>
+
+<h4>Here are the definitions for ARGs, VFs, and MGEs:</h4>
+
+<ul>
+<li>ARGs (Antibiotic Resistance Genes): These are genes that provide bacteria with the ability to survive and grow in the presence of antibiotics. They can be located on chromosomes, plasmids, or other mobile genetic elements.</li>
+<li>VFs (Virulence Factors): These are molecules produced by pathogens (bacteria, viruses, fungi, and parasites) that contribute to the pathogenicity of the organism and enable them to colonize the host, evade the immune system, and cause disease.</li>
+<li>MGEs (Mobile Genetic Elements): These are segments of DNA that can move within a genome or be transferred between genomes. They include plasmids, transposons, and integrons, and play a significant role in the horizontal gene transfer, contributing to genetic diversity and evolution.</li>
+</ul>
+
+<p>In the context of hospital microbiomes, understanding ARGs, VFs, and MGEs is crucial for developing strategies to combat antibiotic resistance and prevent the spread of infections, ensuring better patient outcomes and hospital safety.</p>
+  
+
+```
+
+```{r GEsProfile, echo=FALSE, fig.width=8, fig.height=6}
+    # Virulence factors, Resistance gene And Mobile Genetics Elements profile
+         Gene_count <- table(filter_data$DATABASE)
+       
+       # PLot the Gene count by database 
+       pie(Gene_count, labels = paste0(names(Gene_count), " / ", Gene_count, " / ", round(100 * Gene_count/sum(Gene_count), 2), "%"),
+                        # main="Gene count by database",
+                        col = c("#b02d02", "#5c0404", "#c47a02"),
+                        cex = 1.1, # Adjust label size
+                        radius = 1, # adjust the size
+                        xlim = c(-1.5, 1.5) # Adjust x-axis limits to create more space for labels
+       )
+       
+       # # Plot pie chart
+       # pie_chart
+```
+
+
+```{=html}
+<h3>Genetic Elements co-occurrence across the hospital environment</h3>
+
+<p>This analyis presents Principal Coordinate Analysis (PCoA) based on the genetic profiles among the 868 taxa identified on air and surface sample groups. The ellipses in the plot group the samples according to their collection sites, providing insights into the spatial distribution of these genetic elements.</p>
+
+<ul>
+<li>Department-Specific Variations: The co-occurrence of genetic elements such as antibiotic resistance genes (ARGs) and mobile genetic elements (MGEs) can vary significantly between different hospital departments. For example, higher correlations between ARGs and MGEs have been observed in departments like emergency, surgery, and pneumology.</li>
+<li>Environmental Influence: Factors such as seasonal changes and the specific microbial communities present in different areas of the hospital can influence the co-occurrence patterns of these genetic elements. This variability highlights the dynamic nature of the hospital microbiome.</li>
+<li>Source Tracing and Transmission: Certain departments, like gynecology, can act as significant sources of bacteria, ARGs, and MGEs, contributing to their spread within the hospital environment. Understanding these sources is crucial for effective infection control and prevention strategies.</li>
+</ul> 
+  
+<p>Recognizing the co-occurrence patterns of genetic elements across the hospital environment is essential for developing targeted interventions to mitigate the spread of antibiotic resistance and improve overall hospital hygiene and patient safety.</p>
+```
+
+
+```{r PCoaAnalysis, echo=FALSE, fig.width=10, fig.height=6}
+        suppressWarnings({
+        # Annotation rows
+       # Pivot the Genes values into columns
+       df_wide_ann_rows <- dataframe %>%
+         arrange(GENE) %>%
+         pivot_wider(names_from = GENE, values_from = c(NAME)) %>%
+         group_by(SAMPLE) %>%
+         summarise(across(16:292, ~ paste(., collapse = ", "))) %>%
+         mutate(across(2:277, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", "")))
+       
+       
+       
+       # Assign the values of Sample as row names and empty as rows as NA value
+       df_wide_ann_rows <- df_wide_ann_rows %>%
+         na.omit()  %>%
+         remove_rownames %>%
+         column_to_rownames(var="SAMPLE") %>%
+         mutate(across(everything(), ~ if_else(. == "", NA_character_, .)))
+       
+       
+       # Convert from a dataframe to a matrix
+       sample2arg_data_matrix <- data.matrix(df_wide_ann_rows, rownames.force = NA)
+       
+       # Count NA in data sets
+       # sum(is.na(sample2arg_data_matrix))
+       
+       # Replace all NA values with 0 values
+       sample2arg_data_matrix <- sample2arg_data_matrix %>% replace(is.na(.), 0)
+       
+       # Calculate Bray-Curtis distances
+       bray_curtis_dist <- vegdist(sample2arg_data_matrix, method = "bray")
+       
+       # Perform PCoA
+       pcoa_result <- cmdscale(bray_curtis_dist, eig = TRUE, k = 2)
+       
+       # Calculate percentage of variance explained
+       eig_values <- pcoa_result$eig
+       var_explained <- eig_values / sum(eig_values) * 100
+       
+       # Create a data frame for plotting
+       pcoa_df <- data.frame(SAMPLE = rownames(sample2arg_data_matrix),
+                             PC1 = pcoa_result$points[, 1],
+                             PC2 = pcoa_result$points[, 2])
+       
+       
+       # Merge the metadata and sample dataset
+       ann_pcoa <- inner_join(pcoa_df, metadata, by="SAMPLE")
+       
+       # Annotation col colors for Location
+       # Description variable
+       location_col <- as.factor(ann_pcoa$LOCATION)
+       
+       # Generate a color palette based on the number of levels in gene_family
+       l <- length(levels(location_col))
+       l_palette <- paletteer_d("ggsci::default_igv", n = l)
+       #l_palette
+       
+       # Check the number of points in each group
+      group_counts <- table(ann_pcoa$LOCATION)
+      
+      # Filter groups with at least 3 points
+      valid_groups <- names(group_counts[group_counts >= 4])
+      
+      # Modify the plot to include ellipses only for valid groups
+      pcaoa_plot <- ggplot(ann_pcoa[ann_pcoa$LOCATION %in% valid_groups, ], aes(x = PC1, y = PC2, label = SAMPLE,        colour = LOCATION)) +
+        geom_point(size = 3) +
+        stat_ellipse(data = ann_pcoa[ann_pcoa$LOCATION %in% valid_groups, ], lwd = 0.8) + # Change line width
+        scale_color_manual(values = l_palette) +
+        labs(title = "",
+             color = "LOCATION",
+             x = paste0("PC1 (", round(var_explained[1], 2), "%)"),
+             y = paste0("PC2 (", round(var_explained[2], 2), "%)")
+        ) +
+        theme_classic() +
+        theme(text = element_text(size = 16))
+      
+      # Plot ST vs No. Resistance Genes with PLOTLY
+      PCoA_plotly <- plotly::ggplotly(pcaoa_plot)
+      PCoA_plotly
+      
+      })
+```
+
+
+
+```{r geneticProfile_vennDiagram, echo=FALSE, fig.width=6, fig.height=6}
+      # Pivot the Sample values into columns
+       df_wide_ann_rows <- dataframe %>%
+         arrange(SAMPLE) %>%
+         pivot_wider(names_from = DATABASE, values_from = c(GENE)) %>%
+         group_by(NAME) %>%
+         summarise(across(15:17, ~ paste(., collapse = ", "))) %>%
+         mutate(across(2:4, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", "")))
+       
+       
+       
+       # Assign the values of Sample as row names
+       df_wide_ann_rows <- df_wide_ann_rows %>%
+         na.omit()  %>%
+         remove_rownames %>%
+         column_to_rownames(var="NAME") %>%
+         mutate(across(everything(), ~ if_else(. == "", NA_character_, .)))
+       
+       
+       # Convert from a dataframe to a matrix
+       sample2arg_data_matrix <- data.matrix(df_wide_ann_rows, rownames.force = NA)
+       
+       # Count NA in data sets
+       # sum(is.na(sample2arg_data_matrix))
+       
+       # Replace all NA values with 0 values
+       sample2arg_data_matrix <- sample2arg_data_matrix %>% replace(is.na(.), 0)
+       
+       # Convert to a binary matrix
+       sample2arg_data_Bmatrix <- as.matrix((sample2arg_data_matrix > 0) + 0)
+       
+       # Create a list of sets
+       sets <- apply(sample2arg_data_Bmatrix, 2, function(col) which(col == 1))
+       names(sets) <- colnames(sample2arg_data_Bmatrix)
+       # print(sets)
+       # class(sets)
+       
+      ### Plot the Venn diagram
+       venn.plot <- venn.diagram(
+         x = sets,
+         category.names = c("VFs", "ARGs", "MGEs"),
+         fill = c(card="#b02d02", plasmidfinder="#5c0404", vfdb="#c47a02"), 
+         alpha = 0.5,
+         height = 50, width = 50,
+         filename = NULL,
+         cat.cex = 1.5,  # Adjust this value to change the font size
+         cex = 2       # Adjust this value to change the font size of the numbers
+       )
+       grid.newpage()
+       grid.draw(venn.plot)
+
+```
+
+
+```{=html}
+<h3>Air microbiome in the hospital enviroment</h3>
+
+<h4>Key Concepts</h4>
+
+<ul>
+<li>Source of Pathogens: The hospital air microbiome can harbor a variety of microorganisms, including bacteria, fungi, and viruses, some of which are potential pathogens. These airborne microbes can originate from patients, healthcare workers, and visitors, as well as from ventilation systems and outdoor air.</li>
+<li>Impact on Health: Airborne microorganisms in hospitals can pose significant health risks, especially to immunocompromised patients. Inhalation of these microbes can lead to respiratory infections and other healthcare-associated infections (HAIs), contributing to increased morbidity and mortality.</li>
+<li>Role in Antibiotic Resistance: The hospital air microbiome can also contain antibiotic-resistant bacteria and antibiotic resistance genes (ARGs). These airborne resistomes can spread within the hospital environment, complicating infection control efforts and treatment outcomes.</li>
+</ul>
+
+<p>Understanding the air microbiome in hospitals is crucial for improving infection control practices, reducing the spread of pathogens, and enhancing patient safety and health outcomes.</p>
+
+
+```
+
+
+
+```{r airMicrobiome, echo=FALSE, fig.width=14, fig.height=12}
+# Pivot the Sample values into columns
+        df_wide <- dataframe %>%
+          arrange(SAMPLE) %>%
+          pivot_wider(names_from = SAMPLE, values_from = TAXID) %>%
+          group_by(NAME) %>%
+          summarise(across(16:42, ~ paste(., collapse = ", "))) %>%
+          mutate(across(2:28, ~ str_replace_all(., "(NA,|,NA|,NA,|NA|,| )", "")))
+        
+        # Assign the values of col1 as row names and handle empty strings
+        processed_mgs2arg_data <- df_wide %>%
+          remove_rownames() %>% 
+          column_to_rownames(var = "NAME") %>%
+          mutate(across(everything(), ~ na_if(., "")))
+        
+        # Remove rows where all values are NA
+        sample2arg_data <- processed_mgs2arg_data %>%
+          filter(rowSums(is.na(.)) < ncol(.))
+        
+        # Convert from a dataframe to a matrix and replace NA with 0
+        sample2arg_data_matrix <- data.matrix(sample2arg_data, rownames.force = NA) %>%
+          replace(is.na(.), 0)
+        
+        # Count NA in data sets
+        # sum(is.na(sample2arg_data_matrix))
+        
+        # Convert to a binary matrix
+        sample2arg_data_Bmatrix <- as.matrix((sample2arg_data_matrix > 0) + 0)
+        
+        # Order the matrix by row names
+        sample2arg_data_Bmatrix <- sample2arg_data_Bmatrix[order(rownames(sample2arg_data_Bmatrix)), ]
+        
+        # Rearranging a Binary Matrix by Row Count
+        rearrange_matrix <- function(mat) {
+          # Calculate the row sums (count of '1's)
+          ordered_indices <- order(rowSums(mat), decreasing = TRUE)
+          
+          # Rearrange the matrix
+          return(mat[ordered_indices, ])
+        }
+        
+        # Rearranging the binary matrix
+        sorted_matrix <- rearrange_matrix(sample2arg_data_Bmatrix)
+        
+        # Modify ordering of the clusters using clustering callback option
+        callback = function(hc, mat){
+          sv = svd(t(mat))$v[,1]
+          dend = reorder(as.dendrogram(hc), wts = sv)
+          as.hclust(dend)
+        }
+        
+        # Annotations col names
+        # Transpose sample2arg_data
+        sample2arg_data_transposed <- as.data.frame(t(sample2arg_data))
+        
+        # Convert rownames into column and select sample
+        sample2arg_data_transposed <- sample2arg_data_transposed %>%
+          mutate(SAMPLE = rownames(.)) %>%
+          select(SAMPLE)
+        
+        # Covert to a dataframe and trim whitespace
+        MetadataLocations <- data.frame(metadata)
+        MetadataLocations$sample <- str_trim(MetadataLocations$SAMPLE)
+        
+        # Merge the metadata and sample dataset
+        ann_col <- inner_join(sample2arg_data_transposed, MetadataLocations, by = "SAMPLE") %>%
+          na.omit() %>%
+          remove_rownames() %>%
+          column_to_rownames(var = "SAMPLE") 
+        
+        # Generate a color palette based on the number of levels in location
+        d_palette <- paletteer_d("ggsci::category10_d3", n = nlevels(as.factor(ann_col$LOCATION)))
+        
+        # Create a named dataframe for the col colors
+        df4 <- ann_col %>%
+          distinct(LOCATION) %>%
+          mutate(color = d_palette)
+        
+        # Create a named vector for rows
+        location_colors <- setNames(as.character(df4$color), df4$LOCATION)
+        
+        # Annotation rows
+        # Pivot the Sample values into columns
+        df_wide_ann_rows <- dataframe %>%
+          arrange(SAMPLE) %>%
+          pivot_wider(names_from = DATABASE, values_from = c(GENE)) %>%
+          group_by(NAME) %>%
+          summarise(across(15:17, ~ paste(., collapse = ", "))) %>%
+          mutate(across(2:4, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", ""))) %>%
+          na.omit() %>%
+          remove_rownames() %>%
+          column_to_rownames(var = "NAME") %>%
+          mutate(across(everything(), ~ if_else(. == "", NA_character_, .)))
+        
+        # Classify functions
+        classify <- function(input_string, type) {
+          if (is.na(input_string)) return(NA)
+          elements <- unlist(strsplit(input_string, ","))
+          unique_elements <- length(unique(elements))
+          
+          if (type == "virulence") {
+            return(ifelse(unique_elements == 1, "Virulent", "Hypervirulent"))
+          } else if (type == "amr") {
+            return(ifelse(unique_elements == 1, "Drug-resistant", "Multidrug-resistant"))
+          } else if (type == "MGE") {
+            return(ifelse(unique_elements == 1, "Single MGE", "Multi-MGEs"))
+          }
+        }
+        
+        # Apply classification functions
+        ann_rows <- df_wide_ann_rows %>%
+          mutate(VFs = sapply(vfdb, classify, type = "virulence"),
+                 AMR = sapply(card, classify, type = "amr"),
+                 MGEs = sapply(plasmidfinder, classify, type = "MGE")) %>%
+          select(VFs, AMR, MGEs)
+        
+        # Resistance category variable
+        Resistance_category <- dataframe %>%
+          distinct(NAME, GENE, RESISTANCE) %>%
+          mutate(RESISTANCE = ifelse(nchar(RESISTANCE) > 20, "Multi-drug", RESISTANCE))
+        
+        # Modify strings function
+        modify_strings <- function(df, column_name, target_strings, replacement_strings) {
+          if (length(target_strings) != length(replacement_strings)) {
+            stop("target_strings and replacement_strings must be of the same length")
+          }
+          
+          for (i in seq_along(target_strings)) {
+            df <- df %>%
+              mutate(!!sym(column_name) := str_replace_all(!!sym(column_name), target_strings[i], replacement_strings[i]))
+          }
+          
+          return(df)
+        }
+        
+        # Call Modify String function
+        Resistance_category <- modify_strings(Resistance_category, "RESISTANCE", 
+                                              c("cephalosporin;penam", "carbapenem;penam", "Cephalosporin;Penem"), 
+                                              c("Beta-lactam", "Beta-lactam", "Beta-lactam"))
+        
+        # Clean string function
+        clean_string <- function(x) {
+          str_to_title(str_replace_all(x, "_", " "))
+        }
+        
+        # Apply the function to the RESISTANCE column
+        Resistance_category <- Resistance_category %>%
+          mutate(RESISTANCE = sapply(RESISTANCE, clean_string)) %>%
+          distinct(NAME, .keep_all = TRUE) %>%
+          column_to_rownames(var = "NAME") %>%
+          select(RESISTANCE)
+        
+        # Merge all the annotation rows
+        ann_row_all <- merge(ann_rows, Resistance_category, by = 0) %>%
+          rename(DRUG = RESISTANCE) %>%
+          column_to_rownames(var = "Row.names") %>%
+          select(DRUG, AMR, VFs, MGEs)
+        
+        
+        # Generate a color palette for drug categories
+        r_palette <- paletteer_d("ggsci::default_igv", n = length(unique(ann_row_all$DRUG))-1)
+        
+        # Create a named dataframe for the Resistance category
+        ann_row_drug_col <- ann_row_all %>%
+          select(DRUG) %>%
+          na.omit() %>%
+          distinct(DRUG) %>%
+          mutate(color = r_palette)
+        
+        # Create a named vector for rows
+        drug_colors <- setNames(as.character(ann_row_drug_col$color), ann_row_drug_col$DRUG)
+        
+        # Annotation colors customization
+        ann_colors <- list(
+          LOCATION = location_colors,
+          DRUG = drug_colors,
+          AMR = c(`Drug-resistant` = "#a02d02", `Multidrug-resistant` = "#522501"),
+          MGEs = c(`Multi-MGEs` = "#5c0404", `Single MGE` = "#fcd2d2"),
+          VFs = c(`Virulent` = "#fce5d2", `Hypervirulent` = "#c47a02")
+        )
+        
+        
+        # Create heatmap using pheatmap package ##
+        heatmap_plot <- pheatmap(sorted_matrix[params$row_count[1]:params$row_count[2], ], display_numbers = FALSE, cluster_cols = TRUE, cluster_rows = FALSE,
+                                 scale = "none", 
+                                 clustering_callback = callback,  
+                                 border_color = "NA", color = c("#CCCCCCFF", "#666666FF"),
+                                 legend_breaks = c(0, 1),
+                                 legend_labels = c("Absent", "Present"),
+                                 annotation_row = ann_row_all,
+                                 annotation_col = ann_col[4],
+                                 show_rownames = TRUE,
+                                 # cutree_cols = 15,
+                                 # cutree_rows = 20,
+                                 annotation_colors = ann_colors,
+                                 fontsize_row = 14,  # Adjust this value for row names
+                                 fontsize_col = 14,   # Adjust this value for column names
+                                 fontsize = 14  # Adjust this value for the legend text
+                                 
+                                 
+        )
+        
+        # Plot Air microbiome pheatmap
+        # heatmap_plot
+```
+
+
+```{=html}
+<h3>Key Pathogens-AMR co-occurrence</h3>
+
+<p>Key pathogens and antimicrobial resistance (AMR) genes often co-occur in hospital environments, posing significant challenges for infection control. Here are three key points:</p>
+
+<ul>
+<li>Common Pathogens: Pathogens such as Staphylococcus aureus, Escherichia coli, and Klebsiella pneumoniae are frequently found in hospitals and are known to carry multiple AMR genes.</li>
+<li>Horizontal Gene Transfer: Mobile genetic elements (MGEs) like plasmids, transposons, and integrons facilitate the horizontal transfer of AMR genes among different bacterial species, enhancing the spread of resistance.</li>
+<li>Environmental Persistence: These pathogens and their associated AMR genes can persist on hospital surfaces, in the air, and within medical equipment, contributing to the continuous cycle of infection and resistance.</li>
+</ul>
+
+<p>Understanding the co-occurrence of key pathogens and AMR genes in hospital environments is crucial for developing effective strategies to combat antibiotic resistance and improve patient safety.</p>
+
+```
+
+```{r Key_Pathoges_AMR, echo=FALSE, fig.width=12, fig.height=8}
+# Filter and mutate the dataset
+          abri_kraken2_filtered <- dataframe %>%
+            filter(grepl("card", DATABASE)) %>%
+            mutate(GENE = case_when(
+              grepl("vanR_gene_in_vanA_cluster", GENE) ~ "vanRA",
+              grepl("vanH_gene_in_vanA_cluster", GENE) ~ "vanHA",
+              grepl("vanS_gene_in_vanA_cluster", GENE) ~ "vanSA",
+              TRUE ~ GENE
+            ),
+            NAME = ifelse(grepl("Rahnella aquatilis CIP 78.65 = ATCC 33071", NAME), "Rahnella aquatilis", NAME)) %>%
+            arrange(NAME) %>%
+            mutate(RESISTANCE = ifelse(nchar(RESISTANCE) > 20, "Multi-drug", RESISTANCE))
+          
+          # Define modify_strings function
+          modify_strings <- function(df, column_name, target_strings, replacement_strings) {
+            if (length(target_strings) != length(replacement_strings)) {
+              stop("target_strings and replacement_strings must be of the same length")
+            }
+            for (i in seq_along(target_strings)) {
+              df <- df %>%
+                mutate(!!sym(column_name) := str_replace_all(!!sym(column_name), target_strings[i], replacement_strings[i]))
+            }
+            return(df)
+          }
+          
+          # List of target and replacement strings
+          target_strings <- c("cephalosporin;penam", "carbapenem;penam", "Cephalosporin;Penem")
+          replacement_strings <- rep("Beta-lactam", length(target_strings))
+          
+          # Call Modify String function
+          abri_kraken2_filtered <- modify_strings(abri_kraken2_filtered, "RESISTANCE", target_strings, replacement_strings)
+          
+          # Clean the RESISTANCE strings
+          abri_kraken2_filtered <- abri_kraken2_filtered %>%
+            mutate(RESISTANCE = str_replace_all(RESISTANCE, "_", " ") %>% str_to_title())
+          
+          # Filter by species
+          df <- abri_kraken2_filtered %>%
+            filter(grepl("Pseudomonas aeruginosa|Enterococcus faecium|Staphylococcus aureus|Acinetobacter baumannii|Klebsiella pneumoniae|Klebsiella quasipneumoniae|Acinetobacter lwoffii|Enterobacter cloacae complex|Enterobacter hormaechei|Escherichia coli|Staphylococcus aureus|Rahnella aquatilis", NAME))
+          
+          # Create a connection matrix
+          categories <- unique(c(sort(df$SAMPLE), sort(df$NAME), sort(df$GENE), sort(df$RESISTANCE)))
+          mat <- matrix(0, nrow = length(categories), ncol = length(categories), dimnames = list(categories, categories))
+          
+          for (i in 1:nrow(df)) {
+            mat[df$SAMPLE[i], df$NAME[i]] <- 1
+            mat[df$NAME[i], df$GENE[i]] <- 1
+            mat[df$GENE[i], df$RESISTANCE[i]] <- 1
+          }
+          
+          # Set colors for categories
+          color_sectors <- c(
+            paletteer_d("ggsci::default_igv", n = length(unique(df$SAMPLE))),
+            paletteer_d("ggsci::default_igv", n = length(unique(df$NAME))),
+            paletteer_d("ggsci::default_igv", n = length(unique(df$GENE))),
+            paletteer_d("ggsci::default_igv", n = length(unique(df$RESISTANCE)))
+          )
+          
+          ## reset the graphic parameters and internal variables
+          circos.clear()
+          
+          # print("Printing Chord Diagram...")
+          
+          # Graph parameters
+          circos.par(track.height = 0.1, start.degree = 120, gap.degree = 2, canvas.xlim = c(-1, 1), canvas.ylim = c(-1, 1), circle.margin = c(1, 1), unit.circle.segments = 500)
+          
+          # Create the chord diagram
+          chordDiagram(mat, transparency = 0.5, annotationTrack = "grid", scale = FALSE, directional = 1, diffHeight = mm_h(3), grid.col = color_sectors, preAllocateTracks = list(track.height = 0.1, unit.circle.segments = 100, start.degree = 90, scale = TRUE))
+          
+          # Add colors to the sectors
+          circos.trackPlotRegion(track.index = 1, panel.fun = function(x, y) {
+            sector.index = get.cell.meta.data("sector.index")
+            circos.text(CELL_META$xcenter, CELL_META$ylim[1], sector.index, facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.8), cex = 1)
+          }, bg.border = NA)
+
+```
+
+
+
+```{=html}
+
+<p>In this section, we will be building a summary table using the gtsummary package in R. The table will provide a summary of Sample groups and genenetics elements.</p>
+
+<p>The resulting table provides a comprehensive overview of the data, including summary statistics and p-values for comparing sample groups.</p>
+
+
+
+
+```
+
+
+```{r statsResult, echo=FALSE}
+
+        # Build a gtsummary table
+        summary_table <- (filter_data %>%
+          group_by(SAMPLE) %>%
+          summarise(
+            DATABASE = list(unique(DATABASE)),
+            GENE = list(unique(GENE)),
+            COVERAGE_PCT_mean = mean(COVERAGE_PCT),
+            COVERAGE_PCT_sd = sd(COVERAGE_PCT),
+            IDENTITY_PCT_mean = mean(IDENTITY_PCT),
+            IDENTITY_PCT_sd = sd(IDENTITY_PCT))
+        )
+         summary_table %>%
+          gt() %>%
+          tab_header(
+            title = "Table 1. Summary of Samples groups and genetics elements profile"
+          ) %>%
+          cols_label(
+            DATABASE = "Database",
+            GENE = "Gene",
+            COVERAGE_PCT_mean = "Mean Coverage (%)",
+            COVERAGE_PCT_sd = "Coverage SD (%)",
+            IDENTITY_PCT_mean = "Mean Identity (%)",
+            IDENTITY_PCT_sd = "Identity SD (%)"
+          )
+         
+        
+
+```
+
+
+
+

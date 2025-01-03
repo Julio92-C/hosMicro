@@ -13,6 +13,7 @@ library(plotly)
 library(gt)
 library(shinydashboard)
 library(shinydashboardPlus)
+library(rmarkdown)
 
 theme = shinythemes::shinytheme("united")  # <--- Specify theme here
 

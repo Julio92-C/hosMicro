@@ -31,27 +31,34 @@ dataStatsServer <- function(id, filter_data){
     observe({
       # Build a gtsummary table
       output$my_gt_table <- render_gt ({
-        data_stats = (filter_data() %>% 
-                        tbl_summary(
-                          by = SAMPLE,
-                          include = c("DATABASE", "GENE", "COVERAGE_PCT","IDENTITY_PCT"),
-                          statistic = list(
-                            all_continuous() ~ "{mean} ({sd})",
-                            all_categorical() ~ "{n} / {N} ({p}%)"
-                          ),
-                          digits = all_continuous() ~ 2,
-                          label = c(COVERAGE_PCT ~ "COVERAGE",
-                                    IDENTITY_PCT ~ "IDENTITY"
-                          ),
-                          sort = list(everything() ~ "frequency"),
-                          missing_text = "Missing",
-                          missing = "no"
-                        )) 
+        # Generate the gt table
+        summary_table <- (filter_data() %>%
+          group_by(SAMPLE) %>%
+          summarise(
+            DATABASE = list(unique(DATABASE)),
+            GENE = list(unique(GENE)),
+            COVERAGE_PCT_mean = mean(COVERAGE_PCT),
+            COVERAGE_PCT_sd = sd(COVERAGE_PCT),
+            IDENTITY_PCT_mean = mean(IDENTITY_PCT),
+            IDENTITY_PCT_sd = sd(IDENTITY_PCT))
+        )
+         summary_table %>%
+          gt() %>%
+          tab_header(
+            title = "Table 1. Summary of Samples groups and genetics elements profile"
+          ) %>%
+          cols_label(
+            DATABASE = "Database",
+            GENE = "Gene",
+            COVERAGE_PCT_mean = "Mean Coverage (%)",
+            COVERAGE_PCT_sd = "Coverage SD (%)",
+            IDENTITY_PCT_mean = "Mean Identity (%)",
+            IDENTITY_PCT_sd = "Identity SD (%)"
+          )
         
-        add_p(data_stats, simulate.p.value = TRUE) %>% 
-          add_overall() %>%
-          as_gt() %>%
-          tab_header(md("**Table 1. Summary of Samples groups and genetics elements profile**"))
+        # Print the summary table
+        # print(summary_table)
+        
         
       })
       

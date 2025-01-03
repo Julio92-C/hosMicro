@@ -253,7 +253,7 @@ MDRdataPlotServer <- function(id, dataframe, metadata){
   
   moduleServer(id, function(input, output, session){
     
-    # Filter data by seq_len or coverage or identity or accuracy or model type
+    # Filter data by user input
     filter_data <- eventReactive(input$plot_button, {
       validate(
         need(dataframe(), "Please input a data-sets as a csv file"),
@@ -286,11 +286,23 @@ MDRdataPlotServer <- function(id, dataframe, metadata){
       filename = function() {
         paste("report-", Sys.Date(), ".html", sep="")
       },
-      
-      
+
+
       content = function(file) {
         # Code to generate the report goes here
-        rmarkdown::render("shinyReport.Rmd", output_file = file)
+        
+        # Set up parameters to pass to Rmd document
+        params <- list(filter_data = filter_data(),
+                       dataframe = dataframe(),
+                       metadata = metadata(),
+                       mainVar_freq = input$mainVar_freq,
+                       row_count = input$row_count)
+        
+
+        rmarkdown::render("reports/shinyReport.Rmd", output_file = file, 
+                          params = params, 
+                          envir = new.env(parent = globalenv())
+                          )
       }
     )
     
@@ -511,9 +523,11 @@ MDRdataPlotServer <- function(id, dataframe, metadata){
          # Annotation col colors for taxa
          # Description variable
          taxa <- as.factor(filter_data()$NAME)
+         print(taxa)
          
          # Generate a color palette based on the number of levels in gene_family
          t <- length(levels(taxa))
+         print(t)
          t_palette <- paletteer_d("palettesForR::Cranes", n = t)
          t_palette
          
@@ -569,7 +583,7 @@ MDRdataPlotServer <- function(id, dataframe, metadata){
          p_value <- t.test(Gene_log_count ~ SAMPLE, data = abri_kraken2_filtered)$p.value
          
          t_test_result <- t.test(Gene_log_count ~ SAMPLE, data = abri_kraken2_filtered)
-         print(t_test_result)
+         # print(t_test_result)
          
          
          # Generate the violin plot with statistical significance for AMR
@@ -589,7 +603,7 @@ MDRdataPlotServer <- function(id, dataframe, metadata){
            # annotate("text", x = 1.5, y = max(abri_kraken2_filtered$Gene_log_count) + 1.5, 
            #         label = paste("p =", format(p_value, digits = 2)), 
            #         size = 4, color = "black")+
-           theme(axis.text.x = element_text(angle = 0, hjust = 1, size = 16)) +
+           theme(axis.text.x = element_text(angle = 0, hjust = 1, size = 14)) +
            theme(axis.text.y = element_text(size = 16))
          
          

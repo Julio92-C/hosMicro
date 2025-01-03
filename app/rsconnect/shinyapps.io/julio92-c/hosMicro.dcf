@@ -1,0 +1,12 @@
+name: hosMicro
+title: hosMicro
+username: julio92-c
+account: julio92-c
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13652176
+bundleId: 9598048
+url: https://julio92-c.shinyapps.io/hosMicro/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
