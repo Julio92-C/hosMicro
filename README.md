@@ -39,6 +39,7 @@ R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 
 ## Tutorial
 If you'd like to get to know the app better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
+
 [![App tutorial.](https://img.youtube.com/vi/9njf0_LXSOI/0.jpg)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
 ## Acknowledgments:
