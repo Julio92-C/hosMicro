@@ -10,7 +10,7 @@ Welcome to our R Shiny application! This interactive and user-friendly web appli
 
 We hope this application will be a valuable resource for your research and help advance our understanding of the hospital microbiome and its genetic components.
 
-![](app/www/hosMicro_shinnyApp.png)
+![](app/www/AMR_Pathogens.png)
 
 ## Quick start
 If docker is available, pull the image and run the Shiny app using the following commands:
