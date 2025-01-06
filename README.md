@@ -40,10 +40,10 @@ R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ## Tutorial
 If you'd like to get to know the app better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
 
-[![App tutorial.](app/www/hosMicro_shinyApp.png)](https://www.youtube.com/watch?v=9njf0_LXSOI)
+[![App tutorial.](app/www/hosMicro_shinnyApp.png)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
 <a href="https://www.youtube.com/watch?v=9njf0_LXSOI" target="_blank">
-  <img src="./app/www/hosMicro_shinyApp.png" alt="App tutorial" style="max-width: 100%; border: 2px solid black;">
+  <img src="./app/www/hosMicro_shinnyApp.png" alt="App tutorial" style="max-width: 100%; border: 2px solid black;">
 </a>
 
 ## Acknowledgments:
