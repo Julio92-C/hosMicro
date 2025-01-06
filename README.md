@@ -40,7 +40,10 @@ R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ## Tutorial
 If you'd like to get to know the app better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
 
-[![App tutorial.](<img src="https://img.youtube.com/vi/9njf0_LXSOI/0.jpg" style="max-width: 100%">)](https://www.youtube.com/watch?v=9njf0_LXSOI)
+[![App tutorial.](https://img.youtube.com/vi/9njf0_LXSOI/0.jpg)](https://www.youtube.com/watch?v=9njf0_LXSOI)
+
+!App tutorial.
+<img src="https://img.youtube.com/vi/9njf0_LXSOI/0.jpg" style="max-width: 100%;" alt="App tutorial.">
 
 ## Acknowledgments:
 We want to express our gratitude to our colleague, Dr. C. Oscar Previtali, for his support in curating the essential dataset for this application. We also want to thank our supervisors, Prof. Hermine V. Mkrtchyan, Dr. Piotr Cuber, and Dr. Raju Misra, for their invaluable contributions and guidance throughout the project. Your expertise has been crucial in enhancing our understanding and implementation of the metagenomics bioinformatics pipeline. We are truly thankful for everything you have done.
