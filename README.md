@@ -1,5 +1,7 @@
 # hosMicro
-Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
+Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and its genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
+
+![](app/www/AMR_Pathogens.png)
 
 ## Key Features:
 - Hospital Microbiome: Gain insights into the microbiome specific to hospital settings and its impact on patient health.
@@ -9,8 +11,6 @@ Welcome to our R Shiny application! This interactive and user-friendly web appli
 - Mobile Genetic Elements: Explore the role of mobile genetic elements in the spread of resistance and virulence factors.
 
 We hope this application will be a valuable resource for your research and help advance our understanding of the hospital microbiome and its genetic components.
-
-![](app/www/AMR_Pathogens.png)
 
 ## Quick start
 If docker is available, pull the image and run the Shiny app using the following commands:
