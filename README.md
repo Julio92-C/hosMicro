@@ -43,7 +43,7 @@ If you'd like to get to know the app better, feel free to check out the tutorial
 [![App tutorial.](https://img.youtube.com/vi/9njf0_LXSOI/0.jpg)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
 <a href="https://www.youtube.com/watch?v=9njf0_LXSOI" target="_blank">
-  <img src="https://img.youtube.com/vi/9njf0_LXSOI/0.jpg" alt="App tutorial" style="max-width: 100%; border: 2px solid black;">
+  <img src="./app/www/AMR_Pathogens.png" alt="App tutorial" style="max-width: 100%; border: 2px solid black;">
 </a>
 
 ## Acknowledgments:
