@@ -42,10 +42,6 @@ If you'd like to get to know the app better, feel free to check out the tutorial
 
 [![App tutorial.](app/www/hosMicro_shinnyApp.png)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
-<a href="https://www.youtube.com/watch?v=9njf0_LXSOI" target="_blank">
-  <img src="./app/www/hosMicro_shinnyApp.png" alt="App tutorial" style="max-width: 100%; border: 2px solid black;">
-</a>
-
 ## Acknowledgments:
 We want to express our gratitude to our colleague, Dr. C. Oscar Previtali, for his support in curating the essential dataset for this application. We also want to thank our supervisors, Prof. Hermine V. Mkrtchyan, Dr. Piotr Cuber, and Dr. Raju Misra, for their invaluable contributions and guidance throughout the project. Your expertise has been crucial in enhancing our understanding and implementation of the metagenomics bioinformatics pipeline. We are truly thankful for everything you have done.
 
