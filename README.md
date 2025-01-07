@@ -37,8 +37,18 @@ R -e "install.packages(pkgs=c('shiny','shinydashboard', 'shinydashboardPlus', 'D
 R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ```
 
+## Input
+In order to successfully run hosMicro, two specific input CSV files are required:
+
+1. Merged Report CSV: This file should combine the kraken2 report with the Abricate summary report. Its purpose is to effectively link taxonomy with antimicrobial resistance (AMR), virulence factors (VFs), and mobile genetic elements (MGEs) profiles. This integration is crucial for an in-depth analysis of the hospital microbiome.
+
+2. Project Metadata CSV: The second file must contain essential metadata about the project. This typically includes details such as sample identifiers, collection dates, locations, and other relevant descriptors that provide context to the metagenomics data.
+
+For reference and guidance, two sample CSV files demonstrating the required format and content are available in the data repository.
+
+
 ## Tutorial
-If you'd like to get to know the app better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
+If you'd like to get to know the app functionality better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
 
 [![App tutorial.](app/www/hosMicro_shinnyApp.png)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
