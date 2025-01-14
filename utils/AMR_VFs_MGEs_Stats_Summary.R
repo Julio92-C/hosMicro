@@ -8,19 +8,12 @@ library(ggpubr)
 library(paletteer)
 
 # Load dataset
-#abri_kraken2_merged <- read_csv("C:/Users/peros/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/abricate_kraken2_merged.csv")
-abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
+# abri_kraken2_merged <- read_csv("C:/Users/peros/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/abricate_kraken2_merged.csv")
+# abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
 
-# Vector of samples to remove
-samples_to_remove <- c("A60B", "A61B", "A62B", "A63B", "A25R")
+## Load clean dataset
+abri_kraken2_filtered <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abri_kraken2_cleaned.csv")
 
-
-# Filter the dataset by database
-abri_kraken2_filtered <- abri_kraken2_merged %>%
-  filter(grepl("card|vfdb|plasmidfinder", DATABASE)) %>%
-  filter(!sample %in% samples_to_remove) %>%
-  mutate(sample = ifelse(grepl("A37R", sample), "A37", sample)) %>%
-  arrange(name)
 
 sample <- length(unique(abri_kraken2_filtered$sample))
 taxa <- length(unique(abri_kraken2_filtered$name))
@@ -78,11 +71,9 @@ resistance <- length(unique(abri_kraken2_filtered$RESISTANCE))
 
 # Filter by Species and counts greater than 30
 df_species <- abri_kraken2_filtered %>%
-  filter(!grepl("root|Homo sapiens|cellular organisms", name)) %>%
-  filter(name != "Bacteria") %>%
   group_by(name) %>%
   arrange(name) %>%
-  filter(n() > 30)
+  filter(n() > 50)
 
 df_species[631:645, 17] <- "Acinetobacter radioresistens"
 df_species[7021:7052, 17] <- "Rahnella aquatilis"
@@ -106,17 +97,14 @@ Species_count
 
 # Filter by Card DB and counts greater than 3
 df_AMR <- abri_kraken2_filtered %>%
-  filter(!grepl("root|Homo sapiens|cellular organisms", name)) %>%
-  filter(name != "Bacteria") %>%
   filter(DATABASE == "card") %>%
-  #distinct(name, GENE) %>%
   group_by(GENE) %>%
   arrange(GENE) %>%
-  filter(n() > 10)
+  filter(n() > 20)
 
 
-df_AMR[1708:1743, 7] <- "CpxR"
-df_AMR[136:160, 7] <- "Af_CAT"
+df_AMR[2536:2607, 7] <- "CpxR"
+df_AMR[273:322, 7] <- "Af_CAT"
 
 # # Plot AMR card database
 AMR_count <- ggplot(df_AMR, aes(x = reorder(GENE, -table(GENE)[GENE]))) +
@@ -134,13 +122,10 @@ AMR_count
 
 # Filter by vfdb and counts greater than 3
 vfdb_filtered <- abri_kraken2_filtered %>%
-  filter(!grepl("root|Homo sapiens|cellular organisms", name)) %>%
-  filter(name != "Bacteria") %>%
   filter(DATABASE == "vfdb") %>%
-  #distinct(name, GENE) %>%
   group_by(GENE) %>%
   arrange(GENE) %>%
-  filter(n() > 20)  
+  filter(n() > 30)  
 
 # # Plot VFs vfdb database
 VFs_count <- ggplot(vfdb_filtered, aes(x = reorder(GENE, -table(GENE)[GENE]))) +
@@ -150,18 +135,15 @@ VFs_count <- ggplot(vfdb_filtered, aes(x = reorder(GENE, -table(GENE)[GENE]))) +
        x = "VFs",
        y = "Count") +
   theme_classic() +  # Apply classic theme
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))   # Rotate x-axis labels
-
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  + # Rotate x-axis labels
+  theme(text = element_text(size = 16))
 
 # # Plot VFs
 VFs_count
 
 # Filter by plasmidfinder and counts greater than 3
 plasmid_filtered <- abri_kraken2_filtered %>%
-  filter(!grepl("root|Homo sapiens|cellular organisms", name)) %>%
-  filter(name != "Bacteria") %>%
   filter(DATABASE == "plasmidfinder") %>%
-  #distinct(name, GENE) %>%
   group_by(GENE) %>%
   arrange(GENE) %>%
   filter(n() > 9)  
@@ -176,7 +158,8 @@ MGEs_count <- ggplot(plasmid_filtered, aes(x = reorder(GENE, -table(GENE)[GENE])
        x = "MGEs",
        y = "Count") +
   theme_classic() +  # Apply classic theme
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))   # Rotate x-axis labels
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  # Rotate x-axis labels
+  theme(text = element_text(size = 14))
 
 # Plot MGEs count
 MGEs_count
@@ -198,7 +181,6 @@ data_summary <- data_summary %>%
   mutate(Percentage = Count / sum(Count) * 100)
 
 
-
 #  stacked barplot where each bar represents a sample, 
 #  and the segments within each bar represent the counts of different genes
 ggplot(data_summary, aes(x = factor(sample), y = Percentage, fill = DATABASE)) +
@@ -207,19 +189,13 @@ ggplot(data_summary, aes(x = factor(sample), y = Percentage, fill = DATABASE)) +
   labs(x = "Sample", y = "Percentage", fill = "DATABASE") +
   theme_classic() +
   theme(legend.position="top") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(text = element_text(size = 14))
 
-
-# Filter by Species and counts greater than 30
-df_species <- abri_kraken2_filtered %>%
-  filter(!grepl("root|Homo sapiens|cellular organisms", name)) %>%
-  filter(name != "Bacteria") %>%
-  group_by(name) %>%
-  arrange(name) %>%
-  filter(n() > 30) %>%
+# Filter by Species and counts greater than 50
+df_relativeAbundance <- df_species %>%
   group_by(sample, name) %>%
   summarise(Count = n()) %>%
-  group_by(sample) %>%
   mutate(Percentage = Count / sum(Count) * 100)
 
 # Annotation col colors for taxa
@@ -235,7 +211,7 @@ t_palette
 
 #  stacked barplot where each bar represents a sample, 
 #  and the segments within each bar represent the relative abundance of different taxa
-ggplot(df_species, aes(x = factor(sample), y = Percentage, fill = name)) +
+ggplot(df_relativeAbundance, aes(x = factor(sample), y = Percentage, fill = name)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values = t_palette) +
   labs(x = "Air and Surface sample groups", y = "Percentage", fill = "name") +
@@ -245,7 +221,7 @@ ggplot(df_species, aes(x = factor(sample), y = Percentage, fill = name)) +
   theme(text = element_text(size = 16))
 
 
-
+# Determine gene count in filter dataset
 Gene_count <- table(abri_kraken2_filtered$DATABASE)
 
 # PLot the Gene count by database 

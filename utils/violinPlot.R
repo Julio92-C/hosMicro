@@ -10,21 +10,16 @@ library(ggsignif)  # For adding statistical significance
 
 # Load abri_kraken2_merged dataset
 # abri_kraken2_merged <- read_csv("C:/Users/peros/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/abricate_kraken2_merged.csv")
-abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
-MetadataLocations <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/MetadataLocations1.csv")
+# abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
+# MetadataLocations <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/MetadataLocations1.csv")
 
-
-
-# Vector of samples to remove
-samples_to_remove <- c("A60B", "A61B", "A62B", "A63B", "A25R")
+## Load clean dataset
+abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abri_kraken2_cleaned.csv")
 
 
 # Filter the data set by AMR, VFs and MGEs
 abri_kraken2_filtered <- abri_kraken2_merged %>%
-  filter(grepl("card|vfdb|plasmidfinder", DATABASE)) %>%
   arrange(name) %>%
-  filter(!sample %in% samples_to_remove) %>%
-  mutate(sample = ifelse(grepl("A37R", sample), "A37", sample)) %>%
   group_by(sample, name) %>%
   summarise(Taxa_count = n(), .groups = 'drop') %>%
   ungroup() %>% 
@@ -32,20 +27,24 @@ abri_kraken2_filtered <- abri_kraken2_merged %>%
 
 
 # Rename samples
-abri_kraken2_filtered[1:536, 1] <- "Air"
-abri_kraken2_filtered[537:1669, 1] <- "Surface"
+abri_kraken2_filtered[1:461, 1] <- "Air"
+abri_kraken2_filtered[462:1620, 1] <- "Surface"
 
 # Calculate p-value for significance
 p_value <- t.test(Taxa_log_count ~ sample, data = abri_kraken2_filtered)$p.value
+
+t_test_result <- t.test(Taxa_log_count ~ sample, data = abri_kraken2_filtered)
+print(t_test_result)
 
 # Generate the violin plot with statistical significance for taxa
 ggplot(abri_kraken2_filtered, aes(x = sample, y = Taxa_log_count, fill = sample)) +
   geom_violin(trim = FALSE, scale = "width") +
   geom_boxplot(width = 0.1, position = position_dodge(0.9)) +
+  scale_fill_manual(values = c("#04b5d9", "#aeb6b8")) +
   labs(title = "",
        x = "Sample groups",
        y = "Number of Taxa Log") +
-  theme_minimal() +
+  theme_classic() +
   theme(legend.position = "top") +
   theme(text = element_text(size = 16)) +
   geom_signif(comparisons = list(c("Air", "Surface")), 
@@ -65,8 +64,8 @@ abri_kraken2_filtered <- abri_kraken2_merged %>%
   mutate(Gene_log_count = log(Gene_count + 1))  # Adding 1 to avoid log(0)
 
 # Rename samples
-abri_kraken2_filtered[1:93, 1] <- "Air"
-abri_kraken2_filtered[94:342, 1] <- "Surface"
+abri_kraken2_filtered[1:89, 1] <- "Air"
+abri_kraken2_filtered[90:339, 1] <- "Surface"
 
 
 # Calculate p-value for significance
@@ -106,8 +105,8 @@ abri_kraken2_filtered <- abri_kraken2_merged %>%
   mutate(Gene_log_count = log(Gene_count + 1))  # Adding 1 to avoid log(0)
 
 # Rename samples
-abri_kraken2_filtered[1:81, 1] <- "Air"
-abri_kraken2_filtered[82:742, 1] <- "Surface"
+abri_kraken2_filtered[1:78, 1] <- "Air"
+abri_kraken2_filtered[79:739, 1] <- "Surface"
 
 
 # Calculate p-value for significance
@@ -121,12 +120,13 @@ print(t_test_result)
 ggplot(abri_kraken2_filtered, aes(x = sample, y = Gene_log_count, fill = sample)) +
   geom_violin(trim = FALSE, scale = "width", width = 0.6) +
   geom_boxplot(width = 0.1, position = position_dodge(0.9)) +
-  scale_fill_manual(values = c("#04b5d9", "#aeb6b8")) +
+  scale_fill_manual(values = c("#edbc80", "#cf7404")) +
   labs(title = "",
        x = "Sample",
        y = "Log(Number of VFs)") +
   theme_classic() +
   theme(legend.position = "top") +
+  theme(text = element_text(size = 16)) +
   geom_signif(comparisons = list(c("Air", "Surface")), 
               map_signif_level = TRUE, 
               textsize = 3.5) +
@@ -144,8 +144,8 @@ abri_kraken2_filtered <- abri_kraken2_merged %>%
   mutate(Gene_log_count = log(Gene_count + 1))  # Adding 1 to avoid log(0)
 
 # Rename samples
-abri_kraken2_filtered[1:66, 1] <- "Air"
-abri_kraken2_filtered[67:107, 1] <- "Surface"
+abri_kraken2_filtered[1:61, 1] <- "Air"
+abri_kraken2_filtered[62:102, 1] <- "Surface"
 
 
 # Calculate p-value for significance

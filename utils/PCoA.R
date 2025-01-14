@@ -14,33 +14,32 @@ library(plotly)
 library(paletteer)
 
 # Load dataset
-abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
+# abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
+
+## Load clean dataset
+abri_kraken2_filtered <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abri_kraken2_cleaned.csv")
+
 
 # Import metadata
 MetadataLocations <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/MetadataLocations2.csv")
 colnames(MetadataLocations)
 
 
-# Vector of samples to remove
-samples_to_remove <- c("A60B", "A61B", "A62B", "A63B", "A25R")
+abri_kraken2_filtered <- abri_kraken2_filtered %>%
+  arrange(GENE)
+  
 
-
-# Filter the dataset by database
-abri_kraken2_filtered <- abri_kraken2_merged %>%
-  filter(grepl("card|vfdb|plasmidfinder", DATABASE)) %>%
-  filter(!sample %in% samples_to_remove) %>%
-  mutate(sample = ifelse(grepl("A37R", sample), "A37", sample)) %>%
-  arrange(name)
-
+# Count unique number of genes
+unique_gene <- unique(abri_kraken2_filtered$GENE)
 
 # Annotation rows
 # Pivot the Genes values into columns
 df_wide_ann_rows <- abri_kraken2_filtered %>%
   arrange(GENE) %>%
-  pivot_wider(names_from = GENE, values_from = c(name)) %>%
+  pivot_wider(names_from = GENE, values_from = c(name), values_fn = length) %>%
   group_by(sample) %>%
-  summarise(across(16:292, ~ paste(., collapse = ", "))) %>%
-  mutate(across(2:277, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", "")))
+  summarise(across(16:293, ~ paste(., collapse = ", "))) %>%
+  mutate(across(2:279, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", "")))
 
 colnames(df_wide_ann_rows)
 

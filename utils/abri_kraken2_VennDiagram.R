@@ -12,23 +12,24 @@ library(stringr)
 # Load dataset
 # abri_kraken2_merged <- read_csv("C:/Users/peros/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/abri_kraken2_merged.csv")
 # abri_kraken2_merged <- read_csv("C:/Users/peros/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/abricate_kraken2_merged.csv")
-abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
+# abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_merged.csv")
 
-# Vector of samples to remove
-samples_to_remove <- c("A60B", "A61B", "A62B", "A63B", "A25R")
+## Load clean dataset
+abri_kraken2_filtered <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abri_kraken2_cleaned.csv")
 
 
-# Filter the dataset by database
-abri_kraken2_filtered <- abri_kraken2_merged %>%
-  filter(grepl("card|vfdb|plasmidfinder", DATABASE)) %>%
-  filter(!sample %in% samples_to_remove) %>%
-  mutate(sample = ifelse(grepl("A37R", sample), "A37", sample)) %>%
-  arrange(name)
+# # Pivot the Sample values into columns
+# df_wide <- abri_kraken2_filtered %>%
+#   arrange(sample) %>%
+#   pivot_wider(names_from = sample, values_from = c(taxid)) %>%
+#   group_by(name) %>%
+#   summarise(across(16:75, ~ paste(., collapse = ", "))) %>%
+#   mutate(across(2:61, ~ str_replace_all(., "(NA,|,NA|,NA,|NA|,| )", "")))
 
 # Pivot the Sample values into columns
 df_wide <- abri_kraken2_filtered %>%
   arrange(sample) %>%
-  pivot_wider(names_from = sample, values_from = c(taxid)) %>%
+  pivot_wider(names_from = sample, values_from = c(taxid), values_fn = length) %>%
   group_by(name) %>%
   summarise(across(16:75, ~ paste(., collapse = ", "))) %>%
   mutate(across(2:61, ~ str_replace_all(., "(NA,|,NA|,NA,|NA|,| )", "")))
@@ -49,7 +50,7 @@ Surface_dataset <- df_wide %>%
   select(name, Surface) %>%
   mutate(across(2, ~ str_replace_all(., "(,| )", "")))
 
- # Merge Air and Surface dataset
+# Merge Air and Surface dataset
 air_Sur_dataset <- merge(air_dataset, Surface_dataset, by="name", all = TRUE)
 
 # Assign the values of col1 as row names
