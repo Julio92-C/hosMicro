@@ -1,5 +1,7 @@
 # hosMicro
-Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
+Welcome to our R Shiny application! This interactive and user-friendly web application is designed to explore the hospital microbiome and its genetic makeup in depth. Our tool provides a comprehensive platform for researchers, clinicians, and bioinformaticians to analyze and visualize metagenomics data with ease.
+
+![](app/www/AMR_Pathogens.png)
 
 ## Key Features:
 - Hospital Microbiome: Gain insights into the microbiome specific to hospital settings and its impact on patient health.
@@ -9,8 +11,6 @@ Welcome to our R Shiny application! This interactive and user-friendly web appli
 - Mobile Genetic Elements: Explore the role of mobile genetic elements in the spread of resistance and virulence factors.
 
 We hope this application will be a valuable resource for your research and help advance our understanding of the hospital microbiome and its genetic components.
-
-![](app/www/hosMicro_shinnyApp.png)
 
 ## Quick start
 If docker is available, pull the image and run the Shiny app using the following commands:
@@ -37,10 +37,20 @@ R -e "install.packages(pkgs=c('shiny','shinydashboard', 'shinydashboardPlus', 'D
 R -e "shiny::runApp('.', host='0.0.0.0', port=3838)"
 ```
 
-## Tutorial
-If you'd like to get to know the app better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
+## Input
+In order to successfully run hosMicro, two specific input CSV files are required:
 
-[![App tutorial.](https://img.youtube.com/vi/9njf0_LXSOI/0.jpg)](https://www.youtube.com/watch?v=9njf0_LXSOI)
+1. Merged Report CSV: This file should combine the kraken2 report with the Abricate summary report. Its purpose is to effectively link taxonomy with antimicrobial resistance (AMR), virulence factors (VFs), and mobile genetic elements (MGEs) profiles. This integration is crucial for an in-depth analysis of the hospital microbiome.
+
+2. Project Metadata CSV: The second file must contain essential metadata about the project. This typically includes details such as sample identifiers, collection dates, locations, and other relevant descriptors that provide context to the metagenomics data.
+
+For reference and guidance, two sample CSV files demonstrating the required format and content are available in the data repository.
+
+
+## Tutorial
+If you'd like to get to know the app functionality better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
+
+[![App tutorial.](app/www/hosMicro_shinnyApp.png)](https://www.youtube.com/watch?v=9njf0_LXSOI)
 
 ## Acknowledgments:
 We want to express our gratitude to our colleague, Dr. C. Oscar Previtali, for his support in curating the essential dataset for this application. We also want to thank our supervisors, Prof. Hermine V. Mkrtchyan, Dr. Piotr Cuber, and Dr. Raju Misra, for their invaluable contributions and guidance throughout the project. Your expertise has been crucial in enhancing our understanding and implementation of the metagenomics bioinformatics pipeline. We are truly thankful for everything you have done.
