@@ -3,23 +3,26 @@ import PyPDF2
 
 merger = PyPDF2.PdfFileMerger()
 
-file_names = ["./Species_count_abricate_Kraken2.pdf",
-              "./AMR_count_abricate_Kraken2.pdf",
-              "./VFs_count_abricate_Kraken2.pdf",
-              "./Plasmid_count_abricate_Kraken2.pdf",
-              "./AMR_VFs_MGEs_abri_Kraken2_stacked_barplot.pdf",
-              "./AMR_VFs_MGEs_abri_Kraken2_pieChart.pdf",
-              "./core_accesoryAMR_VFs_MGEs_abricate_Kraken2_GeomBin.pdf",
-              "./coreAMR_VFs_MGEs_abri_Kraken2Update1-95.pdf",
-              "Pathogen_AMR_VFs_MGEs_all_pheatmap.pdf",
-              "Pathogen_AMR_VFs_MGEs_100rows_pheatmap.pdf",
-              "Air_Sur_Venndiagram.pdf",
-              "AMR_VFs_MGEs_vennDiagram.pdf"
+file_names = ["./taxaCount_barPlot.pdf",
+              "./airSur_vennDiagram.pdf",
+              "./countTaxa_violinPlot.pdf",
+              "./relativeAbundance_stackedPlot1.pdf",
+              "./countARG_barPlot.pdf",
+              "./countARG_violinPlot.pdf",
+              "./countVFs_barPlot.pdf",
+              "./countVFs_violinPlot.pdf",
+              "./countMGEs_barPlot.pdf",
+              "./disGEs_stackedBarplot.pdf",
+              "./geneCount_pieChart.pdf",
+              "./geneticElements_vennDiagram.pdf",
+              "./geneticElem_PCoA.pdf",
+              "./airSur_chordDiagram.pdf",
+              "./airMicrobiome_pheatmap.pdf",
               ]
 
 
 for file_name in file_names:
     merger.append(file_name)
 
-merger.write("./Species_AMR_VFs_MGEs_basic_stats.pdf")
+merger.write("./HosMicro_Summary.pdf")
 merger.close()

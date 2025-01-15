@@ -9,7 +9,11 @@ library(stringr)
 
 
 # Load dataset
-abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_filtered.csv")
+# abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abricate_kraken2_filtered.csv")
+
+## Load clean dataset
+abri_kraken2_merged <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/abri_kraken2_cleaned.csv")
+
 
 # Import metadata
 MetadataLocations <- read_csv("OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/MetadataLocations2.csv")
@@ -18,7 +22,7 @@ colnames(MetadataLocations)
 # Pivot the Sample values into columns
 df_wide <- abri_kraken2_merged %>%
   arrange(sample) %>%
-  pivot_wider(names_from = sample, values_from = taxid) %>%
+  pivot_wider(names_from = sample, values_from = c(taxid), values_fn = length) %>%
   group_by(name) %>%
   summarise(across(16:42, ~ paste(., collapse = ", "))) %>%
   mutate(across(2:28, ~ str_replace_all(., "(NA,|,NA|,NA,|NA|,| )", "")))
@@ -44,7 +48,7 @@ sum(is.na(sample2arg_data_matrix))
 sample2arg_data_Bmatrix <- as.matrix((sample2arg_data_matrix > 0) + 0)
 
 # Order the matrix by row names
-sample2arg_data_Bmatrix <- sample2arg_data_Bmatrix[order(rownames(sample2arg_data_Bmatrix)), ]
+# sample2arg_data_Bmatrix <- sample2arg_data_Bmatrix[order(rownames(sample2arg_data_Bmatrix)), ]
 
 # Rearranging a Binary Matrix by Row Count
 rearrange_matrix <- function(mat) {
@@ -100,10 +104,10 @@ location_colors <- setNames(as.character(df4$color), df4$LOCATION)
 # Pivot the Sample values into columns
 df_wide_ann_rows <- abri_kraken2_merged %>%
   arrange(sample) %>%
-  pivot_wider(names_from = DATABASE, values_from = c(GENE)) %>%
+  pivot_wider(names_from = DATABASE, values_from = GENE, values_fn = list) %>%
   group_by(name) %>%
   summarise(across(15:17, ~ paste(., collapse = ", "))) %>%
-  mutate(across(2:4, ~ str_replace_all(., "(NA,|,NA|,NA,|NA| )", ""))) %>%
+  mutate(across(2:4, ~ str_replace_all(., "(NULL,|,NULL|,NULL,|NULL| )", ""))) %>%
   na.omit() %>%
   remove_rownames() %>%
   column_to_rownames(var = "name") %>%
@@ -173,14 +177,21 @@ ann_row_all <- merge(ann_rows, Resistance_category, by = 0) %>%
   column_to_rownames(var = "Row.names") %>%
   select(DRUG, AMR, VFs, MGEs)
 
+
+# Merge the all annotation row with air sample dataset
+ann_row_Air <- merge(sample2arg_data, ann_row_all, by = 0) %>%
+  column_to_rownames(var = "Row.names") %>%
+  select(DRUG, AMR, VFs, MGEs)
+
+
 # Safe annotation row to a csv file
 # df <- write.csv(ann_row_all, "OneDrive - University of West London/Desktop/PhD Proposal/Bioinformatics/Oscar_metagenomics/Datasets/ann_row_all.csv", row.names = FALSE)
 
 # Generate a color palette for drug categories
-r_palette <- paletteer_d("ggsci::default_igv", n = length(unique(ann_row_all$DRUG))-1)
+r_palette <- paletteer_d("ggsci::default_igv", n = length(unique(ann_row_Air$DRUG))-1)
 
 # Create a named dataframe for the Resistance category
-ann_row_drug_col <- ann_row_all %>%
+ann_row_drug_col <- ann_row_Air %>%
   select(DRUG) %>%
   na.omit() %>%
   distinct(DRUG) %>%
@@ -200,7 +211,7 @@ ann_colors <- list(
 
 
 # Create heatmap using pheatmap package ##
-heatmap_plot <- pheatmap(sorted_matrix[1:70,], display_numbers = FALSE, cluster_cols = TRUE, cluster_rows = FALSE,
+heatmap_plot <- pheatmap(sorted_matrix[1:50,], display_numbers = FALSE, cluster_cols = TRUE, cluster_rows = FALSE,
                          scale = "none", 
                          clustering_callback = callback,  
                          border_color = "NA", color = c("#CCCCCCFF", "#666666FF"),
