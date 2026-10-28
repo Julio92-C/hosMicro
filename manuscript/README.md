@@ -20,7 +20,7 @@ Project-specific scripts and processed datasets for the manuscript *Hospital air
 
 ## Reproducing
 
-1. Clone meridian and check out the version used for the manuscript (branch `fix/hospital-species-aldex2`, commit `0a226ff`; to be replaced by a release tag).
+1. Clone meridian and check out the version used for the manuscript (tag `hospital-microbiome-paper-2026-10`).
 2. Set `project_root` in `scripts/config.yaml` (placeholder `path/to/metaOmics`) to the folder holding the upstream `Datasets/`, `Reports_v2/` and `Metadata/`; `prep_inputs.R` and the `polish_*.R` scripts read it from there.
 3. Run `Rscript scripts/prep_inputs.R`, then the meridian pipeline with `scripts/config.yaml`.
 4. Run the `polish_*.R` scripts from the meridian checkout. Set `MERIDIAN_HOME` to that checkout; `polish_relative_abundance.R` uses meridian's `R/utils_taxa.R`.
