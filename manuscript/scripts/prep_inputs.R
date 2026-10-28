@@ -43,7 +43,8 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-ROOT <- "C:/Users/julio/Desktop/Hospital_microbiome/metaOmics"
+script_dir <- local({ a <- grep("^--file=", commandArgs(FALSE), value = TRUE); if (length(a)) dirname(normalizePath(sub("^--file=", "", a))) else "." })
+ROOT <- yaml::read_yaml(file.path(script_dir, "config.yaml"))$project_root   # set in config.yaml
 DAT  <- file.path(ROOT, "Datasets")
 REP  <- file.path(ROOT, "Reports_v2")
 MET  <- file.path(ROOT, "Metadata")

@@ -13,7 +13,7 @@ study:
 
 # All inputs live under metaOmics/ (a user-curated subset of the parent
 # Hospital_microbiome/ project tree). Run prep_inputs.R once first.
-project_root: "C:/Users/julio/Desktop/Hospital_microbiome/metaOmics"
+project_root: "path/to/metaOmics"   # edit: folder holding Datasets/, Reports_v2/ and Metadata/
 
 inputs:
   # Produced by prep_inputs.R from Datasets/Summary.csv (A37R -> A37 collapse,
