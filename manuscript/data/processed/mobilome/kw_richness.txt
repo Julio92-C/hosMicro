@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  richness by type
+Kruskal-Wallis chi-squared = 0.50149, df = 1, p-value = 0.4788
+

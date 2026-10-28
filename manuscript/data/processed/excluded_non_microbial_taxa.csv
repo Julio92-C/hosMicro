@@ -1,0 +1,496 @@
+taxid,name,lineage_class,total_count,n_samples
+3193,Embryophyta,plant,237343,86
+58023,Tracheophyta,plant,235579,86
+58024,Spermatophyta,plant,235579,86
+78536,Euphyllophyta,plant,235579,86
+3398,Magnoliopsida,plant,216764,86
+1437183,Mesangiospermae,plant,215591,86
+NA,NA,unmatched,170969,49
+1437201,Pentapetalae,plant,146184,84
+71240,eudicotyledons,plant,146184,84
+91827,Gunneridae,plant,146184,84
+71275,rosids,plant,87690,83
+117570,Teleostomi,animal,81694,84
+117571,Euteleostomi,animal,81694,84
+1338369,Dipnotetrapodomorpha,animal,81694,84
+1437010,Boreoeutheria,animal,81694,84
+207598,Homininae,animal,81694,84
+314146,Euarchontoglires,animal,81694,84
+314293,Simiiformes,animal,81694,84
+314295,Hominoidea,animal,81694,84
+32523,Tetrapoda,animal,81694,84
+32524,Amniota,animal,81694,84
+32525,Theria,animal,81694,84
+33208,Metazoa,animal,81694,84
+33213,Bilateria,animal,81694,84
+33511,Deuterostomia,animal,81694,84
+376913,Haplorrhini,animal,81694,84
+40674,Mammalia,animal,81694,84
+6072,Eumetazoa,animal,81694,84
+7711,Chordata,animal,81694,84
+7742,Vertebrata,animal,81694,84
+7776,Gnathostomata,animal,81694,84
+8287,Sarcopterygii,animal,81694,84
+89593,Craniata,animal,81694,84
+9347,Eutheria,animal,81694,84
+9443,Primates,animal,81694,84
+9526,Catarrhini,animal,81694,84
+9604,Hominidae,animal,81694,84
+9605,Homo,animal,81694,84
+91835,fabids,plant,68313,82
+71274,asterids,plant,47814,80
+1437197,Petrosaviidae,plant,45344,83
+4447,Liliopsida,plant,45344,83
+4734,commelinids,plant,41491,83
+38820,Poales,plant,32128,83
+4479,Poaceae,plant,31245,83
+91888,lamiids,plant,30830,78
+2231393,50 kb inversion clade,plant,26781,78
+3803,Fabaceae,plant,26781,78
+3814,Papilionoideae,plant,26781,78
+72025,Fabales,plant,26781,78
+359160,BOP clade,plant,23506,81
+4069,Solanales,plant,22075,77
+147368,Pooideae,plant,21493,80
+4070,Solanaceae,plant,20879,77
+2231382,NPAAA clade,plant,19934,76
+424551,Solanoideae,plant,17983,75
+1437180,Acrogymnospermae,plant,17375,75
+1446379,Cupressales,plant,17375,75
+2821351,Conifers II,plant,17375,75
+3313,Pinidae,plant,17375,75
+3367,Cupressaceae,plant,17375,75
+3368,Cryptomeria,plant,17375,75
+3369,Cryptomeria japonica,plant,17375,75
+58019,Pinopsida,plant,17375,75
+147389,Triticeae,plant,17136,80
+1648038,Triticodae,plant,17136,80
+91836,malvids,plant,16422,78
+3744,Rosales,plant,13664,71
+3502,Fagales,plant,13529,73
+1648030,Triticinae,plant,13426,79
+2233838,Hologalegina,plant,11978,73
+2233839,IRL clade,plant,10828,72
+91882,campanulids,plant,10181,78
+4564,Triticum,plant,9939,77
+4209,Asterales,plant,9187,78
+4210,Asteraceae,plant,9187,78
+163735,Phaseoleae,plant,7868,73
+2233855,indigoferoid/millettioid clade,plant,7868,73
+4107,Solanum,plant,7745,72
+424574,Solaneae,plant,7745,72
+3646,Malpighiales,plant,7618,69
+147370,PACMAD clade,plant,7597,75
+3745,Rosaceae,plant,7166,68
+4143,Lamiales,plant,6927,73
+3629,Malvaceae,plant,6870,70
+41938,Malvales,plant,6870,70
+163743,Fabeae,plant,6642,70
+41945,Ericales,plant,6561,71
+232378,Proteales,plant,6365,68
+4328,Proteaceae,plant,6365,68
+4071,Capsicum,plant,6209,74
+4072,Capsicum annuum,plant,6209,74
+424564,Capsiceae,plant,6209,74
+147369,Panicoideae,plant,6052,75
+214907,Malvoideae,plant,5905,70
+3633,Gossypium,plant,5905,70
+4618,Zingiberales,plant,5574,72
+163725,Dalbergieae,plant,5202,69
+2231387,dalbergioids sensu lato,plant,5202,69
+2231390,Pterocarpus clade,plant,5202,69
+3817,Arachis,plant,5202,69
+3650,Cucurbitaceae,plant,5163,71
+71239,Cucurbitales,plant,5163,71
+3699,Brassicales,plant,5065,70
+3700,Brassicaceae,plant,5065,70
+232347,Magnoliidae,plant,4994,68
+3400,Magnoliales,plant,4994,68
+3401,Magnoliaceae,plant,4994,68
+3402,Magnolia,plant,4994,68
+86752,Magnolia sinica,plant,4994,68
+3977,Euphorbiaceae,plant,4951,69
+3481,Cannabaceae,plant,4905,68
+3514,Betulaceae,plant,4752,60
+16714,Juglandaceae,plant,4739,71
+3887,Pisum,plant,4068,68
+3888,Pisum sativum,plant,4068,68
+171637,Amygdaloideae,plant,4048,65
+102804,Asteroideae,plant,4024,70
+24646,Lycium,plant,3886,70
+424569,Lycieae,plant,3886,70
+3503,Fagaceae,plant,3802,66
+3511,Quercus,plant,3802,66
+3484,Humulus,plant,3787,67
+3486,Humulus lupulus,plant,3787,67
+1462614,Papaveroideae,plant,3777,69
+3465,Papaveraceae,plant,3777,69
+3468,Papaver,plant,3777,69
+3469,Papaver somniferum,plant,3777,69
+41768,Ranunculales,plant,3777,69
+40551,Arecales,plant,3692,71
+4710,Arecaceae,plant,3692,71
+219120,Cichorioideae,plant,3657,71
+219121,Cichorieae,plant,3657,71
+4235,Lactuca,plant,3657,71
+4236,Lactuca sativa,plant,3657,71
+745062,Lactucinae,plant,3657,71
+147387,Poeae,plant,3601,69
+1648037,Poodae,plant,3601,69
+1652081,Poeae Chloroplast Group 2 (Poeae type),plant,3601,69
+2948571,Loliodinae,plant,3601,69
+4520,Lolium,plant,3601,69
+640630,Loliinae,plant,3601,69
+3524,Caryophyllales,plant,3569,69
+1003242,Ximeniaceae,plant,3559,66
+397391,Malania,plant,3559,66
+397392,Malania oleifera,plant,3559,66
+41947,Santalales,plant,3559,66
+4642,Zingiberaceae,plant,3552,71
+4650,Zingiber,plant,3552,71
+94328,Zingiber officinale,plant,3552,71
+112509,Hordeum vulgare subsp. vulgare,plant,3521,69
+1648017,Hordeinae,plant,3521,69
+4512,Hordeum,plant,3521,69
+4513,Hordeum vulgare,plant,3521,69
+1003877,Benincaseae,plant,3454,67
+235631,Crotonoideae,plant,3271,66
+981071,Brassiceae,plant,3241,65
+49274,Solanum subgen. Lycopersicon,plant,3195,69
+147428,Paniceae,plant,3190,73
+1648036,Panicodae,plant,3190,73
+216706,Nepetoideae,plant,3148,72
+216718,Mentheae,plant,3148,72
+21880,Salvia,plant,3148,72
+2836339,Salviinae,plant,3148,72
+4136,Lamiaceae,plant,3148,72
+102814,Heliantheae,plant,3091,69
+171638,Rosoideae,plant,3091,64
+4231,Helianthus,plant,3091,69
+4232,Helianthus annuus,plant,3091,69
+911341,Heliantheae alliance,plant,3091,69
+163742,Trifolieae,plant,3057,65
+158383,Olea europaea subsp. europaea,plant,3000,65
+158386,Olea europaea var. sylvestris,plant,3000,65
+4144,Oleaceae,plant,3000,65
+4145,Olea,plant,3000,65
+4146,Olea europaea,plant,3000,65
+426106,Oleeae,plant,3000,65
+54954,Telopea,plant,2999,63
+54955,Telopea speciosissima,plant,2999,63
+3913,Vigna,plant,2989,69
+3749,Malus,plant,2861,63
+721813,Maleae,plant,2861,63
+16718,Juglans,plant,2858,67
+147429,Andropogoneae,plant,2817,68
+1648033,Andropogonodae,plant,2817,68
+4085,Nicotiana,plant,2782,68
+424554,Nicotianoideae,plant,2782,68
+424562,Nicotianeae,plant,2782,68
+49451,Nicotiana attenuata,plant,2782,68
+172797,Solanum stenotomum,plant,2709,62
+4329,Macadamia,plant,2707,62
+60698,Macadamia integrifolia,plant,2707,62
+238069,Saliceae,plant,2650,57
+3688,Salicaceae,plant,2650,57
+3689,Populus,plant,2650,57
+3904,Vicia,plant,2502,65
+3911,Vicia villosa,plant,2502,65
+41944,Myrtales,plant,2453,69
+1462606,Glycine subgen. Soja,plant,2380,65
+3846,Glycine,plant,2380,65
+3515,Alnus,plant,2371,56
+3517,Alnus glutinosa,plant,2371,56
+4565,Triticum aestivum,plant,2341,70
+165200,Actinidia eriantha,plant,2338,62
+3623,Actinidiaceae,plant,2338,62
+3624,Actinidia,plant,2338,62
+1804623,Chenopodiaceae,plant,2291,66
+1293365,Panicinae,plant,2260,69
+4539,Panicum,plant,2260,69
+169697,Arecoideae,plant,2199,69
+169705,Cocoseae,plant,2199,69
+169729,Elaeidinae,plant,2199,69
+51952,Elaeis,plant,2199,69
+51953,Elaeis guineensis,plant,2199,69
+3705,Brassica,plant,2196,60
+3877,Medicago,plant,2163,57
+3880,Medicago truncatula,plant,2163,57
+235882,Micrandreae,plant,2036,63
+3980,Hevea,plant,2036,63
+3981,Hevea brasiliensis,plant,2036,63
+4637,Musaceae,plant,2016,63
+4640,Musa,plant,2016,63
+4641,Musa acuminata,plant,2016,63
+85692,Triticum dicoccoides,plant,2001,66
+147367,Oryzoideae,plant,1990,67
+147380,Oryzeae,plant,1990,67
+1648021,Oryzinae,plant,1990,67
+4527,Oryza,plant,1990,67
+41937,Sapindales,plant,1947,60
+40552,Asparagaceae,plant,1929,62
+4685,Asparagus,plant,1929,62
+4686,Asparagus officinalis,plant,1929,62
+703533,Asparagoideae,plant,1929,62
+73496,Asparagales,plant,1929,62
+2304100,Viteae,plant,1889,63
+3602,Vitaceae,plant,1889,63
+3603,Vitis,plant,1889,63
+403667,Vitales,plant,1889,63
+91834,rosids incertae sedis,plant,1889,63
+29710,Dioscorea cayenensis,plant,1879,57
+40548,Dioscoreales,plant,1879,57
+4671,Dioscoreaceae,plant,1879,57
+4672,Dioscorea,plant,1879,57
+55577,Dioscorea cayenensis subsp. rotundata,plant,1879,57
+13450,Corylus,plant,1872,56
+13451,Corylus avellana,plant,1872,56
+112863,Lycium barbarum,plant,1856,62
+980083,Camelineae,plant,1794,62
+1648029,Tripsacinae,plant,1789,65
+4575,Zea,plant,1789,65
+4577,Zea mays,plant,1789,65
+1699513,Myrtoideae,plant,1722,64
+3931,Myrtaceae,plant,1722,64
+3655,Cucumis,plant,1717,57
+102210,Benincasa,plant,1704,64
+102211,Benincasa hispida,plant,1704,64
+13442,Coffea,plant,1703,64
+169618,Ixoroideae,plant,1703,64
+169640,Coffeeae,plant,1703,64
+1968428,Bertiereae - Coffeeae clade,plant,1703,64
+1968429,Gardenieae complex,plant,1703,64
+24966,Rubiaceae,plant,1703,64
+4055,Gentianales,plant,1703,64
+2291027,Salvia incertae sedis,plant,1702,63
+89674,Lolium rigidum,plant,1700,64
+1003878,Cucurbiteae,plant,1681,54
+3660,Cucurbita,plant,1681,54
+3663,Cucurbita pepo,plant,1681,54
+3664,Cucurbita pepo subsp. pepo,plant,1681,54
+45834,Solanum dulcamara,plant,1670,65
+235629,Acalyphoideae,plant,1666,64
+235880,Acalypheae,plant,1666,64
+13492,Diospyros,plant,1658,60
+19955,Ebenaceae,plant,1658,60
+55363,Diospyros lotus,plant,1658,60
+114656,Funariidae,plant,1624,55
+3208,Bryophyta,plant,1624,55
+3214,Bryopsida,plant,1624,55
+3215,Funariales,plant,1624,55
+3216,Funariaceae,plant,1624,55
+3218,Physcomitrium patens,plant,1624,55
+37414,Physcomitrium,plant,1624,55
+404260,Bryophytina,plant,1624,55
+28526,Solanum pennellii,plant,1620,62
+3694,Populus trichocarpa,plant,1618,47
+325284,Paliureae,plant,1554,53
+326968,Ziziphus jujuba,plant,1554,53
+3608,Rhamnaceae,plant,1554,53
+72171,Ziziphus,plant,1554,53
+2100771,Panicum sect. Hiantes,plant,1548,63
+38727,Panicum virgatum,plant,1548,63
+163729,Genisteae,plant,1536,59
+2231384,genistoids sensu lato,plant,1536,59
+2231385,core genistoids,plant,1536,59
+3869,Lupinus,plant,1536,59
+3871,Lupinus angustifolius,plant,1536,59
+156631,Arundinoideae,plant,1523,65
+15745,Phragmites,plant,1523,65
+1648043,Molinieae,plant,1523,65
+2949676,Molininae,plant,1523,65
+29695,Phragmites australis,plant,1523,65
+3635,Gossypium hirsutum,plant,1490,61
+102818,Cardueae,plant,1463,64
+219103,Carduoideae,plant,1463,64
+309979,Cynara cardunculus subsp. cardunculus,plant,1463,64
+4264,Cynara,plant,1463,64
+4265,Cynara cardunculus,plant,1463,64
+59895,Cynara cardunculus var. scolymus,plant,1463,64
+742010,Carduinae,plant,1463,64
+2249226,Juglans microcarpa x Juglans regia,plant,1439,56
+13402,Carya,plant,1427,62
+32201,Carya illinoinensis,plant,1427,62
+169700,Coryphoideae,plant,1425,63
+169748,Phoeniceae,plant,1425,63
+42345,Phoenix dactylifera,plant,1425,63
+4719,Phoenix,plant,1425,63
+112874,Lycium ferocissimum,plant,1381,65
+71323,Camelina,plant,1379,59
+90675,Camelina sativa,plant,1379,59
+1176516,Rosoideae incertae sedis,plant,1371,57
+3764,Rosa,plant,1371,57
+29730,Gossypium raimondii,plant,1364,53
+253017,Impatiens glandulifera,plant,1329,60
+25692,Balsaminaceae,plant,1329,60
+35939,Impatiens,plant,1329,60
+721789,Potentilleae,plant,1304,58
+29722,Amaranthus tricolor,plant,1275,60
+3563,Amaranthaceae,plant,1275,60
+3564,Amaranthus,plant,1275,60
+4522,Lolium perenne,plant,1248,61
+3820,Cajanus,plant,1243,57
+3821,Cajanus cajan,plant,1243,57
+180675,Salvia splendens,plant,1238,63
+2026555,Salvia subgen. Calosphace,plant,1238,63
+2026556,core Calosphace,plant,1238,63
+97700,Quercus lobata,plant,1211,55
+235883,Manihoteae,plant,1202,57
+3982,Manihot,plant,1202,57
+3983,Manihot esculenta,plant,1202,57
+161934,Beta vulgaris,plant,1194,59
+1804621,Betoideae,plant,1194,59
+3554,Beta,plant,1194,59
+3555,Beta vulgaris subsp. vulgaris,plant,1194,59
+267213,Ipomoeeae,plant,1178,54
+35885,Ipomoea triloba,plant,1178,54
+4118,Convolvulaceae,plant,1178,54
+4119,Ipomoea,plant,1178,54
+3754,Prunus,plant,1166,55
+721805,Amygdaleae,plant,1166,55
+3917,Vigna unguiculata,plant,1161,61
+4081,Solanum lycopersicum,plant,1148,57
+163747,Loteae,plant,1137,61
+2233857,robinioid clade,plant,1137,61
+34305,Lotus japonicus,plant,1137,61
+3867,Lotus,plant,1137,61
+182163,Rhododendron vialii,plant,1124,57
+217035,Ericoideae,plant,1124,57
+217046,Rhodoreae,plant,1124,57
+4345,Ericaceae,plant,1124,57
+4346,Rhododendron,plant,1124,57
+38942,Quercus robur,plant,1119,54
+3883,Phaseolus,plant,1111,55
+3885,Phaseolus vulgaris,plant,1111,55
+3482,Cannabis,plant,1096,58
+3483,Cannabis sativa,plant,1096,58
+1307775,Anserineae,plant,1091,59
+1307796,Chenopodioideae,plant,1091,59
+23461,Mangifera,plant,1091,54
+29780,Mangifera indica,plant,1091,54
+3561,Spinacia,plant,1091,59
+3562,Spinacia oleracea,plant,1091,59
+4011,Anacardiaceae,plant,1091,54
+4572,Triticum urartu,plant,1062,64
+1699524,Eucalypteae,plant,1037,57
+3932,Eucalyptus,plant,1037,57
+71139,Eucalyptus grandis,plant,1037,57
+163722,Cicereae,plant,1033,58
+3826,Cicer,plant,1033,58
+3827,Cicer arietinum,plant,1033,58
+3656,Cucumis melo,plant,1024,52
+1648028,Sorghinae,plant,1021,64
+4557,Sorghum,plant,1021,64
+4558,Sorghum bicolor,plant,1021,64
+51240,Juglans regia,plant,1017,58
+1873447,Daucus sect. Daucus,plant,990,54
+241778,Apioideae,plant,990,54
+241789,Scandiceae,plant,990,54
+241799,Daucinae,plant,990,54
+364270,Apiineae,plant,990,54
+4036,Apiales,plant,990,54
+4037,Apiaceae,plant,990,54
+4038,Daucus,plant,990,54
+4039,Daucus carota,plant,990,54
+79200,Daucus carota subsp. sativus,plant,990,54
+210225,Nymphaea colorata,plant,979,54
+261007,Nymphaeales,plant,979,54
+4410,Nymphaeaceae,plant,979,54
+4418,Nymphaea,plant,979,54
+214909,Byttnerioideae,plant,950,52
+3640,Theobroma,plant,950,52
+3641,Theobroma cacao,plant,950,52
+102809,Astereae,plant,931,59
+2841728,Conyzinae,plant,931,59
+41574,Erigeron,plant,931,59
+72917,Erigeron canadensis,plant,931,59
+877976,North American clade,plant,931,59
+3725,Raphanus,plant,902,55
+3726,Raphanus sativus,plant,902,55
+226208,Salvia miltiorrhiza,plant,895,60
+3898,Trifolium,plant,878,54
+57577,Trifolium pratense,plant,878,54
+3984,Mercurialis,plant,874,57
+3986,Mercurialis annua,plant,874,57
+1909378,Bromelioideae,plant,871,57
+4613,Bromeliaceae,plant,871,57
+4614,Ananas,plant,871,57
+4615,Ananas comosus,plant,871,57
+1728959,Aurantioideae,plant,855,49
+23513,Rutaceae,plant,855,49
+2706,Citrus,plant,855,49
+2711,Citrus sinensis,plant,855,49
+1293361,Cenchrinae,plant,849,62
+4554,Setaria,plant,849,62
+29729,Gossypium arboreum,plant,843,52
+3914,Vigna angularis,plant,841,57
+4533,Oryza brachyantha,plant,822,57
+217475,Arachis stenosperma,plant,815,57
+214697,Musa acuminata AAA Group,plant,810,55
+49212,Salvia hispanica,plant,804,53
+101020,Fragaria vesca subsp. vesca,plant,801,53
+1184124,Fragariinae,plant,801,53
+3746,Fragaria,plant,801,53
+57918,Fragaria vesca,plant,801,53
+3987,Ricinus,plant,791,59
+3988,Ricinus communis,plant,791,59
+157791,Vigna radiata,plant,785,52
+3916,Vigna radiata var. radiata,plant,785,52
+4180,Pedaliaceae,plant,763,56
+4181,Sesamum,plant,763,56
+4182,Sesamum indicum,plant,763,56
+123484,Tripterygium,plant,746,54
+233875,Celastrales,plant,746,54
+4305,Celastraceae,plant,746,54
+458696,Tripterygium wilfordii,plant,746,54
+200361,Aegilops tauschii subsp. strangulata,plant,734,53
+37682,Aegilops tauschii,plant,734,53
+4480,Aegilops,plant,734,53
+22662,Punica,plant,729,57
+22663,Punica granatum,plant,729,57
+3928,Lythraceae,plant,729,57
+74649,Rosa chinensis,plant,693,47
+13443,Coffea arabica,plant,671,58
+206008,Panicum hallii,plant,669,59
+2100772,Panicum sect. Panicum,plant,669,59
+1699523,Myrteae,plant,645,56
+1705102,Australasian group,plant,645,56
+178132,Rhodamnia,plant,645,56
+178133,Rhodamnia argentea,plant,645,56
+3659,Cucumis sativus,plant,630,50
+147385,Brachypodieae,plant,627,59
+15367,Brachypodium,plant,627,59
+15368,Brachypodium distachyon,plant,627,59
+2822797,Stipodae,plant,627,59
+29760,Vitis vinifera,plant,606,52
+96939,Vitis riparia,plant,603,51
+3691,Populus nigra,plant,581,46
+3818,Arachis hypogaea,plant,523,50
+3708,Brassica napus,plant,515,52
+1184125,Potentilleae incertae sedis,plant,491,44
+23204,Potentilla,plant,491,44
+57926,Argentina anserina,plant,491,44
+3752,Malus sylvestris,plant,437,47
+74645,Rosa rugosa,plant,435,50
+3701,Arabidopsis,plant,403,48
+3702,Arabidopsis thaliana,plant,403,48
+214687,Musa acuminata subsp. malaccensis,plant,385,44
+102107,Prunus mume,plant,375,47
+130453,Arachis duranensis,plant,351,39
+3750,Malus domestica,plant,299,43
+109376,Brassica oleracea var. oleracea,plant,294,42
+3712,Brassica oleracea,plant,294,42
+39947,Oryza sativa Japonica Group,plant,293,46
+4530,Oryza sativa,plant,293,46
+3847,Glycine max,plant,292,34
+49369,Coffea eugenioides,plant,277,44
+4538,Oryza glaberrima,plant,260,47
+4555,Setaria italica,plant,246,53
+3711,Brassica rapa,plant,211,34
+3848,Glycine soja,plant,197,45
+3755,Prunus dulcis,plant,196,31
+3760,Prunus persica,plant,195,40
+4556,Setaria viridis,plant,186,43
+130454,Arachis ipaensis,plant,111,23
+2787854,other entries,other,2,2
+28384,other sequences,other,2,2

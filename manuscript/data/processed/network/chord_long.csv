@@ -1,0 +1,236 @@
+sample,name,GENE,RESISTANCE_class,type
+S3,R. aceris,H-NS,Multi-drug,Surface
+S3,R. aceris,CRP,Multi-drug,Surface
+S3,R. inusitata,CRP,Multi-drug,Surface
+S3,R. inusitata,H-NS,Multi-drug,Surface
+S3,R. aceris,RAHN-2,Cephalosporin,Surface
+S3,P. sp. J380,MexF,Multi-drug,Surface
+S3,R. aquatilis,CRP,Multi-drug,Surface
+S3,S. proteamaculans,CRP,Multi-drug,Surface
+S3,P. sp. OE 28.3,Pseudomonas_aeruginosa_CpxR,Multi-drug,Surface
+S12,P. sp. J380,YajC,Multi-drug,Surface
+S12,P. sp. J380,MexF,Multi-drug,Surface
+A55,R. victoriana,RAHN-1,Cephalosporin,Air
+A55,R. aquatilis,H-NS,Multi-drug,Air
+A55,R. victoriana,CRP,Multi-drug,Air
+A55,R. bonaserana,RAHN-1,Cephalosporin,Air
+A55,R. aquatilis,CRP,Multi-drug,Air
+A55,R. bonaserana,CRP,Multi-drug,Air
+A55,R. aceris,H-NS,Multi-drug,Air
+A55,R. aceris,CRP,Multi-drug,Air
+A55,R. aquatilis,RAHN-1,Cephalosporin,Air
+A55,R. inusitata,H-NS,Multi-drug,Air
+A55,R. sikkimica,H-NS,Multi-drug,Air
+A51,R. victoriana,CRP,Multi-drug,Air
+A51,R. bonaserana,RAHN-1,Cephalosporin,Air
+A51,R. victoriana,RAHN-1,Cephalosporin,Air
+A51,R. bonaserana,CRP,Multi-drug,Air
+A51,R. aquatilis,CRP,Multi-drug,Air
+A51,R. aceris,H-NS,Multi-drug,Air
+A51,R. aceris,CRP,Multi-drug,Air
+A51,R. inusitata,CRP,Multi-drug,Air
+A51,R. victoriana,H-NS,Multi-drug,Air
+A51,R. sikkimica,CRP,Multi-drug,Air
+S25,P. sp. MM211,MexF,Multi-drug,Surface
+S25,P. mendocina,TriC,Disinfecting Agents And Antiseptics,Surface
+S25,S. balearica,MexK,Multi-drug,Surface
+S25,P. benzenivorans,rsmA,Multi-drug,Surface
+S25,P. tohonis,MexK,Multi-drug,Surface
+S25,P. alcaligenes,YajC,Multi-drug,Surface
+S25,P. sp. LS44,MexK,Multi-drug,Surface
+S25,P. furukawaii,MexK,Multi-drug,Surface
+S25,P. aeruginosa,MexB,Multi-drug,Surface
+S25,P. knackmussii,MexK,Multi-drug,Surface
+S13,A. lwoffii,OXA-648,Multi-drug,Surface
+S13,D. gerundensis,CRP,Multi-drug,Surface
+A26,R. aceris,H-NS,Multi-drug,Air
+A26,R. bonaserana,RAHN-1,Cephalosporin,Air
+A22,R. bonaserana,RAHN-1,Cephalosporin,Air
+A22,R. aceris,H-NS,Multi-drug,Air
+A22,R. victoriana,CRP,Multi-drug,Air
+A22,R. bonaserana,CRP,Multi-drug,Air
+A22,R. sikkimica,H-NS,Multi-drug,Air
+A22,R. aceris,CRP,Multi-drug,Air
+A22,R. victoriana,H-NS,Multi-drug,Air
+A22,R. aquatilis,H-NS,Multi-drug,Air
+A22,R. inusitata,H-NS,Multi-drug,Air
+A22,R. victoriana,RAHN-1,Cephalosporin,Air
+A22,R. aquatilis,RAHN-1,Cephalosporin,Air
+A52,R. aceris,H-NS,Multi-drug,Air
+A52,R. bonaserana,RAHN-1,Cephalosporin,Air
+A52,R. bonaserana,CRP,Multi-drug,Air
+A52,R. aquatilis,H-NS,Multi-drug,Air
+A52,R. victoriana,CRP,Multi-drug,Air
+A52,R. victoriana,H-NS,Multi-drug,Air
+A52,P. agglomerans,RAHN-1,Cephalosporin,Air
+A52,C. neteri,H-NS,Multi-drug,Air
+A52,R. victoriana,RAHN-1,Cephalosporin,Air
+A52,R. chamberiensis,CRP,Multi-drug,Air
+A52,R. aquatilis,CRP,Multi-drug,Air
+A52,R. inusitata,H-NS,Multi-drug,Air
+A52,S. marcescens,H-NS,Multi-drug,Air
+A52,R. sikkimica,RAHN-1,Cephalosporin,Air
+A52,R. aceris,CRP,Multi-drug,Air
+A52,R. sikkimica,H-NS,Multi-drug,Air
+S26,P. sp.,CARB-49,Penam,Surface
+S26,P. sp.,CARB-50,Penam,Surface
+S26,P. sp. YP14,CARB-8,Penam,Surface
+S26,P. sp. YP14,CARB-16,Penam,Surface
+S2,A. schindleri,OXA-496,Multi-drug,Surface
+S2,A. seleniivolatilans,AxyX,Multi-drug,Surface
+S2,A. seleniivolatilans,AxyY,Multi-drug,Surface
+S2,A. xylosoxidans,AxyX,Multi-drug,Surface
+S2,A. xylosoxidans,AxyY,Multi-drug,Surface
+S2,A. lwoffii,OXA-496,Multi-drug,Surface
+S2,A. lwoffii,OXA-134,Multi-drug,Surface
+S5,A. lwoffii,OXA-134,Multi-drug,Surface
+S32,P. sp. WY6,CARB-8,Penam,Surface
+S32,P. sp.,CARB-8,Penam,Surface
+S32,A. lwoffii,OXA-361,Multi-drug,Surface
+S32,P. sp. WB2,sul2,Sulfonamide,Surface
+S32,A. lwoffii,OXA-284,Multi-drug,Surface
+A27,M. luteus,Erm(36),MLS,Air
+A27,K. palustris,Erm(36),MLS,Air
+A27,R. bonaserana,RAHN-1,Cephalosporin,Air
+A27,R. aceris,CRP,Multi-drug,Air
+A27,R. victoriana,CRP,Multi-drug,Air
+A57,R. victoriana,CRP,Multi-drug,Air
+A57,R. victoriana,RAHN-1,Cephalosporin,Air
+A57,R. bonaserana,RAHN-1,Cephalosporin,Air
+A57,R. aquatilis,H-NS,Multi-drug,Air
+A57,R. bonaserana,CRP,Multi-drug,Air
+A57,H. alvei,RAHN-1,Cephalosporin,Air
+A57,R. sikkimica,H-NS,Multi-drug,Air
+A57,R. aceris,H-NS,Multi-drug,Air
+A57,R. victoriana,H-NS,Multi-drug,Air
+A57,E. persicina,CRP,Multi-drug,Air
+A57,S. fonticola,H-NS,Multi-drug,Air
+A57,R. inusitata,RAHN-1,Cephalosporin,Air
+A57,R. inusitata,H-NS,Multi-drug,Air
+A53,R. bonaserana,RAHN-1,Cephalosporin,Air
+A53,R. victoriana,CRP,Multi-drug,Air
+A53,R. sikkimica,RAHN-1,Cephalosporin,Air
+A53,R. victoriana,RAHN-1,Cephalosporin,Air
+A53,R. bonaserana,CRP,Multi-drug,Air
+A53,L. sp. JS-SCA-14,CRP,Multi-drug,Air
+A53,R. sikkimica,H-NS,Multi-drug,Air
+A53,R. victoriana,H-NS,Multi-drug,Air
+A53,R. aquatilis,CRP,Multi-drug,Air
+A53,R. aceris,RAHN-1,Cephalosporin,Air
+A53,S. marcescens,RAHN-1,Cephalosporin,Air
+A53,R. aceris,H-NS,Multi-drug,Air
+A53,R. aquatilis,H-NS,Multi-drug,Air
+A41,R. terrae,cmx,Phenicol,Air
+A41,R. victoriana,CRP,Multi-drug,Air
+A41,R. victoriana,RAHN-1,Cephalosporin,Air
+A41,R. aceris,RAHN-1,Cephalosporin,Air
+A41,R. bonaserana,RAHN-1,Cephalosporin,Air
+A41,R. bonaserana,CRP,Multi-drug,Air
+S19,P. sp. CCC3.1,MexF,Multi-drug,Surface
+S15,S. stutzeri,MexW,Multi-drug,Surface
+S15,S. stutzeri,rsmA,Multi-drug,Surface
+S15,S. stutzeri,YajC,Multi-drug,Surface
+S21,E. faecium,AAC(6')-Ii,Aminoglycoside,Surface
+S21,E. faecium,msrC,Multi-drug,Surface
+S21,A. lwoffii,OXA-284,Multi-drug,Surface
+S21,E. faecium,ErmA,MLS,Surface
+S21,E. faecium,ANT(9)-Ia,Aminoglycoside,Surface
+S21,E. faecium,vanSA,Glycopeptide,Surface
+S21,E. faecium,vanRA,Glycopeptide,Surface
+S21,E. faecium,vanHA,Glycopeptide,Surface
+A58,A. tumefaciens,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,Phenicol,Air
+A58,S. maltophilia,smeF,Multi-drug,Air
+A58,A. cucumeris,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,Phenicol,Air
+A58,M. sp. TPU 3598,tet(42),Tetracycline,Air
+A58,S. zoogloeoides,BKC-1,Carbapenem,Air
+A58,T. sp. OXR-137,sul1,Sulfonamide,Air
+A30,R. aquatilis,H-NS,Multi-drug,Air
+A30,M. luteus,Erm(36),MLS,Air
+S16,P. sp. FP2338,MexF,Multi-drug,Surface
+S16,P. sp. OE 28.3,MexF,Multi-drug,Surface
+S16,P. putida,rsmA,Multi-drug,Surface
+S1,P. atacamensis,MexF,Multi-drug,Surface
+S1,P. siliginis,rsmA,Multi-drug,Surface
+S1,P. siliginis,MexF,Multi-drug,Surface
+S30,P. coleopterorum,YajC,Multi-drug,Surface
+S9,S. maltophilia,smeC,Multi-drug,Surface
+S9,S. maltophilia,smeB,Multi-drug,Surface
+S9,S. maltophilia,smeA,Multi-drug,Surface
+S9,S. maltophilia,smeD,Multi-drug,Surface
+S9,S. stutzeri,MexF,Multi-drug,Surface
+A29,R. victoriana,CRP,Multi-drug,Air
+A29,R. bonaserana,RAHN-1,Cephalosporin,Air
+A29,R. aceris,H-NS,Multi-drug,Air
+A29,R. inusitata,H-NS,Multi-drug,Air
+S10,S. maltophilia,APH(9)-Ic,Aminoglycoside,Surface
+S10,T. sp. OXR-137,sul1,Sulfonamide,Surface
+S10,M. sp. TPU 3598,tet(42),Tetracycline,Surface
+S10,S. maltophilia,smeF,Multi-drug,Surface
+S10,S. maltophilia,smeE,Multi-drug,Surface
+S10,S. maltophilia,smeD,Multi-drug,Surface
+S10,T. sp. OXR-137,qacEdelta1,Disinfecting Agents And Antiseptics,Surface
+S10,T. sp. OXR-137,ANT(2'')-Ia,Aminoglycoside,Surface
+S10,T. sp. OXR-137,OXA-10,Multi-drug,Surface
+S10,S. sp. YG1,SGM-1,Carbapenem,Surface
+S10,S. maltophilia,APH(3')-IIc,Aminoglycoside,Surface
+S10,A. tumefaciens,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,Phenicol,Surface
+S10,T. sp. OXR-137,OXA-17,Multi-drug,Surface
+S31,P. rhizosphaerae,MexF,Multi-drug,Surface
+S31,P. coleopterorum,YajC,Multi-drug,Surface
+S31,P. coleopterorum,MexF,Multi-drug,Surface
+S31,P. agglomerans,CRP,Multi-drug,Surface
+S23,P. oryzihabitans,rsmA,Multi-drug,Surface
+S11,T. sp. OXR-137,ANT(2'')-Ia,Aminoglycoside,Surface
+S11,T. sp. OXR-137,OXA-10,Multi-drug,Surface
+S11,T. sp. OXR-137,qacEdelta1,Disinfecting Agents And Antiseptics,Surface
+S11,T. sp. OXR-137,sul1,Sulfonamide,Surface
+S11,M. luteolum,tet(42),Tetracycline,Surface
+S11,S. maltophilia,APH(9)-Ic,Aminoglycoside,Surface
+S11,M. sp. PAMC22086,tet(42),Tetracycline,Surface
+S11,A. cucumeris,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,Phenicol,Surface
+S11,M. oxydans,tet(42),Tetracycline,Surface
+S11,T. sp. OXR-137,OXA-824,Multi-drug,Surface
+S11,A. tumefaciens,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,Phenicol,Surface
+S11,S. maltophilia,smeF,Multi-drug,Surface
+S11,M. sp. TPU 3598,vanR_gene_in_vanO_cluster,Glycopeptide,Surface
+S11,P. aeruginosa,OXA-677,Multi-drug,Surface
+S11,P. aeruginosa,qacEdelta1,Disinfecting Agents And Antiseptics,Surface
+S11,P. aeruginosa,sul1,Sulfonamide,Surface
+S11,P. aeruginosa,ANT(2'')-Ia,Aminoglycoside,Surface
+S11,M. sufflavum,tet(42),Tetracycline,Surface
+S11,S. cellulosum,BKC-1,Carbapenem,Surface
+S11,T. sp. OXR-137,OXA-656,Multi-drug,Surface
+S11,T. sp. OXR-137,VIM-4,Multi-drug,Surface
+S11,T. sp. OXR-137,AAC(6')-Il,Aminoglycoside,Surface
+S11,M. hydrocarbonoxydans,tet(42),Tetracycline,Surface
+A48,R. aquatilis,CRP,Multi-drug,Air
+A48,R. aquatilis,H-NS,Multi-drug,Air
+A32,R. bonaserana,RAHN-1,Cephalosporin,Air
+A32,R. victoriana,H-NS,Multi-drug,Air
+A32,R. aceris,H-NS,Multi-drug,Air
+A32,R. victoriana,RAHN-1,Cephalosporin,Air
+A32,E. americana,H-NS,Multi-drug,Air
+A32,R. inusitata,CRP,Multi-drug,Air
+A32,R. bonaserana,CRP,Multi-drug,Air
+A32,R. sikkimica,H-NS,Multi-drug,Air
+A32,R. victoriana,CRP,Multi-drug,Air
+A32,C. arupi,H-NS,Multi-drug,Air
+A32,R. sikkimica,CRP,Multi-drug,Air
+A32,R. aceris,CRP,Multi-drug,Air
+A32,S. plymuthica,H-NS,Multi-drug,Air
+A20,R. sikkimica,H-NS,Multi-drug,Air
+A50,R. bonaserana,RAHN-1,Cephalosporin,Air
+A50,R. victoriana,H-NS,Multi-drug,Air
+A50,R. aceris,CRP,Multi-drug,Air
+A50,R. aceris,H-NS,Multi-drug,Air
+A50,R. bonaserana,CRP,Multi-drug,Air
+A50,R. aquatilis,H-NS,Multi-drug,Air
+A50,R. victoriana,CRP,Multi-drug,Air
+A50,R. victoriana,RAHN-1,Cephalosporin,Air
+A50,R. aquatilis,CRP,Multi-drug,Air
+A50,E. coli,CRP,Multi-drug,Air
+S36,S. stutzeri,MexK,Multi-drug,Surface
+S36,S. stutzeri,MexF,Multi-drug,Surface
+S36,S. stutzeri,rsmA,Multi-drug,Surface
+A37,P. yeei,APH(6)-Id,Aminoglycoside,Air
+S28,S. stutzeri,MexF,Multi-drug,Surface

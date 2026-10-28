@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  shannon by type
+Kruskal-Wallis chi-squared = 19.39, df = 1, p-value = 1.066e-05
+

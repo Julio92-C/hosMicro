@@ -1,0 +1,31 @@
+type,taxon,n_samples,mean_percentage
+Air,R. bonaserana,23,28.635172066631036
+Air,A. lwoffii,23,0.023313650265539283
+Air,S. stutzeri,23,0.02248372355968458
+Air,P. marcusii,23,10.67842066259958
+Air,R. aceris,23,5.056824493808892
+Air,S. proteamaculans,23,0.27477861640427986
+Air,S. aerolata,23,0.0028153113523207316
+Air,R. victoriana,23,4.951607980701441
+Air,R. inusitata,23,1.4988561119586783
+Air,A. chevalieri,23,4.210118346879533
+Air,P. sp. WB2,23,0.00492679486656128
+Air,R. aquatilis,23,3.4971563095838287
+Air,P. sp. J380,23,0.09656517938460107
+Air,Others,23,41.04696075200402
+Surface,R. bonaserana,35,0.008656413495816554
+Surface,A. lwoffii,35,8.92051332794918
+Surface,S. stutzeri,35,7.754528436425193
+Surface,P. marcusii,35,0.09002057375144908
+Surface,P. sp. van23A,35,6.772510265871384
+Surface,R. aceris,35,1.343756291896154
+Surface,S. proteamaculans,35,4.183258545767137
+Surface,S. aerolata,35,3.7572488896721747
+Surface,R. victoriana,35,0.008422456374308
+Surface,R. inusitata,35,2.2621031916529044
+Surface,A. chevalieri,35,0.018118001477860513
+Surface,P. sp. WB2,35,2.469306699092045
+Surface,R. aquatilis,35,0.01561663786069608
+Surface,Pseudomonas coleopterorum,35,2.2802316609267868
+Surface,P. sp. J380,35,2.043512791662835
+Surface,Others,35,58.07219581612408

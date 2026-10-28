@@ -1,0 +1,7 @@
+domain_a,domain_b,mantel_r,p_raw,p_adj,method
+Taxonomy,Resistome,0.3015,1e-4,2e-4,BH
+Taxonomy,Virulome,0.4454,1e-4,2e-4,BH
+Resistome,Virulome,0.3765,1e-4,2e-4,BH
+Taxonomy,Mobilome,0.2,0.0012,0.0018,BH
+Resistome,Mobilome,0.1115,0.0464,0.0484,BH
+Virulome,Mobilome,0.1026,0.0484,0.0484,BH

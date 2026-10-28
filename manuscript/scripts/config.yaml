@@ -1,0 +1,202 @@
+study:
+  id: hospital_microbiome
+  name: "Hospital Air vs Surface microbiome (H1A + H1S, single batch)"
+  description: >
+    Hospital indoor microbiome study comparing 28 Air samples (H1A Kraken2,
+    27 in metadata) and 36 Surface samples (H1S Kraken2). Both Kraken2 multi-
+    sample reports are merged into one combined report by projects/
+    hospital_microbiome/prep_inputs.R, which also synthesises a Bracken-shaped
+    counts table (no Bracken was run on this dataset) and a Re-centrifuge-
+    shaped contaminants file derived from NX_AH4_contam.csv. The two negative
+    controls NX and N3 are R/02's baseline. Outputs are sandboxed under
+    test_run/ so the inputs tree stays untouched.
+
+# All inputs live under metaOmics/ (a user-curated subset of the parent
+# Hospital_microbiome/ project tree). Run prep_inputs.R once first.
+project_root: "C:/Users/julio/Desktop/Hospital_microbiome/metaOmics"
+
+inputs:
+  # Produced by prep_inputs.R from Datasets/Summary.csv (A37R -> A37 collapse,
+  # A25R dropped) — mirrors abri_kraken2_cleanData.R's sample reconciliation.
+  abricate_summary: "Reports_v2/Abricate/summary_reportClean.csv"
+  # Produced by prep_inputs.R: minimal taxid->name lookup union of H1A + H1S
+  # preambles. Only used by R/02 for the taxid->name join.
+  kraken2_report:   "Reports_v2/Kraken2/kraken2_db1_combined_reports.txt"
+  # Produced by prep_inputs.R: SYNTHETIC bracken — Kraken2 _all counts pivoted
+  # to wide per-sample format. Hospital_microbiome never ran Bracken; we
+  # substitute Kraken2 counts so R/03 normalisation has the merged table it
+  # hard-requires (see R/03 line 14).
+  bracken_report:   "Reports_v2/Bracken/bracken_arranged.csv"
+  # Produced by prep_inputs.R: SYNTHETIC rcf in R/02's expected 3-header-row
+  # triplet-column shape. Sample counts = Kraken2 _all, with the batch-specific
+  # NX rule already applied (prep_inputs.R section 2b). No control columns.
+  recentrifuge_csv: "Reports_v2/Re-centrifuge/*.rcf.data.csv"
+  # No wf-metagenomics diversity CSV exists for this study; R/06 will compute
+  # alpha indices from the combined counts as fallback.
+  diversity_csv:    ~
+
+metadata:
+  # Produced by prep_inputs.R: MetadataLocations2.csv + 2 Control rows (NX, N3).
+  file: "Metadata/hospital_metadata.csv"
+  sample_id_col: "sample"
+  group_cols:
+    - type                              # Air | Surface | Control (controls stripped by R/02 via the `controls` key below)
+  # Ward is partially confounded with type (all Surface samples are on ward E),
+  # so a ward random effect would absorb the type signal. Leaving null for the
+  # first run; revisit once we see how within-ward variance looks for Air.
+  random_effect: ~
+  fixed_effects:
+    - type
+  # NX and N3 negative controls. NX belongs to one batch of 11 Air samples and
+  # is applied upstream in prep_inputs.R (taxon removed from a batch sample when
+  # its count <= NX); N3 is unused. The rcf therefore has no control columns,
+  # so R/02 takes its "upstream subtraction" path and only keeps this list to
+  # identify the Control rows in the metadata.
+  controls:
+    - NX
+    - N3
+
+# No manual taxid/name fixes for this study.
+taxid_fixes_file: ~
+
+# Top-level group-color override (resolved by R/utils_palette.R::
+# resolve_top_level_colors for group_cols[[1]] = `type`). Applies
+# consistently across alpha-violin, beta-PCoA, DA, and resistome/
+# virulome/mobilome bars, and hence every group-colored panel.
+# Controls (NX/N3) are stripped by R/02, so only Air/Surface remain.
+colors:
+  type:
+    Air:     "#828385"   # grey
+    Surface: "#ed8cb6"   # pink
+
+filters:
+  # Read floor: a taxon counts in a sample only with > 10 reads. Same rule as
+  # the network stage (network.min_sample_count default 10). Was 17.
+  min_count_per_sample:   10
+  min_count_for_species:  500
+  min_prevalence_aldex:   2
+  # Drop plant (e.g. Cryptomeria pollen), animal (incl. human) and unplaced
+  # taxa by Kraken2 lineage in R/02, so every stage sees microbes only.
+  microbial_only:         true
+
+# Alpha diversity on species-rank rows only (no double counting at genus /
+# family clade rows) with the same > 10-read floor. Not rarefied: richness is
+# reported alongside rarefaction curves.
+alpha_diversity:
+  species_rank_only:      true
+  min_count_per_sample:   10
+
+# Community taxa stages (R/04-R/08 + polish_relative_abundance.R): species rank
+# only via the real Kraken2 rank code (no strain double counting, no two-word
+# higher ranks), and drop samples with < 100 species-level reads above the
+# floor (A25, A31, S8 at the time of writing). Gene stages keep all samples.
+taxa_filter:
+  rank:                   ["S"]
+  min_sample_reads:       100
+
+# Taxa ALDEx2: same > 10-read floor as the community analyses, and drop
+# Plasmodium (likely false-positive assignment; also removed from Fig S4).
+differential_abundance:
+  min_count_per_sample:   10
+  exclude_genera:         ["Plasmodium"]
+
+# Taxonomy stage (Venn / heatmap) uses >=, so 11 == "> 10", matching the floor.
+taxonomy:
+  min_count_per_sample:   11
+
+stages:
+  clean_data:             true
+  normalisation:          true
+  taxonomy:               true
+  relative_abundance:     true
+  alpha_diversity:        true
+  beta_diversity:         true
+  differential_abundance: true
+  resistome:              true
+  virulome:               true
+  mobilome:               true
+  network:                true
+  report:                 true
+  panels:                 true
+
+stats:
+  permanova_permutations: 9999
+  aldex_mc_samples:       128
+  alpha: 0.05
+  # Composite GE alpha panels show p_adj across resistome/virulome/mobilome
+  # per metric, as in Table 1 (R/13 .panels_ge_alpha_padj).
+  ge_alpha_padj_scope:    cross_domain
+
+report:
+  top_n_taxa:              25
+  rank_taxa_by:            prevalence_x_abundance
+  network_top_nodes:       50
+  network_edge_min_weight: 0.3
+  show_per_group_chord:    true
+  show_per_group_sankey:   true
+
+# Per-VFDB sankey filter (R/12). Cap genes shown so the diagram stays legible.
+network:
+  # Network = read-level taxon-element links; sample-taxon edges need > 10
+  # reads (matches the legacy Figure 4 metrics). Per-taxon sample lists in the
+  # text are reported from all gene-carrying reads. Decided with Julio 2026-10-27
+  # (floor 0 tried and reverted: 1017 nodes, max k 201).
+  min_sample_count: 10
+  sankey:
+    top_genes:   30
+    rank_by:     prevalence_x_abundance
+
+# Publication panel rendering — unified fontsize across every composite cell
+# (8pt text + legend). Raster sources (pheatmap / Venn / UpSet / circlize)
+# are shrunk at the per-stage modules; ggplot panels obey these knobs via
+# R/13_panels.R::.panels_composite_theme.
+panels:
+  composite_unified:    true
+  composite_base_size:  12    # 8->12: canvas is 16.5in wide, Word shrinks it to ~40%
+  composite_legend_size: 11   # 8->11 to match
+  group_label:          "Group"  # relabel raw `type` axis/legend titles
+  # UpSet (raster) text: ytitle, yticks, set-size title, set-size ticks, set names, bar numbers.
+  # Re-draw with scripts/upset_only.R after changing.
+  upset_text_scale:     [2.0, 2.0, 1.8, 1.8, 2.3, 2.0]
+  upset_mainbar_bottom_margin: 0.6   # lines; UpSetR default -0.65 hides the "0" tick
+  # ggrepel point labels (panel E prevalence plots) at composite scale.
+  repel_label_size:       10     # pt (stage default ~8)
+  repel_box_padding:      0.4    # lines
+  repel_point_padding:    0.3    # lines
+  repel_avoid_all_points: true   # keep labels off unlabelled points too
+  repel_force:            3      # stage default 1.5
+  repel_y_headroom:       0.25   # free space above the top points for labels
+  # Legend padding (all ggplot legends in the composites).
+  legend_box_margin_pt:   [0, 10, 0, 0]   # t, r, b, l — keep legends off the canvas edge
+  legend_box_spacing_pt:  4               # plot <-> legend gap (ggplot default ~11)
+  legend_key_height_cm:   0.55            # uniform row height (fits superscripts)
+  legend_key_spacing_y_pt: 2              # fixed gap between legend rows
+  # Display-only label shortening (legends + panel E point labels). Data,
+  # stats, heatmaps and tables keep the full names; each shortened label
+  # gets a superscript letter, keyed per figure in
+  # <figures_dir>/panels/label_keys/<slug>.csv for the caption.
+  label_footnotes:        true
+  label_renames:
+    "Disinfecting Agents And Antiseptics": "Biocides"
+    "Nutritional/Metabolic factor":        "Nutrition/Metabolism"
+    "Effector delivery system":            "Effector delivery"
+  label_shorten_regex:
+    # PlasmidFinder rep-type replicons: rep10_6_rep(SAP093B) -> rep10_6
+    - pattern:     "^(rep[0-9A-Za-z]+_[0-9A-Za-z]+)_.+$"
+      replacement: "\\1"
+  composite_margin_pt:  6
+  strip_plot_title:     true
+  show_title:           false
+  # Publication output: TIFF (LZW-compressed, 300 dpi). PNG suppressed for
+  # the panel composites since they're not embedded in the Quarto report;
+  # per-stage figures under <figures_dir>/<stage>/*.png remain PNG.
+  tiff:                 true
+  png:                  false
+
+# Sandboxed outputs (mirrors chicken_batch1 / lung_microbiome). All pipeline
+# writes go under metaOmics/test_run/ so the curated inputs tree is read-only.
+outputs:
+  datasets_dir: "test_run_v2/Datasets"
+  figures_dir:  "test_run_v2/Figures"
+  report_html:  "test_run_v2/Reports/pipeline_report.html"
+  log_file:     "test_run_v2/Reports/pipeline.log"

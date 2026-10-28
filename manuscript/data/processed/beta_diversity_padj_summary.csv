@@ -1,0 +1,5 @@
+distance,test,r2,p_raw,p_adj,method
+bray-curtis,PERMANOVA,0.13937200078068063,1e-4,1e-4,BH
+bray-curtis,PERMDISP,NA,0.0014,0.0028,BH
+jaccard,PERMANOVA,0.08774979244289746,1e-4,1e-4,BH
+jaccard,PERMDISP,NA,0.0362,0.0362,BH

@@ -1,0 +1,1467 @@
+Source,Target,Weight
+A20,R. bonaserana,1787
+A20,R. sikkimica,116
+A22,B. selenatireducens,80
+A22,E. hormaechei,44
+A22,E. persicina,24
+A22,G. quercinecans,41
+A22,K. oxytoca,41
+A22,P. beijingensis,13
+A22,R. aceris,48632
+A22,R. aquatilis,6510
+A22,R. bonaserana,1825096
+A22,R. inusitata,7080
+A22,R. sikkimica,4248
+A22,R. victoriana,84532
+A22,S. hominis,240
+A22,Y. aleksiciae,19
+A26,R. aceris,794
+A26,R. bonaserana,4000
+A26,S. capitis,44
+A26,S. haemolyticus,152
+A26,S. stutzeri,28
+A27,K. palustris,6549
+A27,M. luteus,11811
+A27,R. aceris,695
+A27,R. bonaserana,11922
+A27,R. victoriana,1306
+A29,R. aceris,1856
+A29,R. bonaserana,25880
+A29,R. inusitata,610
+A29,R. victoriana,3736
+A29,S. epidermidis,135
+A29,S. hominis,256
+A30,K. palustris,38
+A30,M. luteus,54
+A30,R. aquatilis,61
+A30,S. hominis,120
+A32,B. selenatireducens,168
+A32,C. arupi,51
+A32,C. lapagei,11
+A32,E. americana,371
+A32,E. asburiae,46
+A32,K. oxytoca,35
+A32,R. aceris,175300
+A32,R. bonaserana,1708906
+A32,R. inusitata,4696
+A32,R. sikkimica,14166
+A32,R. victoriana,131440
+A32,S. plymuthica,66
+A36,R. bonaserana,1019
+A36,R. victoriana,175
+A37,P. yeei,1122
+A41,R. aceris,391
+A41,R. bonaserana,9268
+A41,R. terrae,306
+A41,R. victoriana,854
+A41,S. aureus,770
+A41,S. epidermidis,90
+A41,S. haemolyticus,754
+A44,S. thermophilus,48
+A48,B. selenatireducens,72
+A48,P. sp. At-9b,21
+A48,R. aquatilis,564
+A50,B. selenatireducens,154
+A50,E. coli,203
+A50,E. hormaechei,166
+A50,E. sp. JUb54,29
+A50,K. oxytoca,52
+A50,P. ananatis,41
+A50,P. beijingensis,19
+A50,P. dispersa,82
+A50,P. sp. At-9b,33
+A50,R. aceris,51240
+A50,R. aquatilis,18444
+A50,R. badensis,350
+A50,R. bonaserana,882464
+A50,R. inusitata,2488
+A50,R. sikkimica,1636
+A50,R. victoriana,73948
+A50,S. quinivorans,31
+A50,Y. canariae,18
+A51,B. selenatireducens,264
+A51,E. chengduensis,28
+A51,E. hormaechei,200
+A51,E. ictaluri,24
+A51,E. sp. CP102,16
+A51,E. sp. E4742,14
+A51,R. aceris,41463
+A51,R. aquatilis,3663
+A51,R. bonaserana,1972406
+A51,R. inusitata,1716
+A51,R. sikkimica,1968
+A51,R. victoriana,120700
+A51,S. glossinidius,18
+A51,S. sp. UGAL515B_01,46
+A51,Y. canariae,19
+A52,B. selenatireducens,210
+A52,C. amalonaticus Y19,48
+A52,C. neteri,762
+A52,E. ictaluri,25
+A52,K. oryzae,19
+A52,K. oxytoca,136
+A52,K. pseudosacchari,26
+A52,L. sp. JS-SCA-14,43
+A52,M. hanseatica,28
+A52,P. agglomerans,211
+A52,R. aceris,104223
+A52,R. aquatilis,21930
+A52,R. badensis,214
+A52,R. bonaserana,1518822
+A52,R. chamberiensis,414
+A52,R. inusitata,2530
+A52,R. sikkimica,7468
+A52,R. victoriana,125172
+A52,S. glossinidius,18
+A52,S. marcescens,163
+A52,T. citrea,21
+A52,Y. frederiksenii,98
+A53,B. selenatireducens,508
+A53,C. amalonaticus Y19,19
+A53,C. neteri,253
+A53,C. reinhardtii,17
+A53,E. cancerogenus,116
+A53,E. kobei,28
+A53,L. sp. JS-SCA-14,61
+A53,P. rwandensis,48
+A53,R. aceris,62150
+A53,R. aquatilis,14454
+A53,R. badensis,195
+A53,R. bonaserana,1970160
+A53,R. inusitata,3582
+A53,R. sikkimica,4554
+A53,R. victoriana,191136
+A53,S. goeteborgense,71
+A53,S. marcescens,167
+A53,S. sp. FGI94,11
+A53,Y. frederiksenii,68
+A53,Y. similis,11
+A55,B. selenatireducens,135
+A55,E. coli,78
+A55,K. oxytoca,64
+A55,R. aceris,61360
+A55,R. aquatilis,11312
+A55,R. bonaserana,1521523
+A55,R. inusitata,3651
+A55,R. sikkimica,1700
+A55,R. victoriana,87102
+A55,S. sp. UGAL515B_01,32
+A55,V. nigripulchritudo,12
+A56,B. selenatireducens,39
+A56,R. badensis,57
+A57,B. selenatireducens,600
+A57,E. fergusonii,24
+A57,E. persicina,53
+A57,H. alvei,56
+A57,K. oxytoca,53
+A57,R. aceris,60456
+A57,R. aquatilis,3051
+A57,R. bonaserana,2627184
+A57,R. inusitata,3136
+A57,R. sikkimica,3780
+A57,R. victoriana,177144
+A57,S. fonticola,61
+A57,V. nigripulchritudo,11
+A57,Y. hibernica,17
+A57,Y. ruckeri,46
+A58,A. cucumeris,13062
+A58,A. tumefaciens,2600
+A58,C. cellulans,54
+A58,D. lacusdianchii,92
+A58,M. luteus,45
+A58,M. sp. TPU 3598,2076
+A58,P. sp. J380,2058
+A58,R. sp. XES5,14
+A58,S. maltophilia,1526
+A58,S. maltophilia R551-3,36
+A58,S. xanthii,24
+A58,S. zoogloeoides,293
+A58,T. sp. OXR-137,158
+S1,P. agarici,11
+S1,P. allokribbensis,15
+S1,P. atacamensis,15174
+S1,P. fluorescens,952
+S1,P. fragi,11
+S1,P. germanica,92
+S1,P. granadensis,174
+S1,P. hamedanensis,71
+S1,P. iranensis,127
+S1,P. koreensis,6125
+S1,P. moraviensis,966
+S1,P. moraviensis R28-S,154
+S1,P. prosekii,22
+S1,P. serboccidentalis,62
+S1,P. siliginis,290598
+S1,P. sp. FP1762,413
+S1,P. sp. HN2,16
+S1,P. sp. HS6,34
+S1,P. sp. NIBR-H-19,138
+S1,P. sp. SCA2728.1_7,27
+S1,P. sp. URMO17WK12:I11,13
+S1,P. synxantha,35
+S1,P. vancouverensis,16
+S1,P. viridiflava,27
+S1,S. stutzeri,64
+S10,A. cucumeris,1435
+S10,A. pusense,315
+S10,A. tumefaciens,1560
+S10,A. vitis,84
+S10,G. hydrophobica,16
+S10,M. sp. J1-1,11
+S10,M. sp. TPU 3598,163
+S10,S. maltophilia,22900
+S10,S. sp. SBJS02,80
+S10,S. sp. YG1,1536
+S10,S. stutzeri,55
+S10,T. sp. OXR-137,2295
+S11,A. cucumeris,18504
+S11,A. tumefaciens,2724
+S11,E. coli,154
+S11,G. iterans,26
+S11,M. hydrocarbonoxydans,54
+S11,M. liquefaciens,352
+S11,M. luteolum,122
+S11,M. oxydans,11020
+S11,M. sp. 4R-513,11
+S11,M. sp. PAMC22086,175
+S11,M. sp. TPU 3598,2624
+S11,M. sufflavum,147
+S11,P. aeruginosa,483
+S11,R. oryzihabitans,112
+S11,S. cellulosum,52
+S11,S. maltophilia,5499
+S11,T. sp. OXR-137,13685
+S12,P. aeruginosa,40
+S12,P. lactis,98
+S12,P. salmasensis,98
+S12,P. simiae,42
+S12,P. sp. J380,30940
+S12,P. sp. MYb193,1970
+S13,A. lwoffii,2872
+S13,D. gerundensis,280
+S13,M. sp. TPU 3598,70
+S14,A. lwoffii,1182
+S14,D. gerundensis,262
+S14,S. stutzeri,7120
+S15,A. lwoffii,70
+S15,S. stutzeri,988269
+S15,S. stutzeri DSM 4166,67
+S16,P. agglomerans,1788
+S16,P. antarctica,184
+S16,P. fluorescens,230
+S16,P. mucidolens,21
+S16,P. poae,130
+S16,P. putida,83
+S16,P. simiae,40
+S16,P. sp. ADAK18,30
+S16,P. sp. FP2338,25363
+S16,P. sp. OE 28.3,46300
+S16,P. sp. R5-89-07,52
+S16,P. trivialis,58
+S18,S. proteamaculans,319
+S19,P. alkylphenolica,22
+S19,P. antarctica,83
+S19,P. atacamensis,51
+S19,P. baltica,12
+S19,P. canadensis,588
+S19,P. cedrina,228
+S19,P. entomophila,28
+S19,P. extremaustralis,296
+S19,P. fluorescens,708
+S19,P. lactis,38
+S19,P. lurida,556
+S19,P. marginalis,268
+S19,P. orientalis,510
+S19,P. palleroniana,250
+S19,P. poae,162
+S19,P. salmasensis,50
+S19,P. simiae,141
+S19,P. sp. ADAK13,58
+S19,P. sp. CBS,32
+S19,P. sp. CCC3.1,152
+S19,P. sp. D3,68
+S19,P. sp. FJ2-5-13,15
+S19,P. sp. FP2335,219
+S19,P. sp. FP453,1023
+S19,P. sp. OE 28.3,65
+S19,P. sp. R76,41
+S19,P. sp. S09G 359,192
+S19,P. sp. WJP1,14
+S19,P. synxantha,149
+S19,P. tolaasii,187
+S19,P. trivialis,471
+S19,P. umsongensis,30
+S19,P. veronii,70
+S2,A. insolitus,250
+S2,A. lwoffii,57562
+S2,A. schindleri,120
+S2,A. seleniivolatilans,1266
+S2,A. sp. ACNIH1,78
+S2,A. sp. ES-001,110
+S2,A. veterisilvae,220
+S2,A. xylosoxidans,3114
+S2,E. faecium,39
+S20,P. azotoformans,240
+S20,P. brenneri,19
+S20,P. canadensis,47
+S20,P. cedrina,37
+S20,P. fluorescens,111
+S20,P. lactis,66
+S20,P. sivasensis,74
+S20,P. sp. ADAK18,16
+S20,P. sp. CCI1.1,100
+S20,P. sp. FP2309,29
+S20,P. sp. FP453,174
+S20,P. sp. NS1(2017),156
+S21,A. lwoffii,85840
+S21,A. pseudolwoffii,53
+S21,A. sp. WY4,73
+S21,E. faecium,306290
+S21,P. fluorescens,28
+S21,P. sp. NS1(2017),12
+S22,A. lwoffii,1311
+S22,A. pseudolwoffii,28
+S22,P. benzenivorans,21
+S22,P. coleopterorum,5908
+S22,P. knackmussii,11
+S22,P. lalkuanensis,13
+S22,P. putida,50
+S22,P. rhizosphaerae,432
+S22,P. sp. MM227,146
+S22,P. viridiflava,11
+S22,S. balearica,20
+S23,P. oryzihabitans,73997
+S23,P. psychrotolerans,796
+S24,P. granadensis,28
+S24,P. moraviensis,31
+S24,P. siliginis,17
+S24,P. sp. NIBR-H-19,20770
+S24,P. sp. Seg1,115
+S24,P. umsongensis,11
+S25,A. chroococcum,207
+S25,A. salinestris,68
+S25,A. sp. CA-230715,12
+S25,B. gladioli,26
+S25,H. nanhaiensis,21
+S25,H. phragmitis,24
+S25,H. sabulinigri,23
+S25,H. sp. SMJS2,34
+S25,P. aeruginosa,2524
+S25,P. alcaligenes,1064
+S25,P. argentinensis,144
+S25,P. baltica,58
+S25,P. benzenivorans,250
+S25,P. berkeleyensis,60
+S25,P. coleopterorum,34
+S25,P. cremoricolorata,50
+S25,P. entomophila,60
+S25,P. eucalypticola,19
+S25,P. extremaustralis,12
+S25,P. fulva,408
+S25,P. fulva 12-X,154
+S25,P. furukawaii,665
+S25,P. guguanensis,220
+S25,P. gummiphilus,15
+S25,P. hydrolytica,153
+S25,P. khazarica,24
+S25,P. kielensis,48
+S25,P. knackmussii,364
+S25,P. lalkuanensis,210
+S25,P. marincola,12
+S25,P. mendocina,476
+S25,P. oryzae,45
+S25,P. oryzihabitans,93
+S25,P. otitidis,1002
+S25,P. phenolilytica,19
+S25,P. phytophila,12
+S25,P. pohangensis,26
+S25,P. promysalinigenes,12
+S25,P. protegens,23
+S25,P. psychrotolerans,129
+S25,P. putida,772
+S25,P. resinovorans NBRC 106553,51
+S25,P. saudiphocaensis,24
+S25,P. seleniipraecipitans,64
+S25,P. silesiensis,14
+S25,P. sp. ABC1,255
+S25,P. sp. AN-1,96
+S25,P. sp. B11D7D,40
+S25,P. sp. C9-3,13
+S25,P. sp. F3-2,21
+S25,P. sp. G.S.17,54
+S25,P. sp. GCEP-101,135
+S25,P. sp. J452,64
+S25,P. sp. KNUC1026,81
+S25,P. sp. KU26590,114
+S25,P. sp. KU43P,15
+S25,P. sp. L5B5,16
+S25,P. sp. LS44,335
+S25,P. sp. MM211,152
+S25,P. sp. MM227,68
+S25,P. sp. N3-W,30
+S25,P. sp. PDNC002,264
+S25,P. sp. PIA16,22
+S25,P. sp. Pc102,65
+S25,P. sp. Q1-7,55
+S25,P. sp. RC10,19
+S25,P. sp. SCB32,29
+S25,P. sp. SG20056,82
+S25,P. sp. SL4(2022),180
+S25,P. sp. SO81,1092
+S25,P. sp. StFLB209,17
+S25,P. sp. TCU-HL1,343
+S25,P. sp. TUM22785,108
+S25,P. syringae,86
+S25,P. tohonis,70
+S25,P. triclosanedens,82
+S25,P. viridiflava,21
+S25,P. wenzhouensis,16
+S25,S. balearica,156
+S25,S. cellulosum,24
+S25,S. frequens,39
+S25,S. stutzeri,5720
+S25,S. stutzeri RCH2,15
+S26,B. pseudogrignonensis,26
+S26,E. hormaechei,27
+S26,P. maritimus,80
+S26,P. raelei,88
+S26,P. sp.,594
+S26,P. sp. P11G5,50
+S26,P. sp. YP14,252
+S28,P. agglomerans,834
+S28,S. stutzeri,12274
+S29,L. adecarboxylata,108
+S29,P. coleopterorum,4068
+S29,P. sp. MM227,102
+S3,A. sp. PAMC25284,143
+S3,D. sp. DW 0440,240
+S3,E. amylovora,98
+S3,E. aphidicola,88
+S3,E. asburiae,54
+S3,E. cloacae,75
+S3,E. coli,1406
+S3,E. roggenkampii,589
+S3,H. alvei,76
+S3,K. pneumoniae,675
+S3,O. proteus,609
+S3,P. canadensis,96
+S3,P. chlororaphis,88
+S3,P. fragi,112
+S3,P. lurida,38
+S3,P. poae,46
+S3,P. putida,424
+S3,P. sp. CCC3.1,556
+S3,P. sp. FJ2-5-13,40
+S3,P. sp. FP2338,616
+S3,P. sp. J380,14382
+S3,P. sp. ML2-2023-3,66
+S3,P. sp. MUP55,12
+S3,P. sp. MYb193,1776
+S3,P. sp. OE 28.3,573
+S3,P. taetrolens,25
+S3,P. veronii,13
+S3,R. aceris,1333277
+S3,R. aquatilis,8930
+S3,R. inusitata,654816
+S3,R. sp. WMR114,608
+S3,S. enterica,21
+S3,S. flexneri,486
+S3,S. grimesii,166
+S3,S. indicatrix,166
+S3,S. liquefaciens,116
+S3,S. proteamaculans,53409
+S3,Y. enterocolitica,32
+S3,Y. ruckeri,90
+S30,P. agglomerans,8690
+S30,P. coleopterorum,28380
+S30,P. eucalypti,56
+S30,P. rhizosphaerae,954
+S30,P. sp. MM227,170
+S31,P. agglomerans,7332
+S31,P. coleopterorum,83322
+S31,P. rhizosphaerae,3120
+S31,P. sp. MM227,1314
+S32,A. baumannii,64
+S32,A. lwoffii,400
+S32,A. radioresistens,225
+S32,P. agglomerans,7032
+S32,P. alfalfae,15
+S32,P. arenosus,120
+S32,P. sp.,1020
+S32,P. sp. G,64
+S32,P. sp. KH172YL61,343
+S32,P. sp. WB2,4995
+S32,P. sp. WY6,278
+S34,P. frigoritolerans,2489
+S36,A. salinestris,37
+S36,P. aeruginosa,464
+S36,P. alcaligenes,200
+S36,P. benzenivorans,73
+S36,P. cavernae,61
+S36,P. fluorescens,43
+S36,P. furukawaii,94
+S36,P. knackmussii,50
+S36,P. lalkuanensis,60
+S36,P. marincola,11
+S36,P. sp. AN-1,30
+S36,P. sp. CC6-YY-74,44
+S36,P. sp. HLS-6,78
+S36,P. sp. LS44,92
+S36,P. sp. MM211,100
+S36,P. sp. Ost2,17
+S36,P. sp. PDNC002,13
+S36,P. sp. SO81,50
+S36,P. sp. TCU-HL1,27
+S36,P. sp. TUM22785,22
+S36,P. tohonis,76
+S36,R. rosettiformans,121
+S36,S. balearica,850
+S36,S. frequens,332
+S36,S. stutzeri,3291156
+S36,S. stutzeri CCUG 29243,50
+S5,A. lwoffii,488727
+S5,P. oryzihabitans,524
+S6,S. aerolata,23238
+S9,A. lwoffii,518
+S9,E. casseliflavus,521
+S9,P. atacamensis,1164
+S9,P. fluorescens,271
+S9,P. granadensis,277
+S9,P. moraviensis,315
+S9,P. orientalis,18
+S9,P. prosekii,18
+S9,P. sp. AO-1,68
+S9,P. sp. B21-053,14
+S9,P. sp. MAG733B,12
+S9,P. sp. SCA2728.1_7,40
+S9,P. syringae,14
+S9,S. maltophilia,10054
+S9,S. stutzeri,19780
+R. aceris,H-NS,1
+R. aceris,CRP,1
+R. inusitata,CRP,1
+R. inusitata,H-NS,1
+R. aceris,RAHN-2,1
+K. pneumoniae,qacE,1
+P. sp. J380,MexF,1
+R. aquatilis,CRP,1
+P. chlororaphis,qacE,1
+S. proteamaculans,CRP,1
+P. sp. OE 28.3,Pseudomonas_aeruginosa_CpxR,1
+P. sp. FJ2-5-13,MexF,1
+S. flexneri,Col(pHAD28)_1,1
+R. aquatilis,Col(pHAD28)_1,1
+E. roggenkampii,Col(Ye4449)_1,1
+A. sp. PAMC25284,Col440II_1,1
+A. sp. PAMC25284,Col(pHAD28)_1,1
+S. flexneri,Col440II_1,1
+E. coli,Col(pHAD28)_1,1
+S. proteamaculans,Col(Ye4449)_1,1
+E. coli,Col440II_1,1
+E. cloacae,Col(Ye4449)_1,1
+Y. enterocolitica,Col(Ye4449)_1,1
+K. pneumoniae,Col(Ye4449)_1,1
+R. sp. WMR114,Col(pHAD28)_1,1
+E. amylovora,Col(Ye4449)_1,1
+D. sp. DW 0440,Col(Ye4449)_1,1
+E. coli,Col(Ye4449)_1,1
+K. pneumoniae,Col440II_1,1
+K. pneumoniae,Col(pHAD28)_1,1
+Y. ruckeri,Col(Ye4449)_1,1
+P. fragi,Col440II_1,1
+R. aquatilis,Col440I_1,1
+E. aphidicola,Col440II_1,1
+E. aphidicola,Col(pHAD28)_1,1
+E. asburiae,Col(pHAD28)_1,1
+H. alvei,Col(Ye4449)_1,1
+E. asburiae,Col440II_1,1
+E. amylovora,Col(pHAD28)_1,1
+R. inusitata,rcsB,1
+P. sp. J380,fliM,1
+P. sp. J380,fliN,1
+P. sp. J380,fliP,1
+P. sp. J380,fliQ,1
+R. aceris,rcsB,1
+P. sp. J380,PA1464,1
+S. liquefaciens,fliG,1
+S. proteamaculans,fliP,1
+S. proteamaculans,cheY,1
+R. aceris,rpoS,1
+P. sp. MYb193,PA1464,1
+P. sp. CCC3.1,hcpA,1
+P. sp. FP2338,pvdH,1
+P. sp. FP2338,mbtH-like,1
+P. sp. FP2338,algI,1
+P. canadensis,fliI,1
+P. taetrolens,pilG,1
+P. sp. J380,flgI,1
+P. sp. J380,flgH,1
+P. sp. OE 28.3,fliM,1
+S. proteamaculans,fliM,1
+S. proteamaculans,rcsB,1
+P. lurida,tssC,1
+P. sp. MYb193,algA,1
+P. sp. MYb193,pvdS,1
+P. sp. J380,algA,1
+P. sp. J380,algI,1
+P. putida,fliM,1
+P. putida,fliP,1
+P. putida,fliN,1
+P. veronii,fliG,1
+P. canadensis,fliM,1
+P. canadensis,fliN,1
+P. sp. J380,mbtH-like,1
+P. poae,hsiC1/vipB/tssC,1
+P. poae,hsiB1/vipA/tssB,1
+P. sp. MUP55,pilH,1
+P. sp. FP2338,PA1464,1
+P. sp. CCC3.1,PA1464,1
+P. sp. OE 28.3,fleN,1
+O. proteus,CTX,1
+S. indicatrix,EMRRSM,1
+P. sp. ML2-2023-3,MEXE,1
+S. proteamaculans,SDEX,1
+S. proteamaculans,SDEB,1
+S. grimesii,SDEY,1
+S. grimesii,SDEX,1
+P. sp. MYb193,EMHC,1
+P. sp. MYb193,MEXE,1
+S. enterica,CTX,1
+S. proteamaculans,BLAC,1
+R. aceris,CTX,1
+P. sp. FJ2-5-13,MEXF,1
+P. sp. J380,MEXF,1
+R. aceris,blaRAHN-3,1
+P. sp. J380,YajC,1
+P. salmasensis,fliG,1
+P. lactis,alg8,1
+P. sp. J380,pilG,1
+P. lactis,pilG,1
+P. sp. MYb193,mbtH-like,1
+P. simiae,flgI,1
+P. simiae,flgH,1
+P. simiae,flgG,1
+P. sp. J380,pilH,1
+P. sp. J380,fliG,1
+P. sp. J380,hcp1,1
+P. sp. J380,hsiB1/vipA/tssB,1
+P. sp. MYb193,PA3348,1
+P. sp. MYb193,algI,1
+P. sp. J380,flgC,1
+P. sp. MYb193,pilG,1
+P. aeruginosa,hsiB1/vipA/tssB,1
+P. aeruginosa,hsiC1/vipB/tssC,1
+P. sp. J380,fliI,1
+R. victoriana,RAHN-1,1
+R. aquatilis,H-NS,1
+R. victoriana,CRP,1
+R. bonaserana,RAHN-1,1
+R. bonaserana,CRP,1
+R. aquatilis,RAHN-1,1
+S. sp. UGAL515B_01,CRP,1
+V. nigripulchritudo,H-NS,1
+R. sikkimica,H-NS,1
+R. bonaserana,rcsB,1
+R. bonaserana,hcp/tssD,1
+B. selenatireducens,rcsB,1
+R. aceris,hcp/tssD,1
+B. selenatireducens,hcp/tssD,1
+R. aquatilis,rcsB,1
+K. oxytoca,rcsB,1
+E. coli,hcp/tssD,1
+R. victoriana,rcsB,1
+R. bonaserana,blaRAHN-6,1
+S. glossinidius,CRP,1
+E. chengduensis,RAHN-1,1
+E. sp. E4742,CRP,1
+E. sp. CP102,RAHN-1,1
+R. victoriana,H-NS,1
+R. sikkimica,CRP,1
+E. hormaechei,hcp/tssD,1
+R. victoriana,hcp/tssD,1
+E. ictaluri,rcsB,1
+Y. canariae,hcp/tssD,1
+P. sp. MM227,rpoN,1
+L. adecarboxylata,rpoS,1
+P. coleopterorum,flgI,1
+P. coleopterorum,flgG,1
+P. coleopterorum,PA3348,1
+P. coleopterorum,pilZ,1
+P. coleopterorum,PA1464,1
+L. adecarboxylata,rcsB,1
+P. coleopterorum,fleN,1
+P. kielensis,YajC,1
+P. sp. RC10,MexB,1
+P. sp. MM211,MexF,1
+P. sp. PDNC002,MexK,1
+P. mendocina,TriC,1
+P. cremoricolorata,Pseudomonas_aeruginosa_CpxR,1
+S. balearica,MexK,1
+P. wenzhouensis,TriC,1
+P. baltica,MexK,1
+P. sp. AN-1,Pseudomonas_aeruginosa_CpxR,1
+P. benzenivorans,rsmA,1
+P. tohonis,MexK,1
+A. sp. CA-230715,MexK,1
+P. alcaligenes,YajC,1
+P. phytophila,Pseudomonas_aeruginosa_CpxR,1
+P. sp. GCEP-101,MexB,1
+P. sp. MM227,Pseudomonas_aeruginosa_CpxR,1
+P. sp. LS44,MexK,1
+P. sp. SG20056,Pseudomonas_aeruginosa_CpxR,1
+P. furukawaii,MexK,1
+P. aeruginosa,MexB,1
+P. knackmussii,MexK,1
+P. sp. B11D7D,Pseudomonas_aeruginosa_CpxR,1
+A. salinestris,MexK,1
+P. hydrolytica,pilG,1
+P. hydrolytica,pilH,1
+P. sp. SO81,pilT,1
+S. stutzeri,fliG,1
+P. sp. SL4(2022),fleQ,1
+P. sp. PDNC002,flgC,1
+P. sp. C9-3,crc,1
+P. lalkuanensis,crc,1
+P. protegens,motA,1
+H. nanhaiensis,algU,1
+P. silesiensis,pilZ,1
+P. aeruginosa,pilT,1
+P. fulva 12-X,fliA,1
+P. fulva 12-X,cheY,1
+P. guguanensis,pilU,1
+P. guguanensis,pilT,1
+P. seleniipraecipitans,flgC,1
+P. otitidis,pilT,1
+P. otitidis,pilU,1
+P. furukawaii,fliG,1
+A. salinestris,algU,1
+P. knackmussii,fliQ,1
+P. saudiphocaensis,fleQ,1
+P. oryzihabitans,flgI,1
+P. oryzihabitans,flgH,1
+P. oryzihabitans,flgG,1
+H. sabulinigri,pilT,1
+P. sp. LS44,pilJ,1
+P. sp. LS44,pilH,1
+P. sp. LS44,pilG,1
+P. sp. Pc102,fliP,1
+P. sp. Pc102,fliQ,1
+P. sp. Pc102,flhA,1
+P. sp. Pc102,fleN,1
+P. sp. Pc102,cheY,1
+P. triclosanedens,fliG,1
+P. triclosanedens,fliI,1
+P. mendocina,fleQ,1
+P. sp. PIA16,flgC,1
+P. hydrolytica,pilR,1
+P. cremoricolorata,PA1464,1
+P. alcaligenes,PA1464,1
+S. stutzeri,pilJ,1
+P. sp. TCU-HL1,PA1464,1
+S. stutzeri,pilZ,1
+P. pohangensis,rpoN,1
+S. balearica,PA1464,1
+P. furukawaii,pilG,1
+P. furukawaii,pilH,1
+P. otitidis,flhA,1
+P. fulva,fliM,1
+P. sp. StFLB209,motA,1
+H. sp. SMJS2,PA1464,1
+S. frequens,crc,1
+P. sp. AN-1,motA,1
+P. sp. SO81,PA1464,1
+P. viridiflava,algU,1
+P. mendocina,pilZ,1
+P. entomophila,pilG,1
+P. entomophila,pilH,1
+P. entomophila,pilJ,1
+P. sp. TUM22785,fliI,1
+P. alcaligenes,pilR,1
+P. sp. SG20056,pilG,1
+A. chroococcum,PA1464,1
+P. otitidis,pilG,1
+P. resinovorans NBRC 106553,pilR,1
+P. sp. SL4(2022),PA1464,1
+P. fulva,flhA,1
+P. sp. SO81,pilG,1
+P. sp. SO81,pilH,1
+P. sp. SO81,pilJ,1
+P. putida,flgI,1
+P. putida,flgG,1
+P. sp. TUM22785,fliG,1
+S. stutzeri,vfr,1
+P. knackmussii,fliM,1
+P. furukawaii,fliI,1
+P. mendocina,flgC,1
+P. extremaustralis,pilR,1
+P. sp. SO81,rpoN,1
+P. sp. GCEP-101,pilM,1
+P. marincola,waaG,1
+P. sp. SO81,pilU,1
+P. sp. MM227,flgG,1
+S. stutzeri,fliI,1
+S. stutzeri,fliM,1
+S. stutzeri,fliP,1
+P. promysalinigenes,PA1464,1
+P. sp. TUM22785,fleQ,1
+P. sp. KU26590,flgG,1
+P. sp. KU26590,flgI,1
+P. berkeleyensis,crc,1
+P. aeruginosa,pilG,1
+P. syringae,fliI,1
+S. cellulosum,motA,1
+P. kielensis,cheY,1
+P. kielensis,fleN,1
+P. kielensis,flhA,1
+P. putida,fliI,1
+P. putida,fliG,1
+P. sp. PDNC002,algB,1
+P. sp. TCU-HL1,pilZ,1
+A. chroococcum,rpoN,1
+P. argentinensis,pilU,1
+P. sp. G.S.17,pilJ,1
+P. sp. ABC1,flgC,1
+P. sp. ABC1,PA3348,1
+P. alcaligenes,pilG,1
+P. alcaligenes,pilH,1
+P. alcaligenes,pilJ,1
+P. berkeleyensis,pilR,1
+B. gladioli,pilU,1
+B. gladioli,pilT,1
+P. sp. PDNC002,PA3349,1
+P. sp. PDNC002,PA3348,1
+P. sp. PDNC002,flgG,1
+P. sp. PDNC002,flgI,1
+P. sp. G.S.17,pilU,1
+P. sp. G.S.17,pilT,1
+P. sp. L5B5,pilZ,1
+P. sp. KNUC1026,flgI,1
+P. sp. KNUC1026,flgH,1
+P. sp. KNUC1026,flgG,1
+S. stutzeri,flgI,1
+S. stutzeri,flgH,1
+S. stutzeri,flgG,1
+P. khazarica,pilT,1
+P. khazarica,pilU,1
+P. sp. ABC1,flgG,1
+P. sp. KU26590,pilT,1
+P. sp. KU26590,pilU,1
+P. oryzae,vfr,1
+P. sp. MM227,pilZ,1
+P. argentinensis,fliP,1
+P. argentinensis,fliM,1
+P. sp. F3-2,waaG,1
+S. stutzeri RCH2,rpoN,1
+P. baltica,motC,1
+H. sp. SMJS2,waaG,1
+P. sp. SL4(2022),fliM,1
+P. coleopterorum,pilM,1
+S. stutzeri,rpoN,1
+P. guguanensis,cheY,1
+P. sp. SCB32,cheY,1
+P. guguanensis,motA,1
+P. eucalypticola,rpoN,1
+P. sp. N3-W,PA3349,1
+P. sp. N3-W,flgC,1
+P. sp. J452,pilZ,1
+P. sp. KU26590,fliP,1
+P. lalkuanensis,vfr,1
+P. sp. TCU-HL1,flgI,1
+P. sp. TCU-HL1,flgG,1
+P. sp. TCU-HL1,flgC,1
+P. fulva,PA1464,1
+H. phragmitis,pilG,1
+H. phragmitis,pilH,1
+P. sp. KU43P,fleQ,1
+P. alcaligenes,waaG,1
+P. sp. GCEP-101,PA1464,1
+P. aeruginosa,motA,1
+P. sp. ABC1,rpoS,1
+P. sp. SO81,waaG,1
+P. sp. MM211,waaG,1
+P. sp. Q1-7,algB,1
+P. phenolilytica,rpoN,1
+P. benzenivorans,fliG,1
+P. sp. ABC1,fliG,1
+P. psychrotolerans,fliQ,1
+P. psychrotolerans,fliP,1
+P. psychrotolerans,fliM,1
+P. gummiphilus,PA1464,1
+P. sp. LS44,algU,1
+P. entomophila,PA3349,1
+A. lwoffii,OXA-648,1
+D. gerundensis,CRP,1
+D. gerundensis,hcp/tssD,1
+A. lwoffii,pilG,1
+M. sp. TPU 3598,vanR-Sc,1
+S. haemolyticus,rep10_5_repL(pWBG738),1
+S. capitis,rep13_9_rep(pSepCH),1
+S. capitis,rep7a_22_rep(pSBK203),1
+S. stutzeri,pilH,1
+S. stutzeri,pilG,1
+E. persicina,CRP,1
+G. quercinecans,H-NS,1
+S. hominis,rep10_6_rep(SAP093B),1
+R. inusitata,rpoS,1
+R. bonaserana,rpoS,1
+Y. aleksiciae,hcp/tssD,1
+P. beijingensis,hcp/tssD,1
+R. badensis,rcsB,1
+P. agglomerans,RAHN-1,1
+C. neteri,H-NS,1
+R. chamberiensis,CRP,1
+C. amalonaticus Y19,CRP,1
+K. oryzae,RAHN-1,1
+S. marcescens,H-NS,1
+R. sikkimica,RAHN-1,1
+T. citrea,H-NS,1
+K. pseudosacchari,RAHN-1,1
+M. hanseatica,CRP,1
+Y. frederiksenii,hcp/tssD,1
+S. glossinidius,rcsB,1
+R. chamberiensis,rcsB,1
+R. sikkimica,rcsB,1
+C. neteri,rcsB,1
+L. sp. JS-SCA-14,hcp/tssD,1
+S. thermophilus,sipB/sspB,1
+P. sp.,CARB-49,1
+P. sp.,CARB-50,1
+P. raelei,CARB-8,1
+P. maritimus,CARB-8,1
+P. sp. YP14,CARB-8,1
+P. maritimus,CARB-50,1
+P. sp. P11G5,CARB-8,1
+P. sp. YP14,CARB-16,1
+E. hormaechei,Col(pHAD28)_1,1
+B. pseudogrignonensis,bvrR,1
+P. sp.,CARB,1
+P. raelei,CARB,1
+P. maritimus,CARB,1
+P. sp. YP14,CARB,1
+P. sp. P11G5,CARB,1
+S. stutzeri,algA,1
+A. lwoffii,pilT,1
+S. stutzeri,rpoS,1
+S. stutzeri,crc,1
+S. stutzeri,fleN,1
+A. lwoffii,dfrA44,1
+A. schindleri,OXA-496,1
+A. seleniivolatilans,AxyX,1
+A. sp. ACNIH1,OXA-496,1
+A. seleniivolatilans,AxyY,1
+A. xylosoxidans,AxyX,1
+A. xylosoxidans,AxyY,1
+A. lwoffii,OXA-496,1
+A. lwoffii,OXA-134,1
+E. faecium,rep22_1b_repB(pAMalpha1),1
+A. lwoffii,ompA,1
+A. sp. ES-001,bplB,1
+A. sp. ES-001,bplC,1
+A. xylosoxidans,bplC,1
+A. xylosoxidans,bplB,1
+A. veterisilvae,bplA,1
+A. insolitus,brkB,1
+A. schindleri,blaOXA-1110,1
+A. sp. ACNIH1,blaOXA-1110,1
+A. lwoffii,blaOXA-1110,1
+P. oryzihabitans,fliG,1
+P. oryzihabitans,fliI,1
+A. lwoffii,dfrA40,1
+P. sp. WY6,CARB-8,1
+P. sp.,CARB-8,1
+A. radioresistens,mphE,1
+A. radioresistens,msrE,1
+A. baumannii,mphE,1
+A. baumannii,msrE,1
+A. lwoffii,OXA-361,1
+P. sp. KH172YL61,sul2,1
+P. arenosus,sul2,1
+P. sp. WB2,sul2,1
+P. sp. G,CARB-8,1
+A. lwoffii,OXA-284,1
+P. alfalfae,fur,1
+P. sp. WY6,CARB,1
+P. agglomerans,CTX,1
+P. sp. KH172YL61,ANT3-DPRIME,1
+P. sp. WB2,ANT3-DPRIME,1
+P. arenosus,ANT3-DPRIME,1
+P. sp. G,CARB,1
+M. luteus,Erm(36),1
+K. palustris,Erm(36),1
+H. alvei,RAHN-1,1
+S. fonticola,H-NS,1
+R. inusitata,RAHN-1,1
+Y. hibernica,hcp/tssD,1
+Y. ruckeri,rcsB,1
+E. fergusonii,rcsB,1
+R. bonaserana,OQXB,1
+R. bonaserana,RAHN,1
+R. bonaserana,CPXAR,1
+R. bonaserana,blaRAHN-4,1
+L. sp. JS-SCA-14,CRP,1
+E. cancerogenus,H-NS,1
+R. aceris,RAHN-1,1
+P. rwandensis,RAHN-1,1
+S. marcescens,RAHN-1,1
+C. reinhardtii,CRP,1
+E. kobei,RAHN-1,1
+Y. similis,rpoS,1
+S. sp. FGI94,rcsB,1
+C. neteri,hcp/tssD,1
+S. goeteborgense,hcp/tssD,1
+R. terrae,cmx,1
+S. aureus,rep10b_3_rep(pSK3),1
+S. aureus,rep10_3_pNE131p1(pNE131),1
+S. aureus,rep10b_1_rep(pUR2355),1
+S. epidermidis,rep7a_5_repD(pTZ4),1
+S. aureus,repUS19_1_rep(pDLK3),1
+S. aureus,rep10_6_rep(SAP093B),1
+S. aureus,ANT6,1
+S. epidermidis,QACC,1
+P. sp. CCC3.1,MexF,1
+P. lactis,MexF,1
+P. antarctica,fliI,1
+P. orientalis,fliP,1
+P. orientalis,fliM,1
+P. cedrina,fliM,1
+P. atacamensis,fliI,1
+P. sp. ADAK13,crc,1
+P. sp. R76,fliG,1
+P. marginalis,pilG,1
+P. simiae,mbtH-like,1
+P. palleroniana,fleQ,1
+P. atacamensis,flgG,1
+P. atacamensis,flgI,1
+P. sp. S09G 359,PA3348,1
+P. lurida,fliA,1
+P. lurida,fleN,1
+P. lurida,algI,1
+P. tolaasii,rpoS,1
+P. sp. WJP1,pilH,1
+P. canadensis,pilH,1
+P. canadensis,pilG,1
+P. synxantha,rpoN,1
+P. umsongensis,flgC,1
+P. umsongensis,PA3348,1
+P. entomophila,fliM,1
+P. entomophila,fliP,1
+P. fluorescens,fleQ,1
+P. alkylphenolica,flgG,1
+P. sp. CBS,PA1464,1
+P. baltica,rpoN,1
+P. sp. D3,fliG,1
+P. sp. D3,fliI,1
+P. canadensis,fliP,1
+P. fluorescens,flgC,1
+P. extremaustralis,fliG,1
+P. extremaustralis,fliI,1
+P. veronii,mbtH-like,1
+P. sp. FJ2-5-13,rpoS,1
+P. cedrina,rpoN,1
+P. sp. FP2335,mbtH-like,1
+P. sp. OE 28.3,rpoS,1
+P. sp. FP453,pilG,1
+P. trivialis,fliP,1
+P. trivialis,fliM,1
+P. trivialis,fliG,1
+P. salmasensis,pilH,1
+P. salmasensis,pilG,1
+P. palleroniana,rpoS,1
+P. sp. FP453,pilH,1
+P. poae,EMHC,1
+P. sp. CCC3.1,MEXF,1
+P. lactis,MEXF,1
+S. stutzeri,MexW,1
+S. stutzeri,rsmA,1
+S. stutzeri,YajC,1
+S. stutzeri,PA1464,1
+S. stutzeri,cheY,1
+S. stutzeri,fliQ,1
+S. stutzeri,flhA,1
+S. stutzeri,pilT,1
+S. stutzeri,waaF,1
+S. stutzeri,algR,1
+S. stutzeri,pilU,1
+S. stutzeri,flgC,1
+S. stutzeri,PA1459,1
+S. stutzeri,hcpA,1
+S. stutzeri,xcpT,1
+S. stutzeri,fliN,1
+S. stutzeri,fliE,1
+S. stutzeri DSM 4166,waaF,1
+S. stutzeri,xcpR,1
+E. faecium,AAC(6')-Ii,1
+E. faecium,msrC,1
+E. faecium,ErmA,1
+E. faecium,ANT(9)-Ia,1
+E. faecium,vanSA,1
+E. faecium,vanRA,1
+E. faecium,vanHA,1
+E. faecium,rep18b_1_BO23315710(pE1p13),1
+E. faecium,rep11a_1_repA(pB82),1
+E. faecium,rep14a_4_rep(AUS0004p3),1
+E. faecium,rep14a_2_ORF1(pKQ10),1
+E. faecium,rep2_1_orf1(pRE25),1
+E. faecium,repUS15_2_repA(pNB2354p1),1
+E. faecium,rep18b_2_repA(pEF418),1
+P. sp. NS1(2017),fliP,1
+E. faecium,sgrA,1
+E. faecium,acm,1
+A. sp. WY4,ompA,1
+A. pseudolwoffii,pilT,1
+E. faecium,TETU,1
+D. lacusdianchii,sul1,1
+A. tumefaciens,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,1
+S. maltophilia,smeF,1
+A. cucumeris,Agrobacterium_fabrum_chloramphenicol_acetyltransferase,1
+M. sp. TPU 3598,tet(42),1
+S. zoogloeoides,BKC-1,1
+R. sp. XES5,BKC-1,1
+C. cellulans,tet(Z),1
+T. sp. OXR-137,sul1,1
+A. cucumeris,acpXL,1
+S. xanthii,PA1464,1
+D. lacusdianchii,SULI,1
+S. maltophilia,EMRBSM,1
+C. cellulans,MYRA,1
+C. cellulans,TETZ,1
+S. maltophilia R551-3,EMRBSM,1
+S. maltophilia R551-3,EMRASM,1
+T. sp. OXR-137,SULI,1
+S. hominis,rep21_25_rep(pSHaeA),1
+S. hominis,rep21_1_rep(pWBG754),1
+P. simiae,YajC,1
+P. sp. FP2338,MexF,1
+P. sp. OE 28.3,MexF,1
+P. putida,rsmA,1
+P. sp. FP2338,fliI,1
+P. mucidolens,rpoS,1
+P. sp. OE 28.3,pilG,1
+P. sp. OE 28.3,crc,1
+P. sp. OE 28.3,clpV1,1
+P. sp. FP2338,algA,1
+P. agglomerans,fur,1
+P. sp. FP2338,fleQ,1
+P. sp. FP2338,fliG,1
+P. sp. OE 28.3,fliP,1
+P. sp. ADAK18,flgG,1
+P. antarctica,pilG,1
+P. sp. OE 28.3,pvdS,1
+P. sp. FP2338,fleN,1
+P. sp. OE 28.3,PA1464,1
+P. sp. FP2338,pilG,1
+P. trivialis,mbtH-like,1
+P. fluorescens,fliM,1
+P. sp. OE 28.3,hsiC1/vipB/tssC,1
+P. sp. OE 28.3,hsiB1/vipA/tssB,1
+P. poae,fliG,1
+P. sp. OE 28.3,fliI,1
+P. sp. R5-89-07,flgI,1
+P. sp. OE 28.3,fliQ,1
+P. sp. FP2338,MEXF,1
+P. sp. OE 28.3,MEXF,1
+P. sp. R5-89-07,EMHC,1
+S. aerolata,acpXL,1
+P. atacamensis,MexF,1
+P. siliginis,rsmA,1
+P. sp. SCA2728.1_7,YajC,1
+P. siliginis,MexF,1
+P. siliginis,hcpA,1
+P. siliginis,pvdH,1
+P. siliginis,mbtH-like,1
+P. moraviensis,pilH,1
+P. moraviensis,pilG,1
+P. siliginis,pvdS,1
+P. synxantha,algI,1
+P. germanica,hcpA,1
+P. siliginis,pilG,1
+P. siliginis,tssK,1
+P. siliginis,PA1664,1
+P. koreensis,PA1664,1
+P. koreensis,icmH/tssL,1
+P. moraviensis R28-S,alg8,1
+P. siliginis,pilH,1
+P. hamedanensis,crc,1
+P. siliginis,fliI,1
+P. siliginis,icmH/tssL,1
+P. vancouverensis,fliG,1
+P. siliginis,fliM,1
+P. siliginis,rpoS,1
+P. agarici,pvdS,1
+P. atacamensis,pilH,1
+P. siliginis,flgH,1
+P. fluorescens,PA1464,1
+P. sp. URMO17WK12:I11,tssC,1
+P. siliginis,flgI,1
+P. siliginis,flgG,1
+P. atacamensis,crc,1
+P. sp. NIBR-H-19,hcpA,1
+P. siliginis,fliG,1
+P. sp. FP1762,tssB,1
+P. siliginis,crc,1
+P. koreensis,PA1464,1
+P. prosekii,pvdS,1
+P. atacamensis,hcpA,1
+P. siliginis,algA,1
+P. sp. HS6,fliI,1
+P. sp. HS6,fliG,1
+P. fragi,hcpA,1
+P. koreensis,PA3348,1
+P. siliginis,fleQ,1
+P. iranensis,fleN,1
+P. granadensis,pilG,1
+P. granadensis,pilH,1
+P. siliginis,algU,1
+P. serboccidentalis,hcpA,1
+P. allokribbensis,rpoS,1
+P. siliginis,flgC,1
+P. atacamensis,MEXF,1
+P. atacamensis,MEXE,1
+P. sp. HN2,EMHC,1
+P. siliginis,MEXF,1
+P. frigoritolerans,CATA,1
+P. coleopterorum,YajC,1
+P. rhizosphaerae,cheY,1
+P. rhizosphaerae,fleN,1
+P. coleopterorum,fliG,1
+P. rhizosphaerae,PA1464,1
+P. coleopterorum,flgH,1
+P. coleopterorum,pilT,1
+P. coleopterorum,fliM,1
+P. coleopterorum,rpoN,1
+P. sp. MM227,cheY,1
+P. eucalypti,CTX,1
+S. maltophilia,smeC,1
+S. maltophilia,smeB,1
+S. maltophilia,smeA,1
+S. maltophilia,smeD,1
+S. stutzeri,MexF,1
+E. casseliflavus,repUS1_1_repE(DOp2),1
+P. sp. MAG733B,hcpA,1
+P. moraviensis,crc,1
+P. atacamensis,rpoN,1
+S. stutzeri,PA3348,1
+P. prosekii,crc,1
+P. fluorescens,fliI,1
+P. orientalis,rpoS,1
+P. sp. AO-1,PA1464,1
+P. sp. B21-053,fliG,1
+P. sp. SCA2728.1_7,PA1664,1
+P. sp. SCA2728.1_7,tssE,1
+P. syringae,pilT,1
+S. maltophilia,SMET,1
+P. granadensis,EMHC,1
+S. maltophilia,APH3-DPRIME,1
+S. maltophilia,L1,1
+S. maltophilia,blaL1,1
+P. knackmussii,rsmA,1
+P. lalkuanensis,rsmA,1
+A. pseudolwoffii,ompA,1
+P. benzenivorans,rpoN,1
+P. sp. MM227,fleN,1
+P. viridiflava,waaG,1
+P. coleopterorum,cheY,1
+P. rhizosphaerae,pilT,1
+S. balearica,rpoN,1
+P. rhizosphaerae,flgG,1
+P. rhizosphaerae,flgC,1
+P. putida,waaG,1
+P. coleopterorum,algU,1
+S. epidermidis,qacG,1
+S. hominis,rep21_26_rep(pSK108),1
+S. epidermidis,rep21_15_SAP108D001(SAP108D),1
+S. epidermidis,rep21_3_rep(pS0385),1
+S. epidermidis,rep21_1_rep(pWBG754),1
+S. hominis,rep13_7_rep(pLNU9),1
+S. hominis,QACC,1
+S. maltophilia,APH(9)-Ic,1
+S. sp. SBJS02,smeB,1
+S. sp. SBJS02,smeA,1
+S. sp. SBJS02,smeS,1
+S. sp. SBJS02,smeR,1
+A. vitis,ANT(2'')-Ia,1
+A. vitis,OXA-10,1
+A. vitis,qacEdelta1,1
+A. vitis,sul1,1
+S. maltophilia,smeE,1
+T. sp. OXR-137,qacEdelta1,1
+M. sp. J1-1,tet(42),1
+A. pusense,VIM-4,1
+A. pusense,AAC(6')-Il,1
+A. pusense,qacEdelta1,1
+A. pusense,sul1,1
+T. sp. OXR-137,ANT(2'')-Ia,1
+T. sp. OXR-137,OXA-10,1
+S. sp. YG1,SGM-1,1
+G. hydrophobica,smeD,1
+S. maltophilia,APH(3')-IIc,1
+T. sp. OXR-137,OXA-17,1
+A. tumefaciens,acpXL,1
+S. maltophilia,pilG,1
+A. vitis,ANT2-DPRIME,1
+A. vitis,SMR,1
+A. vitis,SULI,1
+T. sp. OXR-137,SMR,1
+A. pusense,VIM,1
+A. pusense,SMR,1
+A. pusense,SULI,1
+T. sp. OXR-137,ANT2-DPRIME,1
+S. maltophilia,EMRCSM,1
+S. maltophilia,EMRASM,1
+S. maltophilia,EMRRSM,1
+P. rhizosphaerae,MexF,1
+P. coleopterorum,MexF,1
+P. agglomerans,CRP,1
+P. agglomerans,tssF,1
+P. coleopterorum,flgC,1
+P. coleopterorum,fliP,1
+P. rhizosphaerae,fliM,1
+P. coleopterorum,crc,1
+P. sp. MM227,PA1464,1
+P. rhizosphaerae,MEXF,1
+P. coleopterorum,MEXF,1
+P. oryzihabitans,rsmA,1
+P. oryzihabitans,waaG,1
+P. oryzihabitans,hcpA,1
+P. oryzihabitans,flgC,1
+P. oryzihabitans,pilZ,1
+P. oryzihabitans,motA,1
+P. oryzihabitans,fliM,1
+P. oryzihabitans,fliN,1
+P. oryzihabitans,fliP,1
+P. oryzihabitans,fliR,1
+P. oryzihabitans,PA1464,1
+P. oryzihabitans,cheY,1
+P. oryzihabitans,fliA,1
+P. oryzihabitans,flhA,1
+P. oryzihabitans,fliQ,1
+P. oryzihabitans,fleQ,1
+P. oryzihabitans,pilH,1
+P. oryzihabitans,algR,1
+P. psychrotolerans,pilU,1
+P. psychrotolerans,pilT,1
+M. luteolum,tet(42),1
+M. sp. PAMC22086,tet(42),1
+E. coli,ANT(2'')-Ia,1
+E. coli,OXA-10,1
+E. coli,qacEdelta1,1
+E. coli,sul1,1
+M. oxydans,tet(42),1
+T. sp. OXR-137,OXA-824,1
+M. sp. 4R-513,tet(42),1
+M. sp. TPU 3598,vanR_gene_in_vanO_cluster,1
+P. aeruginosa,OXA-677,1
+P. aeruginosa,qacEdelta1,1
+P. aeruginosa,sul1,1
+P. aeruginosa,ANT(2'')-Ia,1
+M. sufflavum,tet(42),1
+S. cellulosum,BKC-1,1
+T. sp. OXR-137,OXA-656,1
+R. oryzihabitans,sul1,1
+R. oryzihabitans,qacEdelta1,1
+R. oryzihabitans,OXA-2,1
+T. sp. OXR-137,VIM-4,1
+T. sp. OXR-137,AAC(6')-Il,1
+M. hydrocarbonoxydans,tet(42),1
+E. coli,ANT2-DPRIME,1
+E. coli,SMR,1
+E. coli,SULI,1
+G. iterans,MTRAD,1
+P. aeruginosa,SMR,1
+P. aeruginosa,SULI,1
+P. aeruginosa,ANT2-DPRIME,1
+R. oryzihabitans,SULI,1
+T. sp. OXR-137,VIM,1
+M. liquefaciens,vanR-Sc,1
+P. sp. At-9b,H-NS,1
+E. americana,H-NS,1
+C. arupi,H-NS,1
+C. lapagei,H-NS,1
+E. asburiae,RAHN-1,1
+S. plymuthica,H-NS,1
+E. asburiae,RAHN,1
+S. quinivorans,H-NS,1
+P. beijingensis,H-NS,1
+E. coli,CRP,1
+E. sp. JUb54,CRP,1
+P. ananatis,rcsB,1
+R. aquatilis,hcp/tssD,1
+R. sikkimica,hcp/tssD,1
+R. inusitata,hcp/tssD,1
+P. dispersa,hcp/tssD,1
+R. inusitata,blaRAHN-6,1
+S. stutzeri,MexK,1
+P. sp. MM211,Pseudomonas_aeruginosa_CpxR,1
+S. stutzeri,icmH/tssL,1
+S. stutzeri,tssC,1
+S. balearica,flgC,1
+S. stutzeri,motA,1
+P. furukawaii,algR,1
+S. balearica,tssC,1
+S. balearica,flgH,1
+S. stutzeri,tssK,1
+S. stutzeri,motC,1
+P. cavernae,cheY,1
+P. sp. CC6-YY-74,pilJ,1
+P. sp. CC6-YY-74,pilH,1
+S. stutzeri CCUG 29243,tssC,1
+S. stutzeri CCUG 29243,tssB,1
+S. balearica,flgG,1
+P. sp. TUM22785,PA1464,1
+A. salinestris,vfr,1
+S. stutzeri,pilR,1
+P. knackmussii,pilJ,1
+P. benzenivorans,fliI,1
+P. sp. LS44,cheY,1
+P. tohonis,fliI,1
+S. stutzeri,algB,1
+P. sp. Ost2,vfr,1
+P. sp. HLS-6,PA3349,1
+P. sp. HLS-6,PA3348,1
+P. sp. HLS-6,flgC,1
+P. sp. HLS-6,flgG,1
+P. sp. HLS-6,flgH,1
+P. sp. HLS-6,flgI,1
+S. stutzeri,tssB,1
+P. alcaligenes,fliG,1
+S. frequens,xcpT,1
+P. marincola,algR,1
+P. aeruginosa,pilM,1
+S. stutzeri,fleQ,1
+P. tohonis,rpoN,1
+P. lalkuanensis,fliP,1
+P. lalkuanensis,fliM,1
+P. alcaligenes,pilT,1
+P. sp. LS44,flhA,1
+P. fluorescens,flgG,1
+R. rosettiformans,acpXL,1
+P. yeei,APH(6)-Id,1
+P. agglomerans,hcp/tssD,1
+P. granadensis,YajC,1
+P. sp. NIBR-H-19,mbtH-like,1
+P. sp. NIBR-H-19,hcp/tssD,1
+P. sp. NIBR-H-19,tssC,1
+P. sp. NIBR-H-19,tssB,1
+P. sp. NIBR-H-19,flgI,1
+P. sp. NIBR-H-19,PA1464,1
+P. sp. Seg1,tssB,1
+P. sp. NIBR-H-19,alg8,1
+P. moraviensis,PA1664,1
+P. umsongensis,EMHC,1
+P. sp. NIBR-H-19,EMHC,1
+P. azotoformans,fliI,1
+P. azotoformans,fliG,1
+P. sp. FP2309,mbtH-like,1
+P. sp. CCI1.1,fliG,1
+P. sp. CCI1.1,fliI,1
+P. sp. FP453,PA1464,1
+P. sp. NS1(2017),fliN,1
+P. sp. NS1(2017),fliM,1
+P. sp. NS1(2017),fliI,1
+P. sp. FP453,flgC,1
+P. brenneri,crc,1
+P. sivasensis,fliP,1
+P. sivasensis,fliM,1
+P. sp. ADAK18,hsiB1/vipA/tssB,1
+P. canadensis,PA1464,1
+P. lactis,MEXE,1

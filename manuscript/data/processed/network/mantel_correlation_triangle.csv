@@ -1,0 +1,5 @@
+domain,Taxonomy,Resistome,Virulome,Mobilome
+Taxonomy,1,0.3015,0.4454,0.2
+Resistome,0.3015,1,0.3765,0.1115
+Virulome,0.4454,0.3765,1,0.1026
+Mobilome,0.2,0.1115,0.1026,1

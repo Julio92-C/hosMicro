@@ -1,0 +1,1710 @@
+sample,name,GENE,category,type
+S3,Pseudomonas,fliP,Motility,Surface
+S3,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S3,Rahnella inusitata,rcsB,Regulation,Surface
+S3,Gammaproteobacteria,rpoS,Regulation,Surface
+S3,Pseudomonas,alg8,Biofilm,Surface
+S3,Pseudomonas sp. J380,fliM,Motility,Surface
+S3,Pseudomonas sp. J380,fliP,Motility,Surface
+S3,Rahnella aceris,rcsB,Regulation,Surface
+S3,Pseudomonas,fliM,Motility,Surface
+S3,Pseudomonas sp. J380,PA1464,Motility,Surface
+S3,Pseudomonadota,rpoS,Adherence,Surface
+S3,Serratia liquefaciens,fliG,Motility,Surface
+S3,Rahnella,rcsB,Regulation,Surface
+S3,Serratia proteamaculans,fliP,Motility,Surface
+S3,Pseudomonas,crc,Adherence,Surface
+S3,Pseudomonas,fleN,Motility,Surface
+S3,Pseudomonas,PA1464,Motility,Surface
+S3,Serratia proteamaculans,cheY,Motility,Surface
+S3,Rahnella aceris,rpoS,Regulation,Surface
+S3,Yersiniaceae,fliP,Motility,Surface
+S3,Pseudomonadaceae,fliM,Motility,Surface
+S3,Pseudomonadaceae,fliP,Motility,Surface
+S3,Pseudomonas,rpoS,Adherence,Surface
+S3,Pseudomonas,cheY,Motility,Surface
+S3,Pseudomonas,fliG,Motility,Surface
+S3,Pseudomonas sp. MYb193,PA1464,Motility,Surface
+S3,Pseudomonas sp. CCC3.1,hcpA,Effector delivery system,Surface
+S3,Gammaproteobacteria,PA1464,Motility,Surface
+S3,Pseudomonas,algI,Biofilm,Surface
+S3,Pseudomonadota,fliP,Motility,Surface
+S3,Pseudomonadota,fliM,Motility,Surface
+S3,Pseudomonas,flgH,Motility,Surface
+S3,Pseudomonas,flgI,Motility,Surface
+S3,Pseudomonas sp. FP2338,mbtH-like,Nutritional/Metabolic factor,Surface
+S3,Pseudomonas sp. FP2338,algI,Biofilm,Surface
+S3,Gammaproteobacteria,pilG,Adherence,Surface
+S3,Gammaproteobacteria,pilH,Adherence,Surface
+S3,Pseudomonas,fliI,Motility,Surface
+S3,Collimonas pratensis,PA1464,Motility,Surface
+S3,Pseudomonas,pilH,Adherence,Surface
+S3,Pseudomonas canadensis,fliI,Motility,Surface
+S3,Pseudomonas,flgC,Motility,Surface
+S3,Pseudomonas,flgG,Motility,Surface
+S3,Pseudomonas,rpoN,Adherence,Surface
+S3,Pseudomonas,pilG,Adherence,Surface
+S3,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S3,Pseudomonas taetrolens,pilG,Adherence,Surface
+S3,Pseudomonas,hcpA,Effector delivery system,Surface
+S3,Pseudomonadota,pilG,Adherence,Surface
+S3,Pseudomonadota,pilH,Adherence,Surface
+S3,Pseudomonas sp. J380,flgI,Motility,Surface
+S3,Pseudomonas sp. J380,flgH,Motility,Surface
+S3,Pseudomonas sp. OE 28.3,fliM,Motility,Surface
+S3,Pseudomonas fluorescens group,cheY,Motility,Surface
+S3,Pseudomonas fluorescens group,fleN,Motility,Surface
+S3,Serratia proteamaculans,fliM,Motility,Surface
+S3,Gammaproteobacteria,fleN,Motility,Surface
+S3,Gammaproteobacteria,cheY,Motility,Surface
+S3,Thermaerobacter sp. FW80,PA1464,Motility,Surface
+S3,Gammaproteobacteria,crc,Adherence,Surface
+S3,Serratia proteamaculans,rcsB,Regulation,Surface
+S3,Pseudomonas lurida,tssC,Effector delivery system,Surface
+S3,Pseudomonas sp. MYb193,algA,Biofilm,Surface
+S3,Pseudomonas sp. MYb193,pvdS,Nutritional/Metabolic factor,Surface
+S3,Pseudomonas sp. J380,algA,Biofilm,Surface
+S3,Pseudomonas sp. J380,algI,Biofilm,Surface
+S3,Pseudomonas putida,fliM,Motility,Surface
+S3,Pseudomonas putida,fliP,Motility,Surface
+S3,Pseudomonas veronii,fliG,Motility,Surface
+S3,Pseudomonas cucumis,rpoN,Adherence,Surface
+S3,Serratia,rcsB,Regulation,Surface
+S3,Enterobacterales,rcsB,Regulation,Surface
+S3,Pseudomonas canadensis,fliM,Motility,Surface
+S3,Pseudomonadota,fliG,Motility,Surface
+S3,Streptomyces sp. NBC_00841,fliG,Motility,Surface
+S3,Pseudomonas sp. J380,mbtH-like,Nutritional/Metabolic factor,Surface
+S3,Pseudomonadaceae,PA1464,Motility,Surface
+S3,Pseudomonadota,rpoN,Adherence,Surface
+S3,Pseudomonas sp. MUP55,pilH,Adherence,Surface
+S3,Pseudomonas sp. FP2338,PA1464,Motility,Surface
+S3,Pseudomonas sp. CCC3.1,PA1464,Motility,Surface
+S3,Serratia,fliM,Motility,Surface
+S3,Pseudomonas sp. OE 28.3,fleN,Motility,Surface
+S12,Pseudomonas,fleN,Motility,Surface
+S12,Pseudomonas,fliI,Motility,Surface
+S12,Pseudomonas,fliM,Motility,Surface
+S12,Pseudomonas,fliP,Motility,Surface
+S12,Pseudomonas,pilG,Adherence,Surface
+S12,Pseudomonas,pilH,Adherence,Surface
+S12,Pseudomonas,flgG,Motility,Surface
+S12,Pseudomonas,flgH,Motility,Surface
+S12,Pseudomonas,flgI,Motility,Surface
+S12,Pseudomonas,algI,Biofilm,Surface
+S12,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S12,Pseudomonas,PA1464,Motility,Surface
+S12,Pseudomonas salmasensis,fliG,Motility,Surface
+S12,Pseudomonas,flgC,Motility,Surface
+S12,Gammaproteobacteria,pilH,Adherence,Surface
+S12,Gammaproteobacteria,pilG,Adherence,Surface
+S12,Pseudomonas lactis,alg8,Biofilm,Surface
+S12,Pseudomonas sp. J380,pilG,Adherence,Surface
+S12,Pseudomonas lactis,pilG,Adherence,Surface
+S12,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S12,Pseudomonas,alg8,Biofilm,Surface
+S12,Pseudomonas sp. MYb193,mbtH-like,Nutritional/Metabolic factor,Surface
+S12,Pseudomonas simiae,flgI,Motility,Surface
+S12,Pseudomonas simiae,flgH,Motility,Surface
+S12,Pseudomonas simiae,flgG,Motility,Surface
+S12,Pseudomonas sp. J380,pilH,Adherence,Surface
+S12,Pseudomonas,rpoN,Adherence,Surface
+S12,Pseudomonas,cheY,Motility,Surface
+S12,Pseudomonas sp. J380,fliG,Motility,Surface
+S12,Pseudomonas sp. LG1E9,fliG,Motility,Surface
+S12,Pseudomonas sp. J380,mbtH-like,Nutritional/Metabolic factor,Surface
+S12,Pseudomonas,crc,Adherence,Surface
+S12,Pseudomonas sp. J380,algI,Biofilm,Surface
+S12,Pseudomonas canadensis,crc,Adherence,Surface
+S12,Pseudomonas,fliG,Motility,Surface
+S12,Pseudomonas sp. J380,fliM,Motility,Surface
+S12,Pseudomonadaceae,flgH,Motility,Surface
+S12,Gammaproteobacteria,fleN,Motility,Surface
+S12,Pseudomonas sp. J380,PA1464,Motility,Surface
+S12,Pseudomonas sp. MYb193,algI,Biofilm,Surface
+S12,Gammaproteobacteria,crc,Adherence,Surface
+S12,Pseudomonas laurylsulfatiphila,mbtH-like,Nutritional/Metabolic factor,Surface
+S12,Pseudomonas sp. J380,flgC,Motility,Surface
+S12,Pseudomonas sp. MYb193,pilG,Adherence,Surface
+S12,Pseudomonas sp. MYb193,pvdS,Nutritional/Metabolic factor,Surface
+S12,Gammaproteobacteria,cheY,Motility,Surface
+S12,Pseudomonas sp. J380,fliI,Motility,Surface
+A55,Rahnella inusitata,rcsB,Regulation,Air
+A55,Rahnella bonaserana,rcsB,Regulation,Air
+A55,Enterobacterales,rpoS,Regulation,Air
+A55,Rahnella,rcsB,Regulation,Air
+A55,Rahnella bonaserana,hcp/tssD,Effector delivery system,Air
+A55,Yersiniaceae,rcsB,Regulation,Air
+A55,Yersinia rochesterensis,hcp/tssD,Effector delivery system,Air
+A55,Rahnella aceris,rcsB,Regulation,Air
+A55,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A55,Buttiauxella selenatireducens,rcsB,Regulation,Air
+A55,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A55,Fulvivirga ligni,hcp/tssD,Effector delivery system,Air
+A55,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A55,Rahnella,hcp/tssD,Effector delivery system,Air
+A55,Enterobacterales,rcsB,Regulation,Air
+A55,Enterobacteriaceae,rcsB,Regulation,Air
+A55,Rahnella aquatilis CIP 78.65 = ATCC 33071,rcsB,Regulation,Air
+A55,Klebsiella oxytoca,rcsB,Regulation,Air
+A55,Escherichia coli,hcp/tssD,Effector delivery system,Air
+A55,Pectobacterium,rcsB,Regulation,Air
+A55,Rahnella,rpoS,Regulation,Air
+A55,Rahnella victoriana,rcsB,Regulation,Air
+A51,Rahnella bonaserana,rcsB,Regulation,Air
+A51,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A51,Gammaproteobacteria,rcsB,Regulation,Air
+A51,Rahnella,rcsB,Regulation,Air
+A51,Rahnella,hcp/tssD,Effector delivery system,Air
+A51,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A51,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A51,Rahnella,rpoS,Regulation,Air
+A51,Eggerthella guodeyinii,hcp/tssD,Effector delivery system,Air
+A51,Enterobacter hormaechei,hcp/tssD,Effector delivery system,Air
+A51,Enterobacterales,rpoS,Regulation,Air
+A51,Leclercia,hcp/tssD,Effector delivery system,Air
+A51,Rahnella bonaserana,hcp/tssD,Effector delivery system,Air
+A51,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A51,Enterobacteriaceae,rcsB,Regulation,Air
+A51,Yersinia,hcp/tssD,Effector delivery system,Air
+A51,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A51,Gammaproteobacteria,hcp/tssD,Effector delivery system,Air
+A51,Deefgea piscis,rcsB,Regulation,Air
+A51,Rahnella aceris,rpoS,Regulation,Air
+A51,Yersiniaceae,rpoS,Regulation,Air
+A51,Rahnella aceris,rcsB,Regulation,Air
+A51,Edwardsiella ictaluri,rcsB,Regulation,Air
+A51,Enterobacterales,rcsB,Regulation,Air
+A51,Yersinia canariae,hcp/tssD,Effector delivery system,Air
+S29,Pseudomonas sp. MM227,rpoN,Adherence,Surface
+S29,Leclercia adecarboxylata,rpoS,Regulation,Surface
+S29,Pseudomonas coleopterorum,flgI,Motility,Surface
+S29,Pseudomonas coleopterorum,flgG,Motility,Surface
+S29,Acinetobacter,pilG,Adherence,Surface
+S29,Pseudomonadaceae,PA1464,Motility,Surface
+S29,Pseudomonas,fliP,Motility,Surface
+S29,Pseudomonas coleopterorum,pilZ,Adherence,Surface
+S29,Pseudomonas,flgC,Motility,Surface
+S29,Pseudomonas,pilT,Adherence,Surface
+S29,Pseudomonas,crc,Adherence,Surface
+S29,Pseudomonas,fliG,Motility,Surface
+S29,Pseudomonas,fliI,Motility,Surface
+S29,Pseudomonas coleopterorum,PA1464,Motility,Surface
+S29,Leclercia adecarboxylata,rcsB,Regulation,Surface
+S29,Pseudomonas coleopterorum,fleN,Motility,Surface
+S29,Pseudomonas,flgG,Motility,Surface
+S29,Acinetobacter,pilT,Adherence,Surface
+S29,Pseudomonas,rpoN,Adherence,Surface
+S25,Gammaproteobacteria,pilT,Adherence,Surface
+S25,Pseudomonas hydrolytica,pilG,Adherence,Surface
+S25,Pseudomonas hydrolytica,pilH,Adherence,Surface
+S25,Pseudomonas sp. SO81,pilT,Adherence,Surface
+S25,Pseudomonas aeruginosa group,flgC,Motility,Surface
+S25,Cupriavidus pinatubonensis,flgG,Motility,Surface
+S25,Pseudomonadota,vfr,Adherence,Surface
+S25,Stutzerimonas stutzeri,fliG,Motility,Surface
+S25,Pseudomonas,pilZ,Adherence,Surface
+S25,Pseudomonas,flgG,Motility,Surface
+S25,Pseudomonas sp. PDNC002,flgC,Motility,Surface
+S25,Pseudomonas sp. C9-3,crc,Adherence,Surface
+S25,Azotobacter,crc,Adherence,Surface
+S25,Pseudomonas lalkuanensis,crc,Adherence,Surface
+S25,Haloprofundus sp. MHR1,fliM,Motility,Surface
+S25,Stutzerimonas stutzeri subgroup,PA1464,Motility,Surface
+S25,[Candida] auris,PA1464,Motility,Surface
+S25,uncultured Pseudomonas sp.,rpoS,Adherence,Surface
+S25,Pseudomonas silesiensis,pilZ,Adherence,Surface
+S25,Microbacterium sp. H1-D42,vfr,Adherence,Surface
+S25,Pseudomonas aeruginosa,pilT,Adherence,Surface
+S25,Pseudomonas fulva 12-X,cheY,Motility,Surface
+S25,Pseudomonas sp. S35,fliM,Motility,Surface
+S25,Pseudomonas sp. S35,fliP,Motility,Surface
+S25,Pseudomonadaceae,pilT,Adherence,Surface
+S25,Pseudomonadaceae,pilG,Adherence,Surface
+S25,Pseudomonadaceae,pilH,Adherence,Surface
+S25,Pseudomonas guguanensis,pilT,Adherence,Surface
+S25,Pseudomonas,fliG,Motility,Surface
+S25,Microbulbifer thermotolerans,pilT,Adherence,Surface
+S25,Humisphaera borealis,flgC,Motility,Surface
+S25,Pseudomonas seleniipraecipitans,flgC,Motility,Surface
+S25,Pseudomonas,PA1464,Motility,Surface
+S25,Pseudomonas syringae group,flgC,Motility,Surface
+S25,Pseudomonas,pilT,Adherence,Surface
+S25,Pseudomonas,vfr,Adherence,Surface
+S25,Pseudomonas otitidis,pilT,Adherence,Surface
+S25,Pseudomonas,fliI,Motility,Surface
+S25,Gammaproteobacteria,fliG,Motility,Surface
+S25,Pseudomonas furukawaii,fliG,Motility,Surface
+S25,Pseudomonas tolaasii,cheY,Motility,Surface
+S25,Pseudomonadaceae,crc,Adherence,Surface
+S25,Pseudomonas,flgC,Motility,Surface
+S25,Pseudomonadota,pilT,Adherence,Surface
+S25,Stutzerimonas,fliP,Motility,Surface
+S25,Stutzerimonas,fliM,Motility,Surface
+S25,Pseudomonas,fliM,Motility,Surface
+S25,Pseudomonas,crc,Adherence,Surface
+S25,Pseudomonas oryzihabitans,flgI,Motility,Surface
+S25,Pseudomonas oryzihabitans,flgH,Motility,Surface
+S25,Pseudomonas oryzihabitans,flgG,Motility,Surface
+S25,Halopseudomonas sabulinigri,pilT,Adherence,Surface
+S25,Shinella sp. XGS7,pilT,Adherence,Surface
+S25,Pseudomonas sp. LS44,pilH,Adherence,Surface
+S25,Pseudomonas sp. LS44,pilG,Adherence,Surface
+S25,Gammaproteobacteria,fliM,Motility,Surface
+S25,Pseudomonas sp. Pc102,fliP,Motility,Surface
+S25,Pseudomonas sp. Pc102,fleN,Motility,Surface
+S25,Pseudomonas sp. Pc102,cheY,Motility,Surface
+S25,Pseudomonas,cheY,Motility,Surface
+S25,Pseudomonas sp. NY5710,rpoN,Adherence,Surface
+S25,Pseudomonas triclosanedens,fliG,Motility,Surface
+S25,Pseudomonas triclosanedens,fliI,Motility,Surface
+S25,Cellulomonas chengniuliangii,pilZ,Adherence,Surface
+S25,Roseburia hominis,flgG,Motility,Surface
+S25,Pseudomonas sp. PIA16,flgC,Motility,Surface
+S25,Frondihabitans sucicola,pilT,Adherence,Surface
+S25,Spiribacter halobius,cheY,Motility,Surface
+S25,Pseudomonas wadenswilerensis,pilG,Adherence,Surface
+S25,Pseudomonas wadenswilerensis,pilH,Adherence,Surface
+S25,Microbacterium azadirachtae,pilH,Adherence,Surface
+S25,Microbacterium azadirachtae,pilG,Adherence,Surface
+S25,Pseudomonas cremoricolorata,PA1464,Motility,Surface
+S25,Pseudomonas alcaligenes,PA1464,Motility,Surface
+S25,Pseudomonas sp. TCU-HL1,PA1464,Motility,Surface
+S25,Stutzerimonas stutzeri,pilZ,Adherence,Surface
+S25,Pseudomonas pohangensis,rpoN,Adherence,Surface
+S25,Pseudomonadaceae,rpoN,Adherence,Surface
+S25,Pseudomonas,rpoN,Adherence,Surface
+S25,Stutzerimonas balearica,PA1464,Motility,Surface
+S25,Pseudomonadota,cheY,Motility,Surface
+S25,Pseudomonadota,fliP,Motility,Surface
+S25,Pseudomonas furukawaii,pilG,Adherence,Surface
+S25,Pseudomonas furukawaii,pilH,Adherence,Surface
+S25,Pseudomonas,flgI,Motility,Surface
+S25,Pseudomonas fulva,fliM,Motility,Surface
+S25,Halopseudomonas pelagia,fliG,Motility,Surface
+S25,Gammaproteobacteria,pilZ,Adherence,Surface
+S25,Streptomyces sp. SUK 48,vfr,Adherence,Surface
+S25,Paracoccus seriniphilus,vfr,Adherence,Surface
+S25,Halopseudomonas sp. SMJS2,PA1464,Motility,Surface
+S25,Stutzerimonas frequens,crc,Adherence,Surface
+S25,[Candida] auris,cheY,Motility,Surface
+S25,Pseudomonadaceae,fliG,Motility,Surface
+S25,Pseudomonadaceae,fliI,Motility,Surface
+S25,Sphingomonas sp. J315,PA1464,Motility,Surface
+S25,Bradyrhizobium,pilZ,Adherence,Surface
+S25,Pseudomonadota,pilZ,Adherence,Surface
+S25,Pseudomonas sp. SO81,PA1464,Motility,Surface
+S25,Pseudomonas syringae group,crc,Adherence,Surface
+S25,Pseudomonas,rpoS,Adherence,Surface
+S25,Pseudomonadaceae,cheY,Motility,Surface
+S25,Massilia violaceinigra,PA1464,Motility,Surface
+S25,Pseudomonas mendocina,pilZ,Adherence,Surface
+S25,Pseudomonas entomophila,pilG,Adherence,Surface
+S25,Pseudomonas entomophila,pilH,Adherence,Surface
+S25,Pseudomonas sp. TUM22785,fliI,Motility,Surface
+S25,Xanthomonas,pilT,Adherence,Surface
+S25,Pseudomonas,fleN,Motility,Surface
+S25,Pseudomonas sp. SG20056,pilG,Adherence,Surface
+S25,Streptomyces sp. AMCC400023,vfr,Adherence,Surface
+S25,Azotobacter chroococcum,PA1464,Motility,Surface
+S25,Salmonella sp.,pilT,Adherence,Surface
+S25,Pseudomonas otitidis,pilG,Adherence,Surface
+S25,Pseudomonas sp. BT-42-2,fliG,Motility,Surface
+S25,Pseudomonas sp. BT-42-2,fliI,Motility,Surface
+S25,Pseudomonas sp. SL4(2022),PA1464,Motility,Surface
+S25,Pseudomonadota,rpoS,Adherence,Surface
+S25,Pseudomonas sp. SO81,pilG,Adherence,Surface
+S25,Pseudomonas sp. SO81,pilH,Adherence,Surface
+S25,Aeromonas,flgI,Motility,Surface
+S25,Aeromonas,flgG,Motility,Surface
+S25,Aeromonas,flgC,Motility,Surface
+S25,Azospira restricta,pilT,Adherence,Surface
+S25,Pseudomonas putida,flgI,Motility,Surface
+S25,Pseudomonas putida,flgG,Motility,Surface
+S25,Pseudomonadaceae,pilZ,Adherence,Surface
+S25,Pseudomonas sp. TUM22785,fliG,Motility,Surface
+S25,Pseudomonadota,PA1464,Motility,Surface
+S25,Gammaproteobacteria,vfr,Adherence,Surface
+S25,Stutzerimonas stutzeri,vfr,Adherence,Surface
+S25,Pseudomonas knackmussii,fliM,Motility,Surface
+S25,Xanthomonas,pilG,Adherence,Surface
+S25,Xanthomonas,pilH,Adherence,Surface
+S25,Pseudomonadaceae,PA1464,Motility,Surface
+S25,Micromonospora,crc,Adherence,Surface
+S25,Gammaproteobacteria,flgC,Motility,Surface
+S25,Stutzerimonas stutzeri subgroup,pilZ,Adherence,Surface
+S25,Pseudomonas furukawaii,fliI,Motility,Surface
+S25,Pseudomonas mendocina,flgC,Motility,Surface
+S25,uncultured Pleomorphomonas sp.,fliI,Motility,Surface
+S25,Pseudomonas,fliP,Motility,Surface
+S25,Halomonas sp. THAF5a,pilZ,Adherence,Surface
+S25,Pseudomonas sp. SO81,rpoN,Adherence,Surface
+S25,Streptomyces gardneri,rpoS,Adherence,Surface
+S25,Cupriavidus pinatubonensis,flgH,Motility,Surface
+S25,Cupriavidus pinatubonensis,flgI,Motility,Surface
+S25,Gammaproteobacteria,flgG,Motility,Surface
+S25,Pseudomonas sp. MM227,flgG,Motility,Surface
+S25,Stutzerimonas stutzeri,fliI,Motility,Surface
+S25,Stutzerimonas stutzeri,fliM,Motility,Surface
+S25,Stutzerimonas stutzeri,fliP,Motility,Surface
+S25,Corallococcus,pilZ,Adherence,Surface
+S25,Pseudomonas promysalinigenes,PA1464,Motility,Surface
+S25,Ruegeria pomeroyi,fliI,Motility,Surface
+S25,Pseudomonas sp. KU26590,flgG,Motility,Surface
+S25,Pseudomonas sp. KU26590,flgI,Motility,Surface
+S25,Geothrix sp. 21YS21S-2,fliM,Motility,Surface
+S25,Geothrix sp. 21YS21S-2,fliP,Motility,Surface
+S25,Pseudomonas berkeleyensis,crc,Adherence,Surface
+S25,Pseudomonas aeruginosa,pilG,Adherence,Surface
+S25,Pseudomonas asturiensis,vfr,Adherence,Surface
+S25,Pseudomonas syringae,fliI,Motility,Surface
+S25,Pantoea rwandensis,pilG,Adherence,Surface
+S25,Pantoea rwandensis,pilH,Adherence,Surface
+S25,Pantoea agglomerans,flgI,Motility,Surface
+S25,Pantoea agglomerans,flgH,Motility,Surface
+S25,Pseudomonas serboccidentalis,fliP,Motility,Surface
+S25,Pseudomonas kielensis,cheY,Motility,Surface
+S25,Pseudomonas kielensis,fleN,Motility,Surface
+S25,Pseudomonas putida,fliI,Motility,Surface
+S25,Pseudomonas putida,fliG,Motility,Surface
+S25,Pseudomonas synxantha,PA1464,Motility,Surface
+S25,Pseudomonadota,pilG,Adherence,Surface
+S25,Pseudomonadota,pilH,Adherence,Surface
+S25,Pseudomonadota,flgC,Motility,Surface
+S25,Pseudomonas,pilH,Adherence,Surface
+S25,Pseudomonas,pilG,Adherence,Surface
+S25,Pandoraea,vfr,Adherence,Surface
+S25,Pseudomonas sp. TCU-HL1,pilZ,Adherence,Surface
+S25,Azotobacter chroococcum,rpoN,Adherence,Surface
+S25,Lysobacter sp. CJ11,pilT,Adherence,Surface
+S25,Pseudomonas lurida,pilZ,Adherence,Surface
+S25,Lysobacteraceae,pilG,Adherence,Surface
+S25,Lysobacteraceae,pilH,Adherence,Surface
+S25,Gammaproteobacteria,pilG,Adherence,Surface
+S25,Gammaproteobacteria,pilH,Adherence,Surface
+S25,Streptomycetaceae,fliM,Motility,Surface
+S25,Pseudomonas sp. ABC1,flgC,Motility,Surface
+S25,uncultured Gellertiella sp.,vfr,Adherence,Surface
+S25,Pseudomonas alcaligenes,pilG,Adherence,Surface
+S25,Pseudomonas alcaligenes,pilH,Adherence,Surface
+S25,Pseudomonas kurunegalensis,pilT,Adherence,Surface
+S25,Pseudomonadaceae,flgG,Motility,Surface
+S25,Microvirga sp. 17 mud 1-3,rpoN,Adherence,Surface
+S25,Haloarcula pelagica,fliG,Motility,Surface
+S25,Burkholderia gladioli,pilT,Adherence,Surface
+S25,Gammaproteobacteria,cheY,Motility,Surface
+S25,Corynebacterium sp. NML98-0116,pilH,Adherence,Surface
+S25,Corynebacterium sp. NML98-0116,pilG,Adherence,Surface
+S25,Pseudomonas sp. PDNC002,flgG,Motility,Surface
+S25,Pseudomonas sp. PDNC002,flgI,Motility,Surface
+S25,Pseudomonadaceae,vfr,Adherence,Surface
+S25,Pseudomonas sp. G.S.17,pilT,Adherence,Surface
+S25,Pseudomonas sp. L5B5,pilZ,Adherence,Surface
+S25,Rossellomorea marisflavi,rpoN,Adherence,Surface
+S25,Pseudomonas sp. KNUC1026,flgI,Motility,Surface
+S25,Pseudomonas sp. KNUC1026,flgH,Motility,Surface
+S25,Pseudomonas sp. KNUC1026,flgG,Motility,Surface
+S25,Stutzerimonas stutzeri,flgI,Motility,Surface
+S25,Stutzerimonas stutzeri,flgH,Motility,Surface
+S25,Stutzerimonas stutzeri,flgG,Motility,Surface
+S25,Pseudomonas khazarica,pilT,Adherence,Surface
+S25,Pseudomonas sp. ABC1,flgG,Motility,Surface
+S25,Stutzerimonas stutzeri subgroup,pilH,Adherence,Surface
+S25,Stutzerimonas stutzeri subgroup,pilG,Adherence,Surface
+S25,Pseudomonas sp. KU26590,pilT,Adherence,Surface
+S25,Amycolatopsis sp. DSM 110486,fliP,Motility,Surface
+S25,Pseudomonadaceae,fliM,Motility,Surface
+S25,Pseudomonas oryzae,vfr,Adherence,Surface
+S25,Pseudomonas sp. OIL-1,fleN,Motility,Surface
+S25,Roseivirga spongicola,vfr,Adherence,Surface
+S25,Pseudomonas sp. MM227,pilZ,Adherence,Surface
+S25,Pseudomonas argentinensis,fliP,Motility,Surface
+S25,Pseudomonas argentinensis,fliM,Motility,Surface
+S25,Streptomyces marincola,fliM,Motility,Surface
+S25,Streptomyces marincola,fliP,Motility,Surface
+S25,Phenylobacterium zucineum HLK1,fliI,Motility,Surface
+S25,Phenylobacterium zucineum HLK1,fliG,Motility,Surface
+S25,Stutzerimonas stutzeri RCH2,rpoN,Adherence,Surface
+S25,Serinicoccus chungangensis,flgG,Motility,Surface
+S25,Pseudomonas oleovorans CECT 5344,fliG,Motility,Surface
+S25,Pseudomonas sp. SL4(2022),fliM,Motility,Surface
+S25,Pseudomonas serboccidentalis,fliM,Motility,Surface
+S25,Bradyrhizobium elkanii,fliG,Motility,Surface
+S25,Pseudomonas,flgH,Motility,Surface
+S25,Streptomyces lavendulae subsp. lavendulae,fliP,Motility,Surface
+S25,Streptomyces lavendulae subsp. lavendulae,fliM,Motility,Surface
+S25,Pseudomonadota,crc,Adherence,Surface
+S25,Desulfobulbus oligotrophicus,rpoS,Adherence,Surface
+S25,Stutzerimonas stutzeri,rpoN,Adherence,Surface
+S25,Luteimonas sp. S4-F44,fliM,Motility,Surface
+S25,Pseudomonas guguanensis,cheY,Motility,Surface
+S25,Synechococcus sp. CBW1004,fliM,Motility,Surface
+S25,Stutzerimonas,PA1464,Motility,Surface
+S25,Pseudomonas sp. SCB32,cheY,Motility,Surface
+S25,Mycolicibacterium celeriflavum,pilZ,Adherence,Surface
+S25,Pseudomonas eucalypticola,rpoN,Adherence,Surface
+S25,Pseudomonas sp. N3-W,flgC,Motility,Surface
+S25,Pseudomonas sp. J452,pilZ,Adherence,Surface
+S25,Burkholderia metallica,PA1464,Motility,Surface
+S25,Pseudomonas sp. KU26590,fliP,Motility,Surface
+S25,Pseudomonas lalkuanensis,vfr,Adherence,Surface
+S25,Pseudomonas sp. TCU-HL1,flgI,Motility,Surface
+S25,Pseudomonas sp. TCU-HL1,flgG,Motility,Surface
+S25,Pseudomonas sp. TCU-HL1,flgC,Motility,Surface
+S25,Pseudomonas fulva,PA1464,Motility,Surface
+S25,Dermatobacter hominis,cheY,Motility,Surface
+S25,Dermatobacter hominis,fliP,Motility,Surface
+S25,Dermatobacter hominis,fliM,Motility,Surface
+S25,Halopseudomonas phragmitis,pilG,Adherence,Surface
+S25,Halopseudomonas phragmitis,pilH,Adherence,Surface
+S25,Pseudomonadales,PA1464,Motility,Surface
+S25,Pseudomonas coleopterorum,pilZ,Adherence,Surface
+S25,Stenotrophomonas acidaminiphila,pilT,Adherence,Surface
+S25,uncultured Paludibaculum sp.,vfr,Adherence,Surface
+S25,Gammaproteobacteria,fliI,Motility,Surface
+S25,Guyparkeria halophila,cheY,Motility,Surface
+S25,Guyparkeria halophila,fleN,Motility,Surface
+S25,Guyparkeria halophila,fliP,Motility,Surface
+S25,Streptomyces,flgI,Motility,Surface
+S25,Streptomyces,flgG,Motility,Surface
+S25,Pseudomonas kribbensis,fliP,Motility,Surface
+S25,Pseudomonas sp. GCEP-101,PA1464,Motility,Surface
+S25,Pseudomonas sp. ABC1,rpoS,Adherence,Surface
+S25,Pseudomonas syringae group,pilG,Adherence,Surface
+S25,Pseudomonas syringae group,pilH,Adherence,Surface
+S25,Pseudomonas phenolilytica,rpoN,Adherence,Surface
+S25,Pseudomonas benzenivorans,fliG,Motility,Surface
+S25,Pseudomonas aeruginosa group,fliG,Motility,Surface
+S25,Pseudomonas sp. ABC1,fliG,Motility,Surface
+S25,Pseudomonas psychrotolerans,fliP,Motility,Surface
+S25,Pseudomonas psychrotolerans,fliM,Motility,Surface
+S25,Pseudomonas hygromyciniae,vfr,Adherence,Surface
+S25,uncultured Pseudomonas sp.,fliM,Motility,Surface
+S25,Piscinibacter gummiphilus,PA1464,Motility,Surface
+S17,Pseudomonas sp. R5-89-07,rpoS,Adherence,Surface
+S17,Pseudomonas,fliI,Motility,Surface
+S17,Pseudomonas,pilG,Adherence,Surface
+S17,Pseudomonas,pilH,Adherence,Surface
+S17,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S13,Acinetobacter,pilT,Adherence,Surface
+S13,Acinetobacter,pilG,Adherence,Surface
+S13,Duffyella gerundensis,hcp/tssD,Effector delivery system,Surface
+S13,Acinetobacter lwoffii,pilG,Adherence,Surface
+A26,Pseudomonas,fliP,Motility,Air
+A26,Rahnella aceris,rcsB,Regulation,Air
+A26,Stutzerimonas stutzeri,pilH,Adherence,Air
+A26,Stutzerimonas stutzeri,pilG,Adherence,Air
+A26,Stutzerimonas stutzeri group,PA1464,Motility,Air
+A26,Klebsiella oxytoca,rcsB,Regulation,Air
+A26,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A26,Rahnella bonaserana,rcsB,Regulation,Air
+A22,Rahnella bonaserana,rcsB,Regulation,Air
+A22,Rahnella inusitata,rpoS,Regulation,Air
+A22,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A22,Klebsiella oxytoca,rcsB,Regulation,Air
+A22,Gammaproteobacteria,rcsB,Regulation,Air
+A22,Rahnella inusitata,rcsB,Regulation,Air
+A22,Rahnella bonaserana,hcp/tssD,Effector delivery system,Air
+A22,Rahnella aceris,rcsB,Regulation,Air
+A22,Rahnella bonaserana,rpoS,Regulation,Air
+A22,Enterobacterales,rcsB,Regulation,Air
+A22,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A22,Rahnella,rcsB,Regulation,Air
+A22,Rahnella,hcp/tssD,Effector delivery system,Air
+A22,Yersinia aleksiciae,hcp/tssD,Effector delivery system,Air
+A22,Enterobacter hormaechei,hcp/tssD,Effector delivery system,Air
+A22,Enterobacteriaceae,rcsB,Regulation,Air
+A22,Rahnella victoriana,rcsB,Regulation,Air
+A22,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A22,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A22,[Pantoea] beijingensis,hcp/tssD,Effector delivery system,Air
+A22,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A22,Yersiniaceae,hcp/tssD,Effector delivery system,Air
+A56,Yersinia canariae,hcp/tssD,Effector delivery system,Air
+A56,uncultured Draconibacterium sp.,hcp/tssD,Effector delivery system,Air
+A56,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A56,Rouxiella badensis,rcsB,Regulation,Air
+A52,Rahnella bonaserana,rcsB,Regulation,Air
+A52,Rahnella aceris,rcsB,Regulation,Air
+A52,Rahnella victoriana,rcsB,Regulation,Air
+A52,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A52,Rahnella,rcsB,Regulation,Air
+A52,Yersinia frederiksenii,hcp/tssD,Effector delivery system,Air
+A52,Sodalis glossinidius str. 'morsitans',rcsB,Regulation,Air
+A52,Enterobacteriaceae,rcsB,Regulation,Air
+A52,Rahnella,hcp/tssD,Effector delivery system,Air
+A52,Rahnella aceris,rpoS,Regulation,Air
+A52,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A52,Edwardsiella ictaluri,rcsB,Regulation,Air
+A52,Rouxiella chamberiensis,rcsB,Regulation,Air
+A52,Aggregatibacter,rpoS,Regulation,Air
+A52,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A52,Enterobacterales,rcsB,Regulation,Air
+A52,Klebsiella oxytoca,rcsB,Regulation,Air
+A52,Yersiniaceae,hcp/tssD,Effector delivery system,Air
+A52,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A52,Yersinia,hcp/tssD,Effector delivery system,Air
+A52,Rouxiella badensis,rcsB,Regulation,Air
+A52,Rahnella sikkimica,rcsB,Regulation,Air
+A52,Enterobacterales,rpoS,Regulation,Air
+A52,Cedecea neteri,rcsB,Regulation,Air
+A52,Lelliottia sp. JS-SCA-14,hcp/tssD,Effector delivery system,Air
+A52,Rahnella,rpoS,Regulation,Air
+S18,Pseudomonas,flgC,Motility,Surface
+S18,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S18,Pseudomonas,PA1664,Effector delivery system,Surface
+S18,Pseudomonas,fleN,Motility,Surface
+S18,Pseudomonas,hcpA,Effector delivery system,Surface
+S18,Pseudomonas,crc,Adherence,Surface
+S18,Pseudomonas asgharzadehiana,tssC,Effector delivery system,Surface
+S18,Pseudomonas,pilG,Adherence,Surface
+S18,Serratia proteamaculans,rcsB,Regulation,Surface
+S14,Stutzerimonas stutzeri,fliM,Motility,Surface
+S14,Pseudomonadaceae,PA1464,Motility,Surface
+S14,Stutzerimonas stutzeri,algA,Biofilm,Surface
+S14,Stutzerimonas stutzeri,fliP,Motility,Surface
+S14,Pseudomonas,pilG,Adherence,Surface
+S14,Pseudomonas,pilH,Adherence,Surface
+S14,Acinetobacter lwoffii,pilT,Adherence,Surface
+S14,Stutzerimonas stutzeri,flgG,Motility,Surface
+S14,Acinetobacter,pilG,Adherence,Surface
+S14,Stutzerimonas stutzeri,fliI,Motility,Surface
+S14,Stutzerimonas stutzeri,vfr,Adherence,Surface
+S14,Stutzerimonas stutzeri,rpoS,Adherence,Surface
+S14,Acinetobacter,pilT,Adherence,Surface
+S14,Stutzerimonas stutzeri group,flgG,Motility,Surface
+S14,Stutzerimonas stutzeri,crc,Adherence,Surface
+S14,Pseudomonadaceae,fliG,Motility,Surface
+S14,Pseudomonadaceae,fliI,Motility,Surface
+S14,Stutzerimonas stutzeri,fleN,Motility,Surface
+S14,Stutzerimonas,fliM,Motility,Surface
+S14,Duffyella gerundensis,hcp/tssD,Effector delivery system,Surface
+S7,Acinetobacter,pilG,Adherence,Surface
+S7,Acinetobacter,pilT,Adherence,Surface
+S2,Acinetobacter,pilT,Adherence,Surface
+S2,Acinetobacter,pilG,Adherence,Surface
+S2,Acinetobacter lwoffii,pilT,Adherence,Surface
+S2,Pseudomonas,rpoN,Adherence,Surface
+S2,Pseudomonadota,pilT,Adherence,Surface
+S2,Gammaproteobacteria,pilG,Adherence,Surface
+S5,Pseudomonas sp. FP2335,flgC,Motility,Surface
+S5,Acinetobacter,pilT,Adherence,Surface
+S5,Acinetobacter lwoffii,pilT,Adherence,Surface
+S5,Gammaproteobacteria,pilG,Adherence,Surface
+S5,Pseudomonas,hcpA,Effector delivery system,Surface
+S5,Acinetobacter,pilG,Adherence,Surface
+S5,Gammaproteobacteria,pilT,Adherence,Surface
+S5,Pseudomonadota,pilT,Adherence,Surface
+S5,Pseudomonas,alg8,Biofilm,Surface
+S5,Yersiniaceae,rpoS,Regulation,Surface
+S5,Pseudomonas oryzihabitans,fliG,Motility,Surface
+S5,Pseudomonas oryzihabitans,fliI,Motility,Surface
+S5,Pseudomonas,flgG,Motility,Surface
+S32,Streptomycetaceae,PA1464,Motility,Surface
+S32,Pseudomonadaceae,PA1464,Motility,Surface
+S32,Pseudomonas,rpoN,Adherence,Surface
+S32,Pantoea,rcsB,Regulation,Surface
+S32,Pseudomonas,crc,Adherence,Surface
+S32,Pseudomonadota,pilT,Adherence,Surface
+S32,Pseudomonas otitidis,pilG,Adherence,Surface
+S32,Pseudomonadaceae,pilH,Adherence,Surface
+S32,Pseudomonas marincola,crc,Adherence,Surface
+S32,Acinetobacter,pilG,Adherence,Surface
+A27,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A27,Erwinia,rcsB,Regulation,Air
+A27,Yersiniaceae,rcsB,Regulation,Air
+A57,Rahnella victoriana,rcsB,Regulation,Air
+A57,Rahnella aceris,rcsB,Regulation,Air
+A57,Rahnella bonaserana,hcp/tssD,Effector delivery system,Air
+A57,Yersinia,hcp/tssD,Effector delivery system,Air
+A57,Rahnella aceris,rpoS,Regulation,Air
+A57,Rahnella bonaserana,rcsB,Regulation,Air
+A57,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A57,Yersiniaceae,rcsB,Regulation,Air
+A57,Rahnella sikkimica,rcsB,Regulation,Air
+A57,Enterobacteriaceae,rcsB,Regulation,Air
+A57,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A57,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A57,Gammaproteobacteria,hcp/tssD,Effector delivery system,Air
+A57,Rahnella,hcp/tssD,Effector delivery system,Air
+A57,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A57,Klebsiella oxytoca,rcsB,Regulation,Air
+A57,Rahnella,rcsB,Regulation,Air
+A57,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A57,Yersinia hibernica,hcp/tssD,Effector delivery system,Air
+A57,Rahnella,rpoS,Regulation,Air
+A57,Buttiauxella selenatireducens,rcsB,Regulation,Air
+A57,Rahnella bonaserana,rpoS,Regulation,Air
+A57,Deefgea piscis,rcsB,Regulation,Air
+A57,Yersiniaceae,hcp/tssD,Effector delivery system,Air
+A57,Yersinia ruckeri,rcsB,Regulation,Air
+A57,Escherichia fergusonii,rcsB,Regulation,Air
+A53,Rahnella,rcsB,Regulation,Air
+A53,Rahnella bonaserana,hcp/tssD,Effector delivery system,Air
+A53,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A53,Rahnella bonaserana,rcsB,Regulation,Air
+A53,Yersiniaceae,rcsB,Regulation,Air
+A53,Hafniaceae,hcp/tssD,Effector delivery system,Air
+A53,Rahnella victoriana,rcsB,Regulation,Air
+A53,Pseudomonadota,hcp/tssD,Effector delivery system,Air
+A53,Enterobacteriaceae,rcsB,Regulation,Air
+A53,Rahnella,hcp/tssD,Effector delivery system,Air
+A53,Yersinia frederiksenii,hcp/tssD,Effector delivery system,Air
+A53,Yersiniaceae,hcp/tssD,Effector delivery system,Air
+A53,Enterobacterales,rcsB,Regulation,Air
+A53,Yersinia similis,rpoS,Regulation,Air
+A53,Rahnella aceris,rcsB,Regulation,Air
+A53,Gammaproteobacteria,rcsB,Regulation,Air
+A53,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A53,Serratia sp. FGI94,rcsB,Regulation,Air
+A53,Leclercia,hcp/tssD,Effector delivery system,Air
+A53,Rahnella inusitata,rcsB,Regulation,Air
+A53,Gammaproteobacteria,rpoS,Regulation,Air
+A53,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A53,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A53,Yersinia,hcp/tssD,Effector delivery system,Air
+A53,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A53,Serratia rhizosphaerae,rcsB,Regulation,Air
+A53,Rahnella bonaserana,rpoS,Regulation,Air
+A53,Naumovozyma dairenensis CBS 421,hcp/tssD,Effector delivery system,Air
+A53,Cedecea neteri,hcp/tssD,Effector delivery system,Air
+A53,Scandinavium goeteborgense,hcp/tssD,Effector delivery system,Air
+A53,Enterobacterales,rpoS,Regulation,Air
+A53,Rouxiella badensis,rcsB,Regulation,Air
+A53,Rahnella,rpoS,Regulation,Air
+A53,Rahnella aquatilis CIP 78.65 = ATCC 33071,rcsB,Regulation,Air
+A41,Pseudomonadota,hcp/tssD,Effector delivery system,Air
+A41,Gammaproteobacteria,rcsB,Regulation,Air
+A41,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A41,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+S19,Pseudomonas,pilH,Adherence,Surface
+S19,Pseudomonas,pilG,Adherence,Surface
+S19,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas antarctica,fliI,Motility,Surface
+S19,Pseudomonas,PA1464,Motility,Surface
+S19,Pseudomonas orientalis,fliP,Motility,Surface
+S19,Pseudomonas orientalis,fliM,Motility,Surface
+S19,Pseudomonas,fliP,Motility,Surface
+S19,Pseudomonas,fliM,Motility,Surface
+S19,Gammaproteobacteria,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas cedrina,fliM,Motility,Surface
+S19,Pseudomonas nunensis,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas,rpoN,Adherence,Surface
+S19,Pseudomonas,algI,Biofilm,Surface
+S19,Pseudomonadota,rpoN,Adherence,Surface
+S19,Pseudomonas atacamensis,fliI,Motility,Surface
+S19,Gammaproteobacteria,fliG,Motility,Surface
+S19,Gammaproteobacteria,fliI,Motility,Surface
+S19,Pseudomonas sp. ADAK13,crc,Adherence,Surface
+S19,Pseudomonas sp. F3-2,rpoS,Adherence,Surface
+S19,Pseudomonas,flgC,Motility,Surface
+S19,Pseudomonadaceae,fliI,Motility,Surface
+S19,Pseudomonadaceae,fliG,Motility,Surface
+S19,Pseudomonas,flgI,Motility,Surface
+S19,Pseudomonas sp. R76,fliG,Motility,Surface
+S19,Pseudomonas,flgG,Motility,Surface
+S19,Pseudomonas marginalis,pilG,Adherence,Surface
+S19,Pseudomonas,fliG,Motility,Surface
+S19,Pseudomonas,crc,Adherence,Surface
+S19,Nocardia,PA1464,Motility,Surface
+S19,Pseudomonas simiae,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas,fliI,Motility,Surface
+S19,Pseudomonas,alg8,Biofilm,Surface
+S19,Pseudomonas atacamensis,flgG,Motility,Surface
+S19,Pseudomonas atacamensis,flgI,Motility,Surface
+S19,Pseudomonas lurida,fleN,Motility,Surface
+S19,Pseudomonas lurida,algI,Biofilm,Surface
+S19,Pseudomonas sp. HLS-6,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas,rpoS,Adherence,Surface
+S19,Pseudomonas,algA,Biofilm,Surface
+S19,Pseudomonas tolaasii,rpoS,Adherence,Surface
+S19,Pseudomonadota,flgC,Motility,Surface
+S19,Pseudomonas sp. WJP1,pilH,Adherence,Surface
+S19,Pseudomonas,fleN,Motility,Surface
+S19,Pseudomonas canadensis,pilH,Adherence,Surface
+S19,Pseudomonas canadensis,pilG,Adherence,Surface
+S19,Pseudomonas synxantha,rpoN,Adherence,Surface
+S19,Pseudomonadaceae,PA1464,Motility,Surface
+S19,Bradyrhizobium icense,fliP,Motility,Surface
+S19,Pseudomonas umsongensis,flgC,Motility,Surface
+S19,Pseudomonadaceae,fliP,Motility,Surface
+S19,Pseudomonas entomophila,fliM,Motility,Surface
+S19,Pseudomonas entomophila,fliP,Motility,Surface
+S19,Pseudomonas,flgH,Motility,Surface
+S19,Pseudomonadaceae,crc,Adherence,Surface
+S19,Pseudomonas alkylphenolica,flgG,Motility,Surface
+S19,Pseudomonas sp. CBS,PA1464,Motility,Surface
+S19,Pseudomonas baltica,rpoN,Adherence,Surface
+S19,Pseudomonadota,fliM,Motility,Surface
+S19,Pseudomonadota,fliP,Motility,Surface
+S19,Pseudomonas sp. D3,fliG,Motility,Surface
+S19,Pseudomonas sp. D3,fliI,Motility,Surface
+S19,Pseudomonas sp. SG20052,flgC,Motility,Surface
+S19,Pseudomonas canadensis,fliM,Motility,Surface
+S19,Pseudomonas canadensis,fliP,Motility,Surface
+S19,Pseudomonas fluorescens,flgC,Motility,Surface
+S19,Pseudomonas extremaustralis,fliG,Motility,Surface
+S19,Pseudomonas extremaustralis,fliI,Motility,Surface
+S19,Pseudomonas veronii,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas sp. FJ2-5-13,rpoS,Adherence,Surface
+S19,Pseudomonas cedrina,rpoN,Adherence,Surface
+S19,Pseudomonas sp. FP2335,mbtH-like,Nutritional/Metabolic factor,Surface
+S19,Pseudomonas sp. OE 28.3,rpoS,Adherence,Surface
+S19,Gammaproteobacteria,rpoN,Adherence,Surface
+S19,Pseudomonas sp. FP453,pilG,Adherence,Surface
+S19,Pseudomonas arsenicoxydans,algI,Biofilm,Surface
+S19,Neoasaia chiangmaiensis,crc,Adherence,Surface
+S19,Pseudomonas trivialis,fliP,Motility,Surface
+S19,Pseudomonas trivialis,fliM,Motility,Surface
+S19,Pseudomonas trivialis,fliG,Motility,Surface
+S19,Pseudomonadaceae,rpoN,Adherence,Surface
+S19,Pseudomonas salmasensis,pilH,Adherence,Surface
+S19,Pseudomonas salmasensis,pilG,Adherence,Surface
+S19,Pseudomonas palleroniana,rpoS,Adherence,Surface
+S19,Pseudomonas sp. FP453,pilH,Adherence,Surface
+S15,Stutzerimonas stutzeri subgroup,cheY,Motility,Surface
+S15,Stutzerimonas stutzeri group,flgI,Motility,Surface
+S15,Pseudomonadaceae,fliP,Motility,Surface
+S15,Stutzerimonas stutzeri,fliG,Motility,Surface
+S15,Stutzerimonas,pilT,Adherence,Surface
+S15,Stutzerimonas stutzeri,PA1464,Motility,Surface
+S15,Stutzerimonas stutzeri group,flgG,Motility,Surface
+S15,Stutzerimonas stutzeri group,flgH,Motility,Surface
+S15,Stutzerimonas stutzeri,cheY,Motility,Surface
+S15,Pseudomonadaceae,fliM,Motility,Surface
+S15,Pseudomonadaceae,fliI,Motility,Surface
+S15,Stutzerimonas stutzeri group,flgC,Motility,Surface
+S15,Stutzerimonas stutzeri group,fliP,Motility,Surface
+S15,Stutzerimonas stutzeri group,fliM,Motility,Surface
+S15,Stutzerimonas stutzeri,fliM,Motility,Surface
+S15,Pseudomonadaceae,fliG,Motility,Surface
+S15,Stutzerimonas stutzeri,fliP,Motility,Surface
+S15,Stutzerimonas stutzeri,pilG,Adherence,Surface
+S15,Stutzerimonas stutzeri,pilH,Adherence,Surface
+S15,Pseudomonadaceae,hcpA,Effector delivery system,Surface
+S15,Stutzerimonas stutzeri,pilZ,Adherence,Surface
+S15,Pseudomonadaceae,pilT,Adherence,Surface
+S15,Pseudomonadaceae,crc,Adherence,Surface
+S15,Stutzerimonas stutzeri,algA,Biofilm,Surface
+S15,Pseudomonadaceae,rpoS,Adherence,Surface
+S15,Pseudomonas extremorientalis,fliG,Motility,Surface
+S15,Stutzerimonas stutzeri,pilT,Adherence,Surface
+S15,Stutzerimonas stutzeri,crc,Adherence,Surface
+S15,Stutzerimonas stutzeri,vfr,Adherence,Surface
+S15,Pseudomonadaceae,flgG,Motility,Surface
+S15,Pseudomonadaceae,flgC,Motility,Surface
+S15,Pseudomonas antarctica,flgG,Motility,Surface
+S15,Stutzerimonas stutzeri,flgG,Motility,Surface
+S15,Streptomyces,vfr,Adherence,Surface
+S15,Pseudomonas,rpoS,Adherence,Surface
+S15,Stutzerimonas,crc,Adherence,Surface
+S15,Pseudomonadaceae,pilZ,Adherence,Surface
+S15,Pseudomonadaceae,cheY,Motility,Surface
+S15,Pseudomonadaceae,fleN,Motility,Surface
+S15,Stutzerimonas,pilH,Adherence,Surface
+S15,Stutzerimonas,pilG,Adherence,Surface
+S15,Stutzerimonas stutzeri,flgI,Motility,Surface
+S15,Stutzerimonas stutzeri,flgH,Motility,Surface
+S15,Stutzerimonas stutzeri,flgC,Motility,Surface
+S15,Methylocystis rosea,fliG,Motility,Surface
+S15,Pseudomonas,pilZ,Adherence,Surface
+S15,Pseudomonas,rpoN,Adherence,Surface
+S15,Pseudomonadaceae,flgI,Motility,Surface
+S15,Stutzerimonas stutzeri,hcpA,Effector delivery system,Surface
+S15,Stutzerimonas stutzeri,rpoS,Adherence,Surface
+S15,Pseudomonas,crc,Adherence,Surface
+S15,Stutzerimonas,fliI,Motility,Surface
+S15,Stutzerimonas stutzeri,fliI,Motility,Surface
+S15,Stutzerimonas stutzeri group,crc,Adherence,Surface
+S15,Stutzerimonas stutzeri subgroup,fliG,Motility,Surface
+S15,Gammaproteobacteria,fleN,Motility,Surface
+S15,Gammaproteobacteria,cheY,Motility,Surface
+S15,Massilia endophytica,fliI,Motility,Surface
+S15,Stutzerimonas,fliM,Motility,Surface
+S15,Stutzerimonas,fliP,Motility,Surface
+S15,Pseudomonadaceae,pilG,Adherence,Surface
+S15,Pseudomonadota,vfr,Adherence,Surface
+S15,Acinetobacter lwoffii,pilT,Adherence,Surface
+S15,Stutzerimonas stutzeri subgroup,pilH,Adherence,Surface
+S15,Stutzerimonas stutzeri subgroup,pilG,Adherence,Surface
+S15,Stutzerimonas,rpoS,Adherence,Surface
+S15,Pseudomonas,alg8,Biofilm,Surface
+S15,Pseudomonadota,PA1464,Motility,Surface
+S15,Stutzerimonas stutzeri group,pilT,Adherence,Surface
+S15,Sphingopyxis sp. FD7,PA1464,Motility,Surface
+S21,Acinetobacter,pilT,Adherence,Surface
+S21,Pseudomonas sp. NS1(2017),fliP,Motility,Surface
+S21,Pseudomonas,algI,Biofilm,Surface
+S21,Pseudomonas sp. G2-4,PA1464,Motility,Surface
+S21,Gammaproteobacteria,pilG,Adherence,Surface
+S21,Acinetobacter lwoffii,pilG,Adherence,Surface
+S21,Acinetobacter,pilG,Adherence,Surface
+S21,Pseudomonas,fleN,Motility,Surface
+S21,Pseudomonas,fliM,Motility,Surface
+S21,Pseudomonas fluorescens,flgC,Motility,Surface
+S21,Pseudomonas,PA1464,Motility,Surface
+S21,Pseudomonas,pilG,Adherence,Surface
+S21,Pseudomonas,pilH,Adherence,Surface
+S21,Pseudomonas,fliP,Motility,Surface
+S21,Pseudomonas,flgI,Motility,Surface
+S21,Gammaproteobacteria,flgH,Motility,Surface
+S21,Pseudomonas,flgC,Motility,Surface
+S21,Acinetobacter pseudolwoffii,pilT,Adherence,Surface
+S21,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+A58,Pseudomonas,PA1464,Motility,Air
+A58,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Air
+A58,Pseudomonas,pilG,Adherence,Air
+A58,Pseudomonas,pilH,Adherence,Air
+A58,Enterobacteriaceae,rpoS,Regulation,Air
+A58,Pseudomonas,fliG,Motility,Air
+A58,Pseudomonas,rpoS,Adherence,Air
+A58,Streptomyces xanthii,PA1464,Motility,Air
+A58,Pseudomonas sp. J380,fliP,Motility,Air
+A58,Pseudomonas,fleN,Motility,Air
+A58,Pseudomonas,fliI,Motility,Air
+S16,Pseudomonas,PA1464,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,fliM,Motility,Surface
+S16,Pseudomonas,rpoS,Adherence,Surface
+S16,Pseudomonas,pilG,Adherence,Surface
+S16,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S16,Pseudomonas,flgC,Motility,Surface
+S16,Pseudomonas cremoricolorata,pilH,Adherence,Surface
+S16,Pseudomonas sp. FP2338,fliI,Motility,Surface
+S16,Pseudomonas mucidolens,rpoS,Adherence,Surface
+S16,Pseudomonas,alg8,Biofilm,Surface
+S16,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S16,Pseudomonadaceae,PA1464,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,pilG,Adherence,Surface
+S16,Pseudomonas,fliM,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,crc,Adherence,Surface
+S16,Pseudomonas,algI,Biofilm,Surface
+S16,Pseudomonas,fleN,Motility,Surface
+S16,Pseudomonas sp. FP2034,PA1464,Motility,Surface
+S16,Pseudomonas sp. FP2338,algA,Biofilm,Surface
+S16,Pseudomonas sp. FP2338,algI,Biofilm,Surface
+S16,Pseudomonadota,rpoS,Adherence,Surface
+S16,Pseudomonas sp. FP2338,fliG,Motility,Surface
+S16,Pseudomonas,rpoN,Adherence,Surface
+S16,Pseudomonas,flgI,Motility,Surface
+S16,Pseudomonadaceae,fliI,Motility,Surface
+S16,Pseudomonadaceae,fliG,Motility,Surface
+S16,Pseudomonas,fliG,Motility,Surface
+S16,Pseudomonas,fliI,Motility,Surface
+S16,Pseudomonas,crc,Adherence,Surface
+S16,Pseudomonas sp. OE 28.3,fliP,Motility,Surface
+S16,Pseudomonas,algA,Biofilm,Surface
+S16,Vreelandella subglaciescola,rpoN,Adherence,Surface
+S16,Pseudomonas sp. ADAK18,flgG,Motility,Surface
+S16,Pseudomonas antarctica,pilG,Adherence,Surface
+S16,Pseudomonas,fliP,Motility,Surface
+S16,Streptomyces decoyicus,fliI,Motility,Surface
+S16,Pseudomonas sp. FP2338,PA1464,Motility,Surface
+S16,Pseudomonas sp. G2-4,fleN,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,pvdS,Nutritional/Metabolic factor,Surface
+S16,Pseudomonas sp. FP2338,fleN,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,PA1464,Motility,Surface
+S16,Gammaproteobacteria,flgH,Motility,Surface
+S16,Gammaproteobacteria,flgI,Motility,Surface
+S16,Pseudomonas sp. FP2338,pilG,Adherence,Surface
+S16,Pseudomonas,flgH,Motility,Surface
+S16,Pseudomonas trivialis,mbtH-like,Nutritional/Metabolic factor,Surface
+S16,Pseudomonas sp. R4-34-07,rpoS,Adherence,Surface
+S16,Pseudomonas fluorescens group,fliI,Motility,Surface
+S16,Pseudomonas fluorescens group,fliG,Motility,Surface
+S16,Gammaproteobacteria,pilG,Adherence,Surface
+S16,Gammaproteobacteria,pilH,Adherence,Surface
+S16,Pseudomonas fluorescens,fliM,Motility,Surface
+S16,Mesorhizobium sp. J8,flgH,Motility,Surface
+S16,Mesorhizobium sp. J8,flgG,Motility,Surface
+S16,Pseudomonas poae,fliG,Motility,Surface
+S16,Pseudomonas,pilH,Adherence,Surface
+S16,Acinetobacter indicus,crc,Adherence,Surface
+S16,Pantoea dispersa,rcsB,Regulation,Surface
+S16,Eukaryota,fliP,Motility,Surface
+S16,Pseudomonas sp. OE 28.3,fliI,Motility,Surface
+S16,Pseudomonas sp. R5-89-07,flgI,Motility,Surface
+S16,Pseudomonas,flgG,Motility,Surface
+S16,Pseudomonas sp. FP2338,mbtH-like,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas fluorescens group,hcpA,Effector delivery system,Surface
+S1,Pseudomonas,hcpA,Effector delivery system,Surface
+S1,Pseudomonas,fliG,Motility,Surface
+S1,Pseudomonas,pilT,Adherence,Surface
+S1,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas,vfr,Adherence,Surface
+S1,Pseudomonas,fleN,Motility,Surface
+S1,Halodesulfurarchaeum formicicum,hcpA,Effector delivery system,Surface
+S1,Pseudomonas,cheY,Motility,Surface
+S1,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas,PA1464,Motility,Surface
+S1,Pseudomonas siliginis,hcpA,Effector delivery system,Surface
+S1,Pseudomonas siliginis,mbtH-like,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas,pilG,Adherence,Surface
+S1,Pseudomonas,pilH,Adherence,Surface
+S1,Pseudomonas,PA1664,Effector delivery system,Surface
+S1,Pseudomonas moraviensis,pilH,Adherence,Surface
+S1,Pseudomonas moraviensis,pilG,Adherence,Surface
+S1,Pseudomonas,crc,Adherence,Surface
+S1,Pseudomonas,flgG,Motility,Surface
+S1,Pseudomonas,rpoS,Adherence,Surface
+S1,Pseudomonas,flgI,Motility,Surface
+S1,Pseudomonas siliginis,pvdS,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas,rpoN,Adherence,Surface
+S1,Pseudomonas,flgH,Motility,Surface
+S1,Ralstonia syzygii R24,pilG,Adherence,Surface
+S1,Pseudomonas,algI,Biofilm,Surface
+S1,Pseudomonas,algA,Biofilm,Surface
+S1,Pseudomonadaceae,fliG,Motility,Surface
+S1,Pseudomonas synxantha,algI,Biofilm,Surface
+S1,Pseudomonadota,flgG,Motility,Surface
+S1,Pseudomonas,alg8,Biofilm,Surface
+S1,Pseudomonas sp. FP2309,pilG,Adherence,Surface
+S1,Pseudomonas,tssC,Effector delivery system,Surface
+S1,Pseudomonas,tssB,Effector delivery system,Surface
+S1,Pseudomonas germanica,hcpA,Effector delivery system,Surface
+S1,Pediococcus pentosaceus,tssC,Effector delivery system,Surface
+S1,Pseudomonas,fliP,Motility,Surface
+S1,Pseudomonas,fliM,Motility,Surface
+S1,Pseudomonas,pilZ,Adherence,Surface
+S1,Pseudomonadota,rpoS,Adherence,Surface
+S1,Pseudomonas siliginis,pilG,Adherence,Surface
+S1,Pseudomonas,flgC,Motility,Surface
+S1,Pseudomonas,fliI,Motility,Surface
+S1,Pseudomonas siliginis,PA1664,Effector delivery system,Surface
+S1,Pseudomonas atacamensis,flgG,Motility,Surface
+S1,Pseudomonadaceae,PA1464,Motility,Surface
+S1,Pseudomonas koreensis,PA1664,Effector delivery system,Surface
+S1,Pseudomonas moraviensis R28-S,alg8,Biofilm,Surface
+S1,Pseudomonas siliginis,pilH,Adherence,Surface
+S1,Pseudomonas hamedanensis,crc,Adherence,Surface
+S1,Pseudomonadaceae,fliM,Motility,Surface
+S1,Rhizobium,fliP,Motility,Surface
+S1,Rhizobium,fliM,Motility,Surface
+S1,Pseudomonadota,fliG,Motility,Surface
+S1,Pseudomonadaceae,cheY,Motility,Surface
+S1,Pseudomonadaceae,fleN,Motility,Surface
+S1,Pseudomonas siliginis,fliI,Motility,Surface
+S1,Pseudomonadaceae,flgG,Motility,Surface
+S1,Pseudomonadaceae,flgH,Motility,Surface
+S1,Pseudomonadaceae,flgI,Motility,Surface
+S1,Pseudomonas vancouverensis,fliG,Motility,Surface
+S1,Pseudomonas siliginis,fliM,Motility,Surface
+S1,Gammaproteobacteria,fliI,Motility,Surface
+S1,Pseudomonas siliginis,rpoS,Adherence,Surface
+S1,Pseudomonas agarici,pvdS,Nutritional/Metabolic factor,Surface
+S1,Stutzerimonas stutzeri,crc,Adherence,Surface
+S1,Pseudomonas atacamensis,pilH,Adherence,Surface
+S1,Pseudomonas sp. R5-89-07,flgI,Motility,Surface
+S1,Pseudomonas siliginis,flgH,Motility,Surface
+S1,Pseudomonadaceae,PA1664,Effector delivery system,Surface
+S1,Pseudomonas syringae group,rpoN,Adherence,Surface
+S1,Pseudomonas fluorescens,PA1464,Motility,Surface
+S1,Pseudomonas sp. URMO17WK12:I11,tssC,Effector delivery system,Surface
+S1,Pseudomonas siliginis,flgI,Motility,Surface
+S1,Pseudomonas siliginis,flgG,Motility,Surface
+S1,Pseudomonadota,fleN,Motility,Surface
+S1,Gammaproteobacteria,tssB,Effector delivery system,Surface
+S1,Gammaproteobacteria,hcpA,Effector delivery system,Surface
+S1,Pseudomonas atacamensis,crc,Adherence,Surface
+S1,Pseudomonadaceae,pilT,Adherence,Surface
+S1,Pseudomonadaceae,flgC,Motility,Surface
+S1,Pseudomonas sp. NIBR-H-19,hcpA,Effector delivery system,Surface
+S1,Burkholderia cepacia,pilT,Adherence,Surface
+S1,Pseudomonadaceae,fliI,Motility,Surface
+S1,Pseudomonadota,pilG,Adherence,Surface
+S1,Pseudomonadaceae,tssB,Effector delivery system,Surface
+S1,Gammaproteobacteria,pilG,Adherence,Surface
+S1,Pseudomonas siliginis,fliG,Motility,Surface
+S1,Pseudomonas sp. FP1762,tssB,Effector delivery system,Surface
+S1,Rhodopseudomonas palustris,flgG,Motility,Surface
+S1,Pseudomonas siliginis,crc,Adherence,Surface
+S1,Pseudomonas fluorescens,flgC,Motility,Surface
+S1,Pseudomonadota,PA1664,Effector delivery system,Surface
+S1,Gammaproteobacteria,fliG,Motility,Surface
+S1,Bradyrhizobium,pilG,Adherence,Surface
+S1,Gammaproteobacteria,rpoS,Adherence,Surface
+S1,Pseudomonadota,flgH,Motility,Surface
+S1,Pseudomonadota,flgI,Motility,Surface
+S1,Gammaproteobacteria,fliP,Motility,Surface
+S1,Qipengyuania spongiae,PA1664,Effector delivery system,Surface
+S1,Urbifossiella limnaea,pilG,Adherence,Surface
+S1,Urbifossiella limnaea,pilH,Adherence,Surface
+S1,Amycolatopsis aidingensis,pvdS,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas koreensis,PA1464,Motility,Surface
+S1,Streptomyces cavourensis,fliG,Motility,Surface
+S1,Pseudomonas sp. B21-056,fliM,Motility,Surface
+S1,Pseudomonadota,pilH,Adherence,Surface
+S1,Pseudomonadaceae,pilG,Adherence,Surface
+S1,Pseudomonadaceae,pilH,Adherence,Surface
+S1,Pseudomonadaceae,rpoN,Adherence,Surface
+S1,Pseudomonas prosekii,pvdS,Nutritional/Metabolic factor,Surface
+S1,Gammaproteobacteria,flgG,Motility,Surface
+S1,Gammaproteobacteria,flgI,Motility,Surface
+S1,Gammaproteobacteria,rpoN,Adherence,Surface
+S1,Pseudomonas resinovorans NBRC 106553,PA1464,Motility,Surface
+S1,Pseudomonas sp. ACM7,rpoS,Adherence,Surface
+S1,Pseudomonadota,fliM,Motility,Surface
+S1,Pseudomonadota,flgC,Motility,Surface
+S1,Pseudomonas atacamensis,hcpA,Effector delivery system,Surface
+S1,Pseudomonas graminis,flgG,Motility,Surface
+S1,Pseudomonas graminis,flgI,Motility,Surface
+S1,Pseudomonas sp. DR 5-09,pilZ,Adherence,Surface
+S1,Pseudomonas siliginis,algA,Biofilm,Surface
+S1,Pseudomonas sp. HS6,fliI,Motility,Surface
+S1,Pseudomonas sp. HS6,fliG,Motility,Surface
+S1,Pseudomonas fragi,hcpA,Effector delivery system,Surface
+S1,Pseudomonadaceae,tssC,Effector delivery system,Surface
+S1,Pseudomonadaceae,fliP,Motility,Surface
+S1,Gammaproteobacteria,vfr,Adherence,Surface
+S1,Pseudomonas sp. G2-4,algA,Biofilm,Surface
+S1,Pseudomonadaceae,hcpA,Effector delivery system,Surface
+S1,Pseudomonas iranensis,fleN,Motility,Surface
+S1,Pseudomonas granadensis,pilG,Adherence,Surface
+S1,Pseudomonas granadensis,pilH,Adherence,Surface
+S1,Gammaproteobacteria,fliM,Motility,Surface
+S1,Gammaproteobacteria,pilH,Adherence,Surface
+S1,Pseudomonas atacamensis,flgI,Motility,Surface
+S1,Pseudomonas serboccidentalis,hcpA,Effector delivery system,Surface
+S1,Pseudomonas allokribbensis,rpoS,Adherence,Surface
+S1,Pseudomonas cedrina,flgH,Motility,Surface
+S1,Pseudomonas cedrina,flgI,Motility,Surface
+S1,Pseudomonadota,pvdS,Nutritional/Metabolic factor,Surface
+S1,Pseudomonas siliginis,flgC,Motility,Surface
+S34,Acinetobacter,pilT,Adherence,Surface
+S34,Acinetobacter,pilG,Adherence,Surface
+S30,Pseudomonas coleopterorum,PA1464,Motility,Surface
+S30,Pseudomonas sp. Ost2,vfr,Adherence,Surface
+S30,Pseudomonas,flgG,Motility,Surface
+S30,Pseudomonas,flgI,Motility,Surface
+S30,Pseudomonas,fliG,Motility,Surface
+S30,Pseudomonas rhizosphaerae,cheY,Motility,Surface
+S30,Pseudomonas rhizosphaerae,fleN,Motility,Surface
+S30,Pseudomonas,rpoN,Adherence,Surface
+S30,Pseudomonas coleopterorum,fliG,Motility,Surface
+S30,Acinetobacter,pilT,Adherence,Surface
+S30,Pseudomonadota,pilT,Adherence,Surface
+S30,Pseudomonas rhizosphaerae,PA1464,Motility,Surface
+S30,Pseudomonas rhodesiae,fliG,Motility,Surface
+S30,Pseudomonas,crc,Adherence,Surface
+S30,Pseudomonas,flgC,Motility,Surface
+S30,Pseudomonas,cheY,Motility,Surface
+S30,Pseudomonas,PA1464,Motility,Surface
+S30,Pseudomonas coleopterorum,pilZ,Adherence,Surface
+S30,Pseudomonadaceae,fliG,Motility,Surface
+S30,Acinetobacter,pilG,Adherence,Surface
+S30,Pseudomonadaceae,pilT,Adherence,Surface
+S30,Intrasporangium calvum,cheY,Motility,Surface
+S30,Pseudomonas coleopterorum,flgI,Motility,Surface
+S30,Pseudomonas coleopterorum,flgH,Motility,Surface
+S30,Pseudomonas coleopterorum,pilT,Adherence,Surface
+S30,Pseudomonadota,PA1464,Motility,Surface
+S30,Pseudomonas coleopterorum,fliM,Motility,Surface
+S30,Pseudomonadaceae,vfr,Adherence,Surface
+S30,Pseudomonas,pilZ,Adherence,Surface
+S30,Bradyrhizobium diazoefficiens,flgG,Motility,Surface
+S30,Bradyrhizobium diazoefficiens,flgC,Motility,Surface
+S30,Pseudomonas coleopterorum,rpoN,Adherence,Surface
+S30,Pseudomonadaceae,crc,Adherence,Surface
+S30,Pseudomonas,hcpA,Effector delivery system,Surface
+S30,Sulfuricystis thermophila,flgG,Motility,Surface
+S30,Sulfuricystis thermophila,flgI,Motility,Surface
+S30,Pseudomonas,fliM,Motility,Surface
+S30,Pseudomonas,fliI,Motility,Surface
+S30,Pseudomonas sp. MM227,cheY,Motility,Surface
+S30,Pseudomonas coleopterorum,flgG,Motility,Surface
+S9,Pseudomonas,fliG,Motility,Surface
+S9,Pseudomonas,rpoS,Adherence,Surface
+S9,Pseudomonas,fliM,Motility,Surface
+S9,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S9,Pseudomonas,flgH,Motility,Surface
+S9,Pseudomonas,flgG,Motility,Surface
+S9,Pseudomonas,pilH,Adherence,Surface
+S9,Pseudomonas,pilG,Adherence,Surface
+S9,Pseudomonas sp. MAG733B,hcpA,Effector delivery system,Surface
+S9,Pseudomonas,PA1464,Motility,Surface
+S9,Acinetobacter,pilT,Adherence,Surface
+S9,Pseudomonas,hcpA,Effector delivery system,Surface
+S9,Pseudomonas,PA1664,Effector delivery system,Surface
+S9,Pseudomonas,pilT,Adherence,Surface
+S9,Stutzerimonas stutzeri,rpoS,Adherence,Surface
+S9,Pseudomonas,tssB,Effector delivery system,Surface
+S9,Pseudomonadota,fliI,Motility,Surface
+S9,Pseudomonas,flgC,Motility,Surface
+S9,Gammaproteobacteria,rpoN,Adherence,Surface
+S9,Pseudomonas atacamensis,crc,Adherence,Surface
+S9,Pseudomonas,flgI,Motility,Surface
+S9,Stutzerimonas stutzeri,PA1464,Motility,Surface
+S9,Pseudomonas moraviensis,crc,Adherence,Surface
+S9,Pseudomonas coleopterorum,fleN,Motility,Surface
+S9,Pseudomonas coleopterorum,cheY,Motility,Surface
+S9,Pseudomonas,algI,Biofilm,Surface
+S9,Sinorhizobium alkalisoli,tssC,Effector delivery system,Surface
+S9,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S9,Pseudomonas syringae group,PA1464,Motility,Surface
+S9,Pseudomonas,tssC,Effector delivery system,Surface
+S9,Pseudomonas,rpoN,Adherence,Surface
+S9,Pseudomonadaceae,pilT,Adherence,Surface
+S9,Pseudomonas knackmussii B13,fliI,Motility,Surface
+S9,Pseudomonas atacamensis,rpoN,Adherence,Surface
+S9,Pseudomonas fluorescens group,pvdS,Nutritional/Metabolic factor,Surface
+S9,Stutzerimonas stutzeri,fliP,Motility,Surface
+S9,Pseudomonas prosekii,crc,Adherence,Surface
+S9,Pyricularia pennisetigena,pilT,Adherence,Surface
+S9,Pseudomonas,pilZ,Adherence,Surface
+S9,Gammaproteobacteria,pilT,Adherence,Surface
+S9,Pseudomonas,crc,Adherence,Surface
+S9,Gammaproteobacteria,vfr,Adherence,Surface
+S9,Pseudomonadaceae,fleN,Motility,Surface
+S9,Pseudomonadaceae,PA1664,Effector delivery system,Surface
+S9,Pseudomonas,fleN,Motility,Surface
+S9,Pseudomonas,cheY,Motility,Surface
+S9,Pseudomonas fluorescens,fliI,Motility,Surface
+S9,Pseudomonas yamanorum,mbtH-like,Nutritional/Metabolic factor,Surface
+S9,Pseudomonas,fliI,Motility,Surface
+S9,Stutzerimonas stutzeri,pilT,Adherence,Surface
+S9,Pseudomonas,alg8,Biofilm,Surface
+S9,Pseudomonas orientalis,rpoS,Adherence,Surface
+S9,Pseudomonas sp. AO-1,PA1464,Motility,Surface
+S9,Pseudomonadaceae,PA1464,Motility,Surface
+S9,Acinetobacter,pilG,Adherence,Surface
+S9,Pseudomonas sp. B21-053,fliG,Motility,Surface
+S9,Stutzerimonas stutzeri,crc,Adherence,Surface
+S9,Micromonospora sp. NBC_01796,cheY,Motility,Surface
+S9,Pseudomonadaceae,tssC,Effector delivery system,Surface
+S9,Pseudomonadaceae,tssB,Effector delivery system,Surface
+S9,Stutzerimonas stutzeri,pilH,Adherence,Surface
+S9,Stutzerimonas stutzeri,pilG,Adherence,Surface
+S9,Pseudomonas sp. SCA2728.1_7,PA1664,Effector delivery system,Surface
+S9,Pseudomonadales,pilT,Adherence,Surface
+S9,Pseudomonadota,mbtH-like,Nutritional/Metabolic factor,Surface
+S9,Stutzerimonas stutzeri,rpoN,Adherence,Surface
+S9,Stutzerimonas stutzeri,pilZ,Adherence,Surface
+S9,Pseudomonas,vfr,Adherence,Surface
+S9,Stutzerimonas stutzeri,fliG,Motility,Surface
+S9,Phaeobacter piscinae,pilZ,Adherence,Surface
+S9,Pseudomonas atacamensis,hcpA,Effector delivery system,Surface
+S9,Pseudomonadota,rpoN,Adherence,Surface
+S9,Pseudomonadales,fliM,Motility,Surface
+S9,Pseudomonadota,hcpA,Effector delivery system,Surface
+S9,Pseudomonas baltica,pilG,Adherence,Surface
+S9,Pseudomonas syringae,pilT,Adherence,Surface
+S4,Pseudomonas,flgH,Motility,Surface
+S4,Pseudomonas,flgG,Motility,Surface
+S4,Pseudomonas,flgI,Motility,Surface
+S4,Pseudomonas,pilG,Adherence,Surface
+S4,Pseudomonadaceae,pilH,Adherence,Surface
+S4,Pseudomonas,flgC,Motility,Surface
+S4,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S4,Pseudomonas,pilH,Adherence,Surface
+S4,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S4,Trueperella pyogenes,fliP,Motility,Surface
+S4,Pseudomonas alkylphenolica,PA1464,Motility,Surface
+S4,Pseudomonas,fliP,Motility,Surface
+S4,Pseudomonas,crc,Adherence,Surface
+S4,Pseudomonas,algA,Biofilm,Surface
+S4,Gammaproteobacteria,fleN,Motility,Surface
+S22,Pseudomonas,fleN,Motility,Surface
+S22,Pseudomonas sp. S35,fliM,Motility,Surface
+S22,Pseudomonas sp. S35,fliP,Motility,Surface
+S22,Micromonospora sp. DPT,fliP,Motility,Surface
+S22,Pseudomonadota,flgG,Motility,Surface
+S22,Pseudomonas,fliG,Motility,Surface
+S22,Pseudomonas coleopterorum,fliM,Motility,Surface
+S22,Pseudomonas,pilH,Adherence,Surface
+S22,Pseudomonas,pilG,Adherence,Surface
+S22,Pseudomonadaceae,pilT,Adherence,Surface
+S22,Pseudomonas sp. B21-047,fliP,Motility,Surface
+S22,Pseudomonas,fliP,Motility,Surface
+S22,Pseudomonas sp. ABC1,pilT,Adherence,Surface
+S22,Pseudomonas benzenivorans,rpoN,Adherence,Surface
+S22,Pseudomonas,fliM,Motility,Surface
+S22,Pseudomonas triclosanedens,PA1464,Motility,Surface
+S22,Pseudomonadaceae,flgG,Motility,Surface
+S22,Pseudomonas coleopterorum,pilZ,Adherence,Surface
+S22,Pseudomonas,pilT,Adherence,Surface
+S22,Pseudomonas,crc,Adherence,Surface
+S22,Acinetobacter lwoffii,pilG,Adherence,Surface
+S22,Pseudomonadaceae,vfr,Adherence,Surface
+S22,Pseudomonas,PA1464,Motility,Surface
+S22,Pseudomonas sp. MM227,cheY,Motility,Surface
+S22,Pseudomonas sp. MM227,fleN,Motility,Surface
+S22,Pseudomonadaceae,crc,Adherence,Surface
+S22,Halopseudomonas xinjiangensis,fliP,Motility,Surface
+S22,Pseudomonas,fliI,Motility,Surface
+S22,Halopseudomonas xinjiangensis,fliG,Motility,Surface
+S22,Pseudomonas coleopterorum,fleN,Motility,Surface
+S22,Pseudomonas coleopterorum,cheY,Motility,Surface
+S22,Acinetobacter lwoffii,pilT,Adherence,Surface
+S22,Pseudomonadota,crc,Adherence,Surface
+S22,Pseudomonas,rpoN,Adherence,Surface
+S22,Gammaproteobacteria,pilT,Adherence,Surface
+S22,Streptomyces glaucescens,pilH,Adherence,Surface
+S22,Pseudomonas rhizosphaerae,pilT,Adherence,Surface
+S22,Mesorhizobium,pilZ,Adherence,Surface
+S22,Pseudomonas sp. DTU_2021_1001937_2_SI_NGA_ILE_001,fliG,Motility,Surface
+S22,Pseudomonas sp. DTU_2021_1001937_2_SI_NGA_ILE_001,fliI,Motility,Surface
+S22,Pseudomonas,flgC,Motility,Surface
+S22,Actinomycetes,vfr,Adherence,Surface
+S22,Pseudomonas sp. Pc102,PA1464,Motility,Surface
+S22,Stutzerimonas balearica,rpoN,Adherence,Surface
+S22,Streptomonospora nanhaiensis,vfr,Adherence,Surface
+S22,Pseudomonas,pilZ,Adherence,Surface
+S22,Methylobacterium mesophilicum SR1.6/6,flgC,Motility,Surface
+S22,Pseudomonas rhizosphaerae,flgG,Motility,Surface
+S22,Pseudomonas rhizosphaerae,flgC,Motility,Surface
+S22,Pseudomonas mucidolens,fliI,Motility,Surface
+S22,Pseudomonas mucidolens,fliG,Motility,Surface
+S22,Pseudomonadaceae,pilZ,Adherence,Surface
+S22,Pseudomonas,cheY,Motility,Surface
+S22,Pseudomonadaceae,PA1464,Motility,Surface
+S22,Pseudomonas coleopterorum,pilT,Adherence,Surface
+S22,Pseudomonas,flgH,Motility,Surface
+S22,Pseudomonas,flgG,Motility,Surface
+S22,Pseudomonas,flgI,Motility,Surface
+S22,Pseudomonadota,flgI,Motility,Surface
+A29,Enterobacterales,rcsB,Regulation,Air
+A29,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A29,Klebsiella oxytoca,rcsB,Regulation,Air
+A29,Rahnella bonaserana,rcsB,Regulation,Air
+A29,Rahnella,rcsB,Regulation,Air
+A29,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A29,Enterobacteriaceae,rcsB,Regulation,Air
+A29,Rahnella aceris,rcsB,Regulation,Air
+S10,Pseudomonadaceae,fliG,Motility,Surface
+S10,Stenotrophomonas maltophilia,pilG,Adherence,Surface
+S31,Pseudomonadaceae,pilT,Adherence,Surface
+S31,Pseudomonas,flgH,Motility,Surface
+S31,Pseudomonas,flgG,Motility,Surface
+S31,Pseudomonas,cheY,Motility,Surface
+S31,Pseudomonas coleopterorum,pilT,Adherence,Surface
+S31,Pseudomonadota,fliM,Motility,Surface
+S31,Pseudomonas coleopterorum,flgG,Motility,Surface
+S31,Pseudomonas,PA1464,Motility,Surface
+S31,Pseudomonas coleopterorum,rpoN,Adherence,Surface
+S31,Pseudomonas,flgI,Motility,Surface
+S31,Pseudomonas sp. MM227,pilZ,Adherence,Surface
+S31,Pseudomonadaceae,crc,Adherence,Surface
+S31,Pseudomonadaceae,cheY,Motility,Surface
+S31,Pseudomonas coleopterorum,pilZ,Adherence,Surface
+S31,Pseudomonas,pilT,Adherence,Surface
+S31,Pseudomonadaceae,fliP,Motility,Surface
+S31,Pseudomonas coleopterorum,flgI,Motility,Surface
+S31,Pseudomonas coleopterorum,flgC,Motility,Surface
+S31,Pseudomonas coleopterorum,fliM,Motility,Surface
+S31,Pseudomonas coleopterorum,fliP,Motility,Surface
+S31,Pseudomonas,pilZ,Adherence,Surface
+S31,Acinetobacter,pilG,Adherence,Surface
+S31,Pseudomonas coleopterorum,cheY,Motility,Surface
+S31,Pseudomonas coleopterorum,fleN,Motility,Surface
+S31,Pseudomonadota,cheY,Motility,Surface
+S31,Pseudomonas,flgC,Motility,Surface
+S31,Pseudomonas,fliP,Motility,Surface
+S31,Gammaproteobacteria,PA1464,Motility,Surface
+S31,Pseudomonas,fliG,Motility,Surface
+S31,Pseudomonas brassicacearum,fliP,Motility,Surface
+S31,Pseudomonas brassicacearum,fliM,Motility,Surface
+S31,Pseudomonas rhizosphaerae,fliM,Motility,Surface
+S31,Pseudomonas coleopterorum,crc,Adherence,Surface
+S31,Pseudomonas,fliM,Motility,Surface
+S31,Pseudomonas rhizosphaerae,cheY,Motility,Surface
+S31,Pseudomonadota,pilZ,Adherence,Surface
+S31,Pseudomonas sp. MM227,PA1464,Motility,Surface
+S31,Pseudomonas coleopterorum,fliG,Motility,Surface
+S31,Pseudomonas sp. p1(2021b),flgG,Motility,Surface
+S23,Pseudomonas,hcpA,Effector delivery system,Surface
+S23,Pseudomonas,fliM,Motility,Surface
+S23,Pseudomonas,fliP,Motility,Surface
+S23,Pseudomonas,pilH,Adherence,Surface
+S23,Pseudomonas,cheY,Motility,Surface
+S23,Pseudomonas oryzihabitans,fliG,Motility,Surface
+S23,Gammaproteobacteria,flgG,Motility,Surface
+S23,Pseudomonas oryzihabitans,hcpA,Effector delivery system,Surface
+S23,Pseudomonas,PA1464,Motility,Surface
+S23,Gammaproteobacteria,pilT,Adherence,Surface
+S23,Pseudomonas oryzihabitans,flgC,Motility,Surface
+S23,Pseudomonas oryzihabitans,pilZ,Adherence,Surface
+S23,Pseudomonas,flgI,Motility,Surface
+S23,Pseudomonas,flgH,Motility,Surface
+S23,Gammaproteobacteria,cheY,Motility,Surface
+S23,Pseudomonas oryzihabitans,fliM,Motility,Surface
+S23,Pseudomonas oryzihabitans,fliP,Motility,Surface
+S23,Pseudomonas oryzihabitans,PA1464,Motility,Surface
+S23,Pseudomonas,vfr,Adherence,Surface
+S23,Pseudomonas,pilG,Adherence,Surface
+S23,Pseudomonas,crc,Adherence,Surface
+S23,Pseudomonas,fliI,Motility,Surface
+S23,Pseudomonas,fliG,Motility,Surface
+S23,Pseudomonas,flgG,Motility,Surface
+S23,Geobacter pickeringii,pilH,Adherence,Surface
+S23,Pseudomonas,pilT,Adherence,Surface
+S23,Pseudomonas oryzihabitans,cheY,Motility,Surface
+S23,Pseudomonas oryzihabitans,pilH,Adherence,Surface
+S23,Pseudomonadota,rpoN,Adherence,Surface
+S23,Pseudomonas psychrotolerans,pilT,Adherence,Surface
+S23,Pseudomonas,flgC,Motility,Surface
+S23,Gammaproteobacteria,pilZ,Adherence,Surface
+S23,Pseudomonas oryzihabitans,flgG,Motility,Surface
+A48,Streptomyces pristinaespiralis,rcsB,Regulation,Air
+A48,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A48,Rahnella aquatilis CIP 78.65 = ATCC 33071,rcsB,Regulation,Air
+A48,Pectobacterium,rcsB,Regulation,Air
+A48,Leclercia,hcp/tssD,Effector delivery system,Air
+A36,Enterobacteriaceae,rcsB,Regulation,Air
+A36,Rahnella victoriana,rcsB,Regulation,Air
+A36,Rahnella bonaserana,rcsB,Regulation,Air
+A36,Rahnella,rcsB,Regulation,Air
+A32,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A32,Yersiniaceae,rcsB,Regulation,Air
+A32,Rahnella bonaserana,rcsB,Regulation,Air
+A32,Yersinia rochesterensis,hcp/tssD,Effector delivery system,Air
+A32,Rahnella,rpoS,Regulation,Air
+A32,Rahnella victoriana,rcsB,Regulation,Air
+A32,Yersiniaceae,hcp/tssD,Effector delivery system,Air
+A32,Enterobacterales,rpoS,Regulation,Air
+A32,Rahnella,rcsB,Regulation,Air
+A32,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A32,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A32,Enterobacteriaceae,hcp/tssD,Effector delivery system,Air
+A32,Rahnella aceris,rcsB,Regulation,Air
+A32,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A32,Yersiniaceae,rpoS,Regulation,Air
+A32,Rahnella inusitata,rcsB,Regulation,Air
+A32,Enterobacteriaceae,rcsB,Regulation,Air
+A32,Gammaproteobacteria,hcp/tssD,Effector delivery system,Air
+A32,Yersinia,hcp/tssD,Effector delivery system,Air
+A32,Klebsiella oxytoca,rcsB,Regulation,Air
+A32,Rahnella,hcp/tssD,Effector delivery system,Air
+A32,Enterobacterales,rcsB,Regulation,Air
+A20,Rahnella bonaserana,rcsB,Regulation,Air
+A20,Yersiniaceae,rcsB,Regulation,Air
+A20,Rahnella,rcsB,Regulation,Air
+A20,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A50,Enterobacterales,hcp/tssD,Effector delivery system,Air
+A50,Rahnella bonaserana,rcsB,Regulation,Air
+A50,Rahnella,hcp/tssD,Effector delivery system,Air
+A50,Yersinia,rpoS,Regulation,Air
+A50,Erwinia amylovora,hcp/tssD,Effector delivery system,Air
+A50,Rahnella,rcsB,Regulation,Air
+A50,Rahnella,rpoS,Regulation,Air
+A50,Pantoea ananatis,rcsB,Regulation,Air
+A50,Enterobacter hormaechei,hcp/tssD,Effector delivery system,Air
+A50,Klebsiella oxytoca,rcsB,Regulation,Air
+A50,Yersinia,hcp/tssD,Effector delivery system,Air
+A50,Rahnella aceris,hcp/tssD,Effector delivery system,Air
+A50,Rahnella aquatilis CIP 78.65 = ATCC 33071,hcp/tssD,Effector delivery system,Air
+A50,Buttiauxella selenatireducens,hcp/tssD,Effector delivery system,Air
+A50,Rahnella aceris,rcsB,Regulation,Air
+A50,Rahnella sikkimica,hcp/tssD,Effector delivery system,Air
+A50,Pseudomonas,hcp/tssD,Effector delivery system,Air
+A50,Enterobacterales,rcsB,Regulation,Air
+A50,Enterobacteriaceae,rcsB,Regulation,Air
+A50,Rahnella inusitata,hcp/tssD,Effector delivery system,Air
+A50,Rahnella victoriana,rcsB,Regulation,Air
+A50,Yersinia,rcsB,Regulation,Air
+A50,Eukaryota,rpoS,Regulation,Air
+A50,Yersiniaceae,rcsB,Regulation,Air
+A50,Pantoea dispersa,hcp/tssD,Effector delivery system,Air
+A50,Rouxiella badensis,rcsB,Regulation,Air
+A50,Yersinia canariae,hcp/tssD,Effector delivery system,Air
+A50,Rahnella aquatilis CIP 78.65 = ATCC 33071,rcsB,Regulation,Air
+A50,Rahnella victoriana,hcp/tssD,Effector delivery system,Air
+A50,Yersiniaceae,rpoS,Regulation,Air
+S36,Stutzerimonas stutzeri,cheY,Motility,Surface
+S36,Stutzerimonas stutzeri,rpoS,Adherence,Surface
+S36,Stutzerimonas,pilH,Adherence,Surface
+S36,Stutzerimonas,pilG,Adherence,Surface
+S36,Stutzerimonas stutzeri,crc,Adherence,Surface
+S36,Pseudomonadaceae,fliP,Motility,Surface
+S36,Pseudomonadaceae,fliM,Motility,Surface
+S36,Stutzerimonas stutzeri,tssC,Effector delivery system,Surface
+S36,Pseudomonadaceae,pilT,Adherence,Surface
+S36,Pseudomonadaceae,fliG,Motility,Surface
+S36,Stutzerimonas,fleN,Motility,Surface
+S36,Pseudomonas syringae group,PA1464,Motility,Surface
+S36,Gammaproteobacteria,pilT,Adherence,Surface
+S36,Stutzerimonas stutzeri,fliP,Motility,Surface
+S36,Stutzerimonas stutzeri,fliM,Motility,Surface
+S36,Stutzerimonas balearica,flgC,Motility,Surface
+S36,Pseudomonas,PA1464,Motility,Surface
+S36,Stutzerimonas stutzeri,fliG,Motility,Surface
+S36,Pseudomonadaceae,fliI,Motility,Surface
+S36,[Candida] auris,PA1464,Motility,Surface
+S36,Micromonospora,PA1464,Motility,Surface
+S36,Stutzerimonas stutzeri group,PA1464,Motility,Surface
+S36,Pseudomonadaceae,crc,Adherence,Surface
+S36,Stutzerimonas stutzeri,pilZ,Adherence,Surface
+S36,Streptomyces venezuelae,fliI,Motility,Surface
+S36,Stutzerimonas,rpoN,Adherence,Surface
+S36,Sinanaerobacter sp. ZZT-01,PA1464,Motility,Surface
+S36,Stutzerimonas balearica,tssC,Effector delivery system,Surface
+S36,Stutzerimonas stutzeri,vfr,Adherence,Surface
+S36,Pseudomonadaceae,flgG,Motility,Surface
+S36,Pseudomonadaceae,flgH,Motility,Surface
+S36,Stutzerimonas balearica,flgH,Motility,Surface
+S36,Stutzerimonas stutzeri,fleN,Motility,Surface
+S36,Stutzerimonas stutzeri group,flgH,Motility,Surface
+S36,Stutzerimonas stutzeri group,flgI,Motility,Surface
+S36,Stutzerimonas stutzeri,pilT,Adherence,Surface
+S36,Stutzerimonas,pilT,Adherence,Surface
+S36,Pseudomonas,pilZ,Adherence,Surface
+S36,Stutzerimonas,fliM,Motility,Surface
+S36,Roseomonas gilardii,rpoN,Adherence,Surface
+S36,Stutzerimonas stutzeri group,flgG,Motility,Surface
+S36,Stutzerimonas stutzeri,hcpA,Effector delivery system,Surface
+S36,Stutzerimonas,tssB,Effector delivery system,Surface
+S36,Gammaproteobacteria,crc,Adherence,Surface
+S36,Stutzerimonas stutzeri group,tssC,Effector delivery system,Surface
+S36,Pseudomonadota,fleN,Motility,Surface
+S36,Pseudomonas sp. FP1740,flgC,Motility,Surface
+S36,Stutzerimonas,rpoS,Adherence,Surface
+S36,Stutzerimonas stutzeri,fliI,Motility,Surface
+S36,Pseudomonadaceae,flgI,Motility,Surface
+S36,Pseudomonadaceae,flgC,Motility,Surface
+S36,Pseudomonadaceae,tssC,Effector delivery system,Surface
+S36,Pseudomonas cavernae,cheY,Motility,Surface
+S36,Pseudomonas sp. CC6-YY-74,pilH,Adherence,Surface
+S36,Polaromonas vacuolata,pilT,Adherence,Surface
+S36,Burkholderia pyrrocinia,fliM,Motility,Surface
+S36,Stutzerimonas stutzeri subgroup,hcpA,Effector delivery system,Surface
+S36,Pseudomonadaceae,cheY,Motility,Surface
+S36,Stutzerimonas,algA,Biofilm,Surface
+S36,Sinorhizobium americanum,pilG,Adherence,Surface
+S36,Pseudomonadaceae,pilG,Adherence,Surface
+S36,Pseudomonas,fliM,Motility,Surface
+S36,Stutzerimonas,fliP,Motility,Surface
+S36,Stutzerimonas stutzeri CCUG 29243,tssC,Effector delivery system,Surface
+S36,Stutzerimonas stutzeri CCUG 29243,tssB,Effector delivery system,Surface
+S36,Stutzerimonas stutzeri,algA,Biofilm,Surface
+S36,Gammaproteobacteria,flgC,Motility,Surface
+S36,Pseudomonas,cheY,Motility,Surface
+S36,Stutzerimonas,crc,Adherence,Surface
+S36,Pseudomonas multiresinivorans,pilZ,Adherence,Surface
+S36,Stutzerimonas stutzeri,rpoN,Adherence,Surface
+S36,Gammaproteobacteria,rpoN,Adherence,Surface
+S36,Stutzerimonas stutzeri,PA1464,Motility,Surface
+S36,Pseudomonadota,pilT,Adherence,Surface
+S36,Pseudomonas,flgC,Motility,Surface
+S36,Stutzerimonas balearica,flgG,Motility,Surface
+S36,Pseudomonas sp. TUM22785,PA1464,Motility,Surface
+S36,Pseudomonas,fleN,Motility,Surface
+S36,Pseudomonadaceae,PA1464,Motility,Surface
+S36,Azotobacter salinestris,vfr,Adherence,Surface
+S36,Litorivicinus lipolyticus,cheY,Motility,Surface
+S36,Stutzerimonas stutzeri,pilH,Adherence,Surface
+S36,Stutzerimonas stutzeri,pilG,Adherence,Surface
+S36,Mycolicibacterium rhodesiae NBB3,pilT,Adherence,Surface
+S36,Pseudomonas benzenivorans,fliI,Motility,Surface
+S36,Pseudomonas,flgH,Motility,Surface
+S36,Pseudomonadaceae,pilZ,Adherence,Surface
+S36,Pseudomonas sp. LS44,cheY,Motility,Surface
+S36,Marinobacter nanhaiticus D15-8W,pilT,Adherence,Surface
+S36,Pseudomonas,pilT,Adherence,Surface
+S36,Stutzerimonas,pilZ,Adherence,Surface
+S36,Stutzerimonas stutzeri subgroup,PA1464,Motility,Surface
+S36,Stutzerimonas,fliG,Motility,Surface
+S36,Pseudomonadaceae,fleN,Motility,Surface
+S36,Pseudomonas tohonis,fliI,Motility,Surface
+S36,Curtobacterium sp. MCSS17_015,pilH,Adherence,Surface
+S36,Curtobacterium sp. MCSS17_015,pilG,Adherence,Surface
+S36,Stutzerimonas,PA1464,Motility,Surface
+S36,Stutzerimonas,fliI,Motility,Surface
+S36,Pseudomonas sp. TCU-HL1,PA1464,Motility,Surface
+S36,Pseudomonas sp. p1(2021b),PA1464,Motility,Surface
+S36,Pseudomonas hygromyciniae,PA1464,Motility,Surface
+S36,Pseudonocardia broussonetiae,fliG,Motility,Surface
+S36,Pseudomonadaceae,pilH,Adherence,Surface
+S36,Gammaproteobacteria,cheY,Motility,Surface
+S36,Stenotrophomonas sp. 364,fliM,Motility,Surface
+S36,Stenotrophomonas sp. 364,fliP,Motility,Surface
+S36,Treponema socranskii subsp. buccale,crc,Adherence,Surface
+S36,Stutzerimonas stutzeri subgroup,fliM,Motility,Surface
+S36,Stutzerimonas stutzeri,flgI,Motility,Surface
+S36,Stutzerimonas stutzeri,flgH,Motility,Surface
+S36,Stutzerimonas stutzeri,flgG,Motility,Surface
+S36,Pseudomonas,fliI,Motility,Surface
+S36,uncultured Pseudomonas sp.,cheY,Motility,Surface
+S36,Mycolicibacter sp. MU0083,crc,Adherence,Surface
+S36,Alloalcanivorax,hcpA,Effector delivery system,Surface
+S36,Pseudomonas sp. Ost2,vfr,Adherence,Surface
+S36,Stutzerimonas stutzeri subgroup,pilT,Adherence,Surface
+S36,Stutzerimonas stutzeri group,fliP,Motility,Surface
+S36,Stutzerimonas stutzeri group,flgC,Motility,Surface
+S36,Stutzerimonas,hcpA,Effector delivery system,Surface
+S36,Pseudomonadaceae,vfr,Adherence,Surface
+S36,Gammaproteobacteria,fliP,Motility,Surface
+S36,Gammaproteobacteria,fliM,Motility,Surface
+S36,Rhizobium grahamii CCGE 502,PA1464,Motility,Surface
+S36,Pseudomonas sp. HLS-6,flgC,Motility,Surface
+S36,Pseudomonas sp. HLS-6,flgG,Motility,Surface
+S36,Pseudomonas sp. HLS-6,flgH,Motility,Surface
+S36,Pseudomonas sp. HLS-6,flgI,Motility,Surface
+S36,Stutzerimonas stutzeri,tssB,Effector delivery system,Surface
+S36,Pseudomonas multiresinivorans,pilT,Adherence,Surface
+S36,Pseudomonas multiresinivorans,pilG,Adherence,Surface
+S36,Pseudomonas multiresinivorans,pilH,Adherence,Surface
+S36,Streptomyces sp. TLI_053,rpoS,Adherence,Surface
+S36,Actinacidiphila glaucinigra,pilG,Adherence,Surface
+S36,Pseudomonas alcaligenes,fliG,Motility,Surface
+S36,Pseudomonas,pilG,Adherence,Surface
+S36,Haloarcula halobia,vfr,Adherence,Surface
+S36,Pseudomonadaceae,rpoS,Adherence,Surface
+S36,Gammaproteobacteria,pilH,Adherence,Surface
+S36,Pseudomonadota,fliM,Motility,Surface
+S36,Pseudomonadaceae,tssB,Effector delivery system,Surface
+S36,Pseudomonas,flgG,Motility,Surface
+S36,Stutzerimonas stutzeri,flgC,Motility,Surface
+S36,Pseudomonas,fliP,Motility,Surface
+S36,Pseudomonas aeruginosa group,pilT,Adherence,Surface
+S36,Pseudomonas tohonis,rpoN,Adherence,Surface
+S36,Burkholderiales,fliI,Motility,Surface
+S36,Rhodocyclales,pilT,Adherence,Surface
+S36,Pseudomonas lalkuanensis,fliP,Motility,Surface
+S36,Pseudomonas lalkuanensis,fliM,Motility,Surface
+S36,Stutzerimonas stutzeri group,tssB,Effector delivery system,Surface
+S36,Stutzerimonas stutzeri subgroup,pilZ,Adherence,Surface
+S36,Stutzerimonas stutzeri group,fliG,Motility,Surface
+S36,Pseudomonas alcaligenes,pilT,Adherence,Surface
+S36,Gammaproteobacteria,PA1464,Motility,Surface
+S36,Nocardioides aquaticus,tssC,Effector delivery system,Surface
+S36,Pseudomonas sp. SO81,rpoN,Adherence,Surface
+S36,Pseudomonas fluorescens,flgG,Motility,Surface
+S36,Pseudomonas,vfr,Adherence,Surface
+S36,Gammaproteobacteria,flgG,Motility,Surface
+S36,Pseudomonadota,pilG,Adherence,Surface
+S36,Pseudomonas,flgI,Motility,Surface
+S36,Pseudomonadota,fliG,Motility,Surface
+S36,Pseudomonadota,fliI,Motility,Surface
+S36,Pseudomonadota,flgG,Motility,Surface
+S36,Pseudomonadota,flgC,Motility,Surface
+S36,Pseudomonadaceae,algA,Biofilm,Surface
+S36,Pseudomonas sp. BT-42-2,pilG,Adherence,Surface
+S36,Pseudomonas,pilH,Adherence,Surface
+S28,Pseudomonas,PA1464,Motility,Surface
+S28,Pseudomonas,fliG,Motility,Surface
+S28,Pseudomonas,fliI,Motility,Surface
+S28,Stutzerimonas stutzeri,PA1464,Motility,Surface
+S28,Pseudomonas,flgI,Motility,Surface
+S28,Pseudomonas,flgH,Motility,Surface
+S28,Pseudomonadota,fliG,Motility,Surface
+S28,Stutzerimonas stutzeri,cheY,Motility,Surface
+S28,Stutzerimonas stutzeri,fleN,Motility,Surface
+S28,Pseudomonas,flgG,Motility,Surface
+S28,Stutzerimonas,pilT,Adherence,Surface
+S28,Stutzerimonas,pilG,Adherence,Surface
+S28,Stutzerimonas,pilH,Adherence,Surface
+S28,Pseudomonas,fliP,Motility,Surface
+S28,Pseudomonas,fliM,Motility,Surface
+S28,Gammaproteobacteria,fliP,Motility,Surface
+S28,Pantoea agglomerans,hcp/tssD,Effector delivery system,Surface
+S28,Pseudomonas,rpoS,Adherence,Surface
+S28,Pseudomonas,crc,Adherence,Surface
+S28,Pseudomonadaceae,crc,Adherence,Surface
+S28,Pseudomonas,rpoN,Adherence,Surface
+S28,Burkholderia multivorans,mbtH-like,Nutritional/Metabolic factor,Surface
+S28,Acinetobacter,pilG,Adherence,Surface
+S28,Stutzerimonas stutzeri subgroup,pilH,Adherence,Surface
+S28,Stutzerimonas stutzeri,pilT,Adherence,Surface
+S28,Stutzerimonas stutzeri,pilH,Adherence,Surface
+S28,Acinetobacter,pilT,Adherence,Surface
+S28,Stutzerimonas stutzeri,flgG,Motility,Surface
+S28,Stutzerimonas stutzeri,flgI,Motility,Surface
+S28,Stutzerimonas stutzeri,pilG,Adherence,Surface
+S28,Pseudomonadaceae,rpoS,Adherence,Surface
+S28,Stutzerimonas stutzeri,fliM,Motility,Surface
+S28,Stutzerimonas stutzeri,fliP,Motility,Surface
+S28,Stutzerimonas stutzeri,pilZ,Adherence,Surface
+S28,Pseudomonas sp. S34,fleN,Motility,Surface
+S28,Pseudomonas sp. S34,cheY,Motility,Surface
+S28,Stutzerimonas stutzeri,vfr,Adherence,Surface
+S28,Thermanaerovibrio acidaminovorans DSM 6589,fliM,Motility,Surface
+S28,Thermanaerovibrio acidaminovorans DSM 6589,fliP,Motility,Surface
+S24,Pseudomonas,flgC,Motility,Surface
+S24,Pseudomonas,algI,Biofilm,Surface
+S24,Pseudomonas sp. NIBR-H-19,mbtH-like,Nutritional/Metabolic factor,Surface
+S24,Gammaproteobacteria,crc,Adherence,Surface
+S24,Pseudomonas,hcpA,Effector delivery system,Surface
+S24,Pseudomonas,pilZ,Adherence,Surface
+S24,Pseudomonas,tssB,Effector delivery system,Surface
+S24,Pseudomonadaceae,tssC,Effector delivery system,Surface
+S24,Pseudomonas,cheY,Motility,Surface
+S24,Pseudomonas sp. 7SR1,hcp/tssD,Effector delivery system,Surface
+S24,Pseudomonas,flgH,Motility,Surface
+S24,Pseudomonas,flgI,Motility,Surface
+S24,Pseudomonas sp. NIBR-H-19,hcp/tssD,Effector delivery system,Surface
+S24,Pseudomonas sp. NIBR-H-19,tssC,Effector delivery system,Surface
+S24,Pseudomonas sp. NIBR-H-19,tssB,Effector delivery system,Surface
+S24,Pseudomonas sp. NIBR-H-19,hcpA,Effector delivery system,Surface
+S24,Pseudomonas sp. FP1154,hcp/tssD,Effector delivery system,Surface
+S24,Pseudomonas sp. FP1154,tssC,Effector delivery system,Surface
+S24,Pseudomonas,pilG,Adherence,Surface
+S24,Pseudomonas viciae,pilH,Adherence,Surface
+S24,Pseudomonas siliginis,flgG,Motility,Surface
+S24,Pseudomonas,PA1464,Motility,Surface
+S24,Pseudomonas sp. NIBR-H-19,flgI,Motility,Surface
+S24,Pseudomonas,fliI,Motility,Surface
+S24,Pseudomonadaceae,pilH,Adherence,Surface
+S24,Pseudomonas,alg8,Biofilm,Surface
+S24,Pseudomonas,pilH,Adherence,Surface
+S24,Pseudomonas sp. NIBR-H-19,PA1464,Motility,Surface
+S24,Pseudomonas sp. Seg1,tssB,Effector delivery system,Surface
+S24,Pseudomonas sp. NIBR-H-19,alg8,Biofilm,Surface
+S24,Pseudomonas moraviensis,PA1664,Effector delivery system,Surface
+S24,Pseudomonadota,PA1664,Effector delivery system,Surface
+S24,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S24,Gammaproteobacteria,flgG,Motility,Surface
+S24,Pseudomonas,fliG,Motility,Surface
+S24,Pseudomonas,hcp/tssD,Effector delivery system,Surface
+S24,Pseudomonas,PA1664,Effector delivery system,Surface
+S24,Pseudomonas sp. ATCC 13867,tssC,Effector delivery system,Surface
+S20,Pseudomonas,PA1464,Motility,Surface
+S20,Pseudomonas,pvdS,Nutritional/Metabolic factor,Surface
+S20,Pseudomonas,algI,Biofilm,Surface
+S20,Pseudomonas,alg8,Biofilm,Surface
+S20,Pseudomonas,mbtH-like,Nutritional/Metabolic factor,Surface
+S20,Gammaproteobacteria,fleN,Motility,Surface
+S20,Pseudomonas,flgC,Motility,Surface
+S20,Pseudomonas,rpoN,Adherence,Surface
+S20,Pseudomonas,pilH,Adherence,Surface
+S20,Pseudomonas,pilG,Adherence,Surface
+S20,Pseudomonas sp. 7SR1,PA1464,Motility,Surface
+S20,Pseudomonas,flgI,Motility,Surface
+S20,Roseomonas fluvialis,rpoN,Adherence,Surface
+S20,Pseudomonas azotoformans,fliI,Motility,Surface
+S20,Pseudomonas azotoformans,fliG,Motility,Surface
+S20,Pseudomonas fluorescens,flgC,Motility,Surface
+S20,Pseudomonas,crc,Adherence,Surface
+S20,Gammaproteobacteria,crc,Adherence,Surface
+S20,Pseudomonas,fliP,Motility,Surface
+S20,Pseudomonadaceae,PA1464,Motility,Surface
+S20,Pseudomonas,fliM,Motility,Surface
+S20,Pseudomonas,flgH,Motility,Surface
+S20,Pseudomonas,flgG,Motility,Surface
+S20,Pseudomonadaceae,fliM,Motility,Surface
+S20,Pseudomonas,fleN,Motility,Surface
+S20,Pseudomonadaceae,rpoN,Adherence,Surface
+S20,Pseudomonas,fliI,Motility,Surface
+S20,Pseudomonas,fliG,Motility,Surface
+S20,Gammaproteobacteria,flgH,Motility,Surface
+S20,Gammaproteobacteria,flgG,Motility,Surface
+S20,Pseudomonas sp. FP2309,mbtH-like,Nutritional/Metabolic factor,Surface
+S20,Pseudomonas sp. DTU12.3,flgC,Motility,Surface
+S20,Pseudomonas sp. HR96,PA1464,Motility,Surface
+S20,Pseudomonas sp. CCI1.1,fliG,Motility,Surface
+S20,Pseudomonas sp. CCI1.1,fliI,Motility,Surface
+S20,Pseudomonadaceae,crc,Adherence,Surface
+S20,Pseudomonas sp. FP453,PA1464,Motility,Surface
+S20,Pseudomonas sp. NS1(2017),fliP,Motility,Surface
+S20,Pseudomonas sp. NS1(2017),fliM,Motility,Surface
+S20,Pseudomonas sp. NS1(2017),fliI,Motility,Surface
+S20,Pseudomonadaceae,flgI,Motility,Surface
+S20,Pseudomonadota,crc,Adherence,Surface
+S20,Pseudomonas,cheY,Motility,Surface
+S20,Pseudomonadaceae,fliG,Motility,Surface
+S20,Pseudomonas sp. FP453,flgC,Motility,Surface
+S20,Pseudomonadota,rpoN,Adherence,Surface
+S20,Pseudomonas brenneri,crc,Adherence,Surface
+S20,Pseudomonas sivasensis,fliP,Motility,Surface
+S20,Pseudomonas sivasensis,fliM,Motility,Surface
+S20,Pseudomonas fluorescens group,alg8,Biofilm,Surface
+S20,Pseudomonadota,flgI,Motility,Surface
+S20,Pseudomonas cedrina,rpoN,Adherence,Surface
+S20,Pseudomonas canadensis,PA1464,Motility,Surface

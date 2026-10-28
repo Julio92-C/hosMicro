@@ -1,0 +1,555 @@
+node,kind,degree,betweenness,module
+A20,sample,2,0,1
+A22,sample,14,0,1
+A26,sample,5,0.017696621851822733,1
+A27,sample,5,0,2
+A29,sample,6,0,1
+A30,sample,4,0.07524176428964541,2
+A32,sample,12,0,1
+A36,sample,2,0,1
+A37,sample,1,0,3
+A41,sample,7,0.007102235500694499,1
+A44,sample,1,0,4
+A48,sample,3,0,1
+A50,sample,18,0,1
+A51,sample,15,0,1
+A52,sample,22,0,1
+A53,sample,20,0,1
+A55,sample,11,0,1
+A56,sample,2,0,1
+A57,sample,15,0,1
+A58,sample,13,0.024255051497759257,5
+S1,sample,25,0,6
+S10,sample,12,0.06224283879759939,5
+S11,sample,17,0.007102235500694501,5
+S12,sample,6,0,7
+S13,sample,3,0,8
+S14,sample,3,0,9
+S15,sample,3,0,9
+S16,sample,12,0,10
+S18,sample,1,0,7
+S19,sample,33,0,6
+S2,sample,9,0.10260895772728464,8
+S20,sample,12,0,6
+S21,sample,6,0,8
+S22,sample,11,0,10
+S23,sample,2,0,11
+S24,sample,6,0,12
+S25,sample,83,0,9
+S26,sample,7,0.047849534087980365,10
+S28,sample,2,0,9
+S29,sample,3,0,10
+S3,sample,39,0,7
+S30,sample,5,0,10
+S31,sample,4,0,10
+S32,sample,11,0.03181474769517866,10
+S34,sample,1,0,13
+S36,sample,26,0.024628508530544855,9
+S5,sample,2,0,8
+S6,sample,1,0,14
+S9,sample,15,0.007102235500694499,9
+R. aceris,taxa,22,0.07418159954797601,7
+R. inusitata,taxa,17,0.04972157698661999,7
+K. pneumoniae,taxa,5,0.008082854287742651,7
+P. sp. J380,taxa,23,0.028975759392274137,7
+R. aquatilis,taxa,17,0.09172536298000168,1
+P. chlororaphis,taxa,2,0,7
+S. proteamaculans,taxa,11,0.10557604823622217,7
+P. sp. OE 28.3,taxa,19,0.05366649984979395,10
+P. sp. FJ2-5-13,taxa,5,8.169213085327029e-4,7
+S. flexneri,taxa,3,1.4756903318610977e-4,7
+E. roggenkampii,taxa,2,0,7
+A. sp. PAMC25284,taxa,3,1.4756903318610977e-4,7
+E. coli,taxa,16,0.06084491554388508,7
+E. cloacae,taxa,2,0,7
+Y. enterocolitica,taxa,2,0,7
+R. sp. WMR114,taxa,2,0,7
+E. amylovora,taxa,3,5.85043524432002e-4,7
+D. sp. DW 0440,taxa,2,0,7
+Y. ruckeri,taxa,4,7.229137989425663e-4,7
+P. fragi,taxa,4,0.009869692144092555,7
+E. aphidicola,taxa,3,1.4756903318610977e-4,7
+E. asburiae,taxa,6,0.0019952437865931936,7
+H. alvei,taxa,4,9.978214132437577e-4,7
+S. liquefaciens,taxa,2,0,7
+P. sp. MYb193,taxa,11,0.011879391182643728,7
+P. sp. CCC3.1,taxa,6,5.826955391260005e-4,7
+P. sp. FP2338,taxa,14,0.011159023809453276,10
+P. canadensis,taxa,10,0.007790799760099973,6
+P. taetrolens,taxa,2,0,7
+P. lurida,taxa,6,5.3858518887697e-4,6
+P. putida,taxa,13,0.004648492112341505,9
+P. veronii,taxa,4,8.954372609159684e-4,6
+P. poae,taxa,7,0.0012963689905160156,6
+P. sp. MUP55,taxa,2,0.0028304111958487306,7
+O. proteus,taxa,2,0,7
+S. indicatrix,taxa,2,0,7
+P. sp. ML2-2023-3,taxa,2,0,7
+S. grimesii,taxa,3,0.003557669628115418,7
+S. enterica,taxa,2,0,7
+P. salmasensis,taxa,5,0.0012538446556065834,7
+P. lactis,taxa,8,0.0051989773526684045,7
+P. simiae,taxa,8,5.646121949975255e-4,6
+P. aeruginosa,taxa,18,0.08940494448415928,9
+R. victoriana,taxa,17,0.008627406100499587,1
+R. bonaserana,taxa,24,0.04272226730986188,1
+S. sp. UGAL515B_01,taxa,3,0,1
+V. nigripulchritudo,taxa,3,0.0071087873784626675,1
+R. sikkimica,taxa,14,0.008627406100499585,1
+B. selenatireducens,taxa,12,0.0041161236951728335,1
+K. oxytoca,taxa,7,0,1
+S. glossinidius,taxa,4,0.0036680436674063036,1
+E. chengduensis,taxa,2,0,1
+E. sp. E4742,taxa,2,0.0035444986738327406,1
+E. sp. CP102,taxa,2,6.619076514508545e-6,1
+E. hormaechei,taxa,6,0.0520542800376661,1
+E. ictaluri,taxa,3,0,1
+Y. canariae,taxa,3,0.003433183950520219,1
+P. sp. MM227,taxa,12,0.011284998413178666,10
+L. adecarboxylata,taxa,3,0.0037370427978396844,10
+P. coleopterorum,taxa,25,0.029790373130889836,10
+P. kielensis,taxa,5,3.444642052184666e-4,9
+P. sp. RC10,taxa,2,0,9
+P. sp. MM211,taxa,5,7.200066736724792e-4,9
+P. sp. PDNC002,taxa,9,0.0023934365150037286,9
+P. mendocina,taxa,5,0.007239161650848645,9
+P. cremoricolorata,taxa,3,4.618539034250241e-4,9
+S. balearica,taxa,10,0.00222601273980487,9
+P. wenzhouensis,taxa,2,9.778922042042324e-8,9
+P. baltica,taxa,5,0.003651067019105953,9
+P. sp. AN-1,taxa,4,6.342059583345621e-4,9
+P. benzenivorans,taxa,7,4.3741070080055214e-4,9
+P. tohonis,taxa,5,2.540853001950645e-4,9
+A. sp. CA-230715,taxa,2,2.582102363234521e-4,9
+P. alcaligenes,taxa,11,0.0128768779922805,9
+P. phytophila,taxa,2,1.4345663325941924e-4,9
+P. sp. GCEP-101,taxa,4,0.0017342442729526494,9
+P. sp. LS44,taxa,9,0.006392144763214414,9
+P. sp. SG20056,taxa,3,0.0015396766406336963,9
+P. furukawaii,taxa,8,0.005261849741367793,9
+P. knackmussii,taxa,8,0.00362582967343352,9
+P. sp. B11D7D,taxa,2,0,9
+A. salinestris,taxa,5,2.047371815248054e-4,9
+P. hydrolytica,taxa,4,8.535641961750795e-4,9
+P. sp. SO81,taxa,10,0.012601359452125262,9
+S. stutzeri,taxa,56,0.2736331025250225,9
+P. sp. SL4(2022),taxa,4,4.985322427855524e-4,9
+P. sp. C9-3,taxa,2,5.2415022145346855e-5,9
+P. lalkuanensis,taxa,8,0.0013562980403172705,9
+P. protegens,taxa,2,0,9
+H. nanhaiensis,taxa,2,0,9
+P. silesiensis,taxa,2,1.3318624542346653e-6,9
+P. fulva 12-X,taxa,3,2.001089288410458e-4,9
+P. guguanensis,taxa,5,0.0032376942353945734,9
+P. seleniipraecipitans,taxa,2,0,9
+P. otitidis,taxa,5,0.0013355191643583206,9
+P. saudiphocaensis,taxa,2,0,9
+P. oryzihabitans,taxa,26,0.04656645390196869,11
+H. sabulinigri,taxa,2,0,9
+P. sp. Pc102,taxa,6,4.2267175485046735e-4,9
+P. triclosanedens,taxa,3,2.0471850481645254e-5,9
+P. sp. PIA16,taxa,2,0,9
+P. sp. TCU-HL1,taxa,7,8.540677446308399e-4,9
+P. pohangensis,taxa,2,0,9
+P. fulva,taxa,4,3.4719182461454787e-4,9
+P. sp. StFLB209,taxa,2,0,9
+H. sp. SMJS2,taxa,3,5.967762630143912e-4,9
+S. frequens,taxa,4,3.310849640753817e-5,9
+P. viridiflava,taxa,5,7.052694641505134e-4,6
+P. entomophila,taxa,8,0.006900559260399286,9
+P. sp. TUM22785,taxa,6,6.603194954587238e-4,9
+A. chroococcum,taxa,3,2.892582092623418e-4,9
+P. resinovorans NBRC 106553,taxa,2,0,9
+P. extremaustralis,taxa,5,0.0015058766820773214,6
+P. marincola,taxa,4,0.02773241934592023,9
+P. promysalinigenes,taxa,2,0.0013197728253871712,9
+P. sp. KU26590,taxa,6,0.0023344478078465847,9
+P. berkeleyensis,taxa,3,7.145661143800038e-5,9
+P. syringae,taxa,4,7.505758135572861e-4,9
+S. cellulosum,taxa,4,0.03796157978876746,5
+P. argentinensis,taxa,4,2.49127908746432e-4,9
+P. sp. G.S.17,taxa,4,1.8633128624884665e-4,9
+P. sp. ABC1,taxa,6,0.00563390229862345,9
+B. gladioli,taxa,3,5.429202084400605e-5,9
+P. sp. L5B5,taxa,2,0,9
+P. sp. KNUC1026,taxa,4,5.986619290129364e-5,9
+P. khazarica,taxa,3,5.429202084400605e-5,9
+P. oryzae,taxa,2,0,9
+P. sp. F3-2,taxa,2,0,9
+S. stutzeri RCH2,taxa,2,0,9
+P. sp. SCB32,taxa,2,0,9
+P. eucalypticola,taxa,2,0,9
+P. sp. N3-W,taxa,3,1.1417429594261396e-4,9
+P. sp. J452,taxa,2,0,9
+H. phragmitis,taxa,3,2.480912105456378e-4,9
+P. sp. KU43P,taxa,2,0,9
+P. sp. Q1-7,taxa,2,0,9
+P. phenolilytica,taxa,2,0,9
+P. psychrotolerans,taxa,7,0.005718246682400532,11
+P. gummiphilus,taxa,2,0,9
+A. lwoffii,taxa,20,0.14202527700357948,8
+D. gerundensis,taxa,4,0.003972490566015002,8
+M. sp. TPU 3598,taxa,7,0.014184815368084493,5
+S. haemolyticus,taxa,3,0.003557669628115418,1
+S. capitis,taxa,3,0.0071087873784626675,1
+E. persicina,taxa,3,0,1
+G. quercinecans,taxa,2,0,1
+S. hominis,taxa,9,0.07284050108761171,2
+Y. aleksiciae,taxa,2,0,1
+P. beijingensis,taxa,4,0.0049233676062765755,1
+R. badensis,taxa,5,0,1
+P. agglomerans,taxa,12,0.05164683128319644,10
+C. neteri,taxa,5,0.0023330579603850145,1
+R. chamberiensis,taxa,3,1.8244469474073887e-4,1
+C. amalonaticus Y19,taxa,3,0,1
+K. oryzae,taxa,2,5.896689991351521e-5,1
+S. marcescens,taxa,4,2.946868104943615e-4,1
+T. citrea,taxa,2,0,1
+K. pseudosacchari,taxa,2,0,1
+M. hanseatica,taxa,2,0,1
+Y. frederiksenii,taxa,3,0,1
+L. sp. JS-SCA-14,taxa,4,4.1482093789958606e-4,1
+S. thermophilus,taxa,2,6.551877768168357e-6,4
+P. sp.,taxa,6,0.005330888546943268,10
+P. raelei,taxa,3,9.359825383097652e-7,10
+P. maritimus,taxa,4,0.0017732189188278504,10
+P. sp. YP14,taxa,4,0.0035586056106537275,10
+P. sp. P11G5,taxa,3,0.03756183801523832,10
+B. pseudogrignonensis,taxa,2,0.003557669628115418,10
+A. schindleri,taxa,3,2.183959256056119e-6,8
+A. seleniivolatilans,taxa,3,3.2759388840841784e-6,8
+A. sp. ACNIH1,taxa,3,0.10419669610643743,8
+A. xylosoxidans,taxa,5,0.010640249495505412,8
+E. faecium,taxa,20,0.06303561600754776,8
+A. sp. ES-001,taxa,3,0.02115273737453154,8
+A. veterisilvae,taxa,2,0.003557669628115418,8
+A. insolitus,taxa,2,0.003557669628115418,8
+P. sp. WY6,taxa,3,9.359825383097652e-7,10
+A. radioresistens,taxa,3,3.2759388840841784e-6,10
+A. baumannii,taxa,3,0.010636973556621328,10
+P. sp. KH172YL61,taxa,3,2.183959256056119e-6,10
+P. arenosus,taxa,3,0.014154239938499708,10
+P. sp. WB2,taxa,3,2.183959256056119e-6,10
+P. sp. G,taxa,3,8.242886220714667e-4,10
+P. alfalfae,taxa,2,0.03426078206196152,10
+M. luteus,taxa,4,0.006800849123358755,2
+K. palustris,taxa,3,3.013863773357444e-4,2
+S. fonticola,taxa,2,0,1
+Y. hibernica,taxa,2,0,1
+E. fergusonii,taxa,2,0,1
+E. cancerogenus,taxa,2,0,1
+P. rwandensis,taxa,2,0,1
+C. reinhardtii,taxa,2,0,1
+E. kobei,taxa,2,0,1
+Y. similis,taxa,2,0.002567548923170216,1
+S. sp. FGI94,taxa,2,9.835688271770326e-4,1
+S. goeteborgense,taxa,2,0,1
+R. terrae,taxa,2,0.003557669628115418,1
+S. aureus,taxa,7,0.017722829362895407,1
+S. epidermidis,taxa,8,0.02826152475299421,1
+P. antarctica,taxa,4,5.779978005073918e-4,10
+P. orientalis,taxa,5,0.0010194933487416497,6
+P. cedrina,taxa,4,4.039932933759053e-4,6
+P. atacamensis,taxa,13,0.006874325289394726,6
+P. sp. ADAK13,taxa,2,0,6
+P. sp. R76,taxa,2,0,6
+P. marginalis,taxa,2,0,6
+P. palleroniana,taxa,3,0.0010053713019921395,6
+P. sp. S09G 359,taxa,2,0,6
+P. tolaasii,taxa,2,0,6
+P. sp. WJP1,taxa,2,6.47182020638386e-6,6
+P. synxantha,taxa,4,1.0366830048330418e-4,6
+P. umsongensis,taxa,5,0.004051419147935445,6
+P. fluorescens,taxa,13,0.0016361153374809824,6
+P. alkylphenolica,taxa,2,0,6
+P. sp. CBS,taxa,2,0,6
+P. sp. D3,taxa,3,2.0471850481645254e-5,6
+P. sp. FP2335,taxa,2,0,6
+P. sp. FP453,taxa,6,0.0032246127258098063,6
+P. trivialis,taxa,6,0.0010807787381897284,6
+S. stutzeri DSM 4166,taxa,2,0.00326938700631601,9
+P. sp. NS1(2017),taxa,6,0.003931538945193195,6
+A. sp. WY4,taxa,2,0,8
+A. pseudolwoffii,taxa,4,0.0015696504695927851,8
+D. lacusdianchii,taxa,3,9.359825383097652e-7,5
+A. tumefaciens,taxa,5,0.0017755588751736248,5
+S. maltophilia,taxa,21,0.13903084624053252,5
+A. cucumeris,taxa,5,0.0017755588751736248,5
+S. zoogloeoides,taxa,2,0,5
+R. sp. XES5,taxa,2,0.027642372303902298,5
+C. cellulans,taxa,4,0.010653353251041749,5
+T. sp. OXR-137,taxa,16,0.0177359115344765,5
+S. xanthii,taxa,2,0,5
+S. maltophilia R551-3,taxa,3,3.2759388840841784e-6,5
+P. mucidolens,taxa,2,0.003557669628115418,10
+P. sp. ADAK18,taxa,4,0.0036771967246468865,10
+P. sp. R5-89-07,taxa,3,1.8329923415073534e-4,10
+S. aerolata,taxa,2,0.003557669628115418,14
+P. siliginis,taxa,26,0.07354365602953532,6
+P. sp. SCA2728.1_7,taxa,5,0.0035994675814970904,9
+P. moraviensis,taxa,7,0.0022826916310211927,6
+P. germanica,taxa,2,0,6
+P. koreensis,taxa,5,5.705326464472245e-4,6
+P. moraviensis R28-S,taxa,2,0,6
+P. hamedanensis,taxa,2,0,6
+P. vancouverensis,taxa,2,0,6
+P. agarici,taxa,2,8.014154969251845e-4,6
+P. sp. URMO17WK12:I11,taxa,2,4.69239245872629e-6,6
+P. sp. NIBR-H-19,taxa,11,0.10131967187194732,12
+P. sp. FP1762,taxa,2,0,6
+P. prosekii,taxa,4,7.461369878102745e-5,6
+P. sp. HS6,taxa,3,2.0471850481645254e-5,6
+P. iranensis,taxa,2,0,6
+P. granadensis,taxa,7,0.003008684316342596,9
+P. serboccidentalis,taxa,2,0,6
+P. allokribbensis,taxa,2,0,6
+P. sp. HN2,taxa,2,0,6
+P. frigoritolerans,taxa,2,6.551877768168357e-6,13
+P. rhizosphaerae,taxa,12,0.006536047741183221,10
+P. eucalypti,taxa,2,0.003557669628115418,10
+E. casseliflavus,taxa,2,0.003557669628115418,9
+P. sp. MAG733B,taxa,2,0.010162283607641426,9
+P. sp. AO-1,taxa,2,0,9
+P. sp. B21-053,taxa,2,5.475065971250908e-5,9
+S. sp. SBJS02,taxa,5,0.007112063317346751,5
+A. vitis,taxa,8,5.982589618839259e-4,5
+M. sp. J1-1,taxa,2,0.051989150090415916,5
+A. pusense,taxa,8,0.0041058849606027984,5
+S. sp. YG1,taxa,2,0.003557669628115418,5
+G. hydrophobica,taxa,2,0.06535498073747936,5
+M. luteolum,taxa,2,0,5
+M. sp. PAMC22086,taxa,2,0,5
+M. oxydans,taxa,2,0,5
+M. sp. 4R-513,taxa,2,0.010633697617737244,5
+M. sufflavum,taxa,2,0,5
+R. oryzihabitans,taxa,5,0.0035618815495378118,5
+M. hydrocarbonoxydans,taxa,2,0,5
+G. iterans,taxa,2,0.0035576696281154185,5
+M. liquefaciens,taxa,2,0,5
+P. sp. At-9b,taxa,3,0.003557669628115418,1
+E. americana,taxa,2,0,1
+C. arupi,taxa,2,0,1
+C. lapagei,taxa,2,0.003557669628115418,1
+S. plymuthica,taxa,2,0,1
+S. quinivorans,taxa,2,0,1
+E. sp. JUb54,taxa,2,0,1
+P. ananatis,taxa,2,0,1
+P. dispersa,taxa,2,0,1
+P. cavernae,taxa,2,0,9
+P. sp. CC6-YY-74,taxa,3,2.0958531640861652e-5,9
+S. stutzeri CCUG 29243,taxa,3,2.117660492925844e-5,9
+P. sp. Ost2,taxa,2,0,9
+P. sp. HLS-6,taxa,7,9.956909632746985e-4,9
+R. rosettiformans,taxa,2,0.021149461435647457,9
+P. yeei,taxa,2,6.551877768168357e-6,3
+P. sp. Seg1,taxa,2,0,12
+P. azotoformans,taxa,3,2.0471850481645254e-5,6
+P. sp. FP2309,taxa,2,0,6
+P. sp. CCI1.1,taxa,3,2.0471850481645254e-5,6
+P. brenneri,taxa,2,0,6
+P. sivasensis,taxa,3,3.3729972338416087e-6,6
+H-NS,gene,19,0.05871558999437984,1
+CRP,gene,20,0.08473019483571666,7
+RAHN-2,gene,1,0,7
+qacE,gene,2,0.003557669628115418,7
+MexF,gene,12,0.007333960372749672,7
+Pseudomonas_aeruginosa_CpxR,gene,8,0.009849805777525342,9
+Col(pHAD28)_1,gene,10,0.023231658310954764,7
+Col(Ye4449)_1,gene,10,0.027622420669058397,7
+Col440II_1,gene,7,0.011233574856667405,7
+Col440I_1,gene,1,0,1
+rcsB,gene,19,0.05557107939143639,7
+fliM,gene,23,0.05655526301992311,9
+fliN,gene,6,0.0013423331712034182,6
+fliP,gene,18,0.040973384168107536,9
+fliQ,gene,7,0.0028397231119265667,9
+PA1464,gene,31,0.07330168257894706,9
+fliG,gene,26,0.035480025323857745,9
+cheY,gene,13,0.03699142645343701,9
+rpoS,gene,15,0.16825055452478713,6
+hcpA,gene,10,0.04101207757130291,6
+pvdH,gene,2,3.2658568023418006e-5,10
+mbtH-like,gene,10,0.016389309907590632,6
+algI,gene,5,0.0015026233217035815,6
+fliI,gene,23,0.02303795402005825,9
+pilG,gene,27,0.2582154897456926,9
+flgI,gene,15,0.02477923747804183,9
+flgH,gene,9,0.003074569938195987,9
+tssC,gene,6,0.01152039728326747,9
+algA,gene,5,8.65020891807875e-4,7
+pvdS,gene,5,0.0056067619937068,6
+hsiC1/vipB/tssC,gene,3,0.001555974050952084,6
+hsiB1/vipA/tssB,gene,5,0.0049983484843018205,10
+pilH,gene,20,0.021231428062268902,9
+fleN,gene,10,0.007932326237620272,10
+CTX,gene,5,0.015462541863565094,7
+EMRRSM,gene,2,0.003557669628115418,5
+MEXE,gene,4,0.003691978128623937,7
+SDEX,gene,2,0.007102235500694499,7
+SDEB,gene,1,0,7
+SDEY,gene,1,0,7
+EMHC,gene,7,0.009963962287275101,6
+BLAC,gene,1,0,7
+MEXF,gene,10,0.0028506187985008202,7
+blaRAHN-3,gene,1,0,7
+YajC,gene,8,0.007422525831224812,9
+alg8,gene,3,0.0050110474081747364,12
+flgG,gene,19,0.017173924655378793,9
+hcp1,gene,1,0,7
+PA3348,gene,9,0.007578639671065654,6
+flgC,gene,18,0.023484370935480392,9
+RAHN-1,gene,16,0.03842103761185051,7
+hcp/tssD,gene,21,0.1600525104599868,1
+blaRAHN-6,gene,2,2.3917514579161736e-5,7
+rpoN,gene,16,0.02465882159070131,9
+pilZ,gene,9,0.014234740375550062,9
+MexB,gene,3,0.0038473000713663257,9
+MexK,gene,10,0.009924754908902338,9
+TriC,gene,2,0.0035511177503472495,9
+rsmA,gene,7,0.0023291595413317593,9
+pilT,gene,17,0.07598993528442874,9
+fleQ,gene,11,0.01349751138089213,9
+crc,gene,14,0.023784531389970748,6
+motA,gene,8,0.05781448186776705,9
+algU,gene,6,0.006914176058371672,9
+fliA,gene,3,5.787380964884881e-4,6
+pilU,gene,10,0.005191251799734088,9
+pilJ,gene,8,0.0034011485690562523,9
+flhA,gene,7,0.0022402831796142562,9
+pilR,gene,6,0.005891732517701196,9
+vfr,gene,5,0.008275105058969584,9
+pilM,gene,3,0.0019245297412312492,9
+waaG,gene,9,0.01858670027817589,9
+algB,gene,3,0.0037601513274192226,9
+PA3349,gene,4,3.843942842500148e-4,9
+motC,gene,2,0.0014500630234386407,9
+OXA-648,gene,1,0,8
+vanR-Sc,gene,2,0.003557669628115418,5
+rep10_5_repL(pWBG738),gene,1,0,1
+rep13_9_rep(pSepCH),gene,1,0,1
+rep7a_22_rep(pSBK203),gene,1,0,1
+rep10_6_rep(SAP093B),gene,2,0.021149461435647457,2
+sipB/sspB,gene,1,0,4
+CARB-49,gene,1,0,10
+CARB-50,gene,2,4.367918512112238e-6,10
+CARB-8,gene,7,0.015828830081790164,10
+CARB-16,gene,1,0,10
+bvrR,gene,1,0,10
+CARB,gene,7,0.015828830081790164,10
+dfrA44,gene,1,0,8
+OXA-496,gene,3,0.05523888146342742,8
+AxyX,gene,2,0.0017755588751736248,8
+AxyY,gene,2,0.0017755588751736248,8
+OXA-134,gene,1,0,8
+rep22_1b_repB(pAMalpha1),gene,1,0,8
+ompA,gene,3,0.0037490242936762566,8
+bplB,gene,2,0.007062924234085489,8
+bplC,gene,2,0.007062924234085489,8
+bplA,gene,1,0,8
+brkB,gene,1,0,8
+blaOXA-1110,gene,3,0.05523888146342742,8
+dfrA40,gene,1,0,8
+mphE,gene,2,0.0017755588751736248,10
+msrE,gene,2,0.0017755588751736248,10
+OXA-361,gene,1,0,8
+sul2,gene,3,0.0035478418114631653,10
+OXA-284,gene,1,0,8
+fur,gene,2,0.0375716642941426,10
+ANT3-DPRIME,gene,3,0.0035478418114631653,10
+Erm(36),gene,2,0.003557669628115418,2
+OQXB,gene,1,0,1
+RAHN,gene,2,4.525874118530305e-4,7
+CPXAR,gene,1,0,1
+blaRAHN-4,gene,1,0,1
+cmx,gene,1,0,1
+rep10b_3_rep(pSK3),gene,1,0,1
+rep10_3_pNE131p1(pNE131),gene,1,0,1
+rep10b_1_rep(pUR2355),gene,1,0,1
+rep7a_5_repD(pTZ4),gene,1,0,1
+repUS19_1_rep(pDLK3),gene,1,0,1
+ANT6,gene,1,0,1
+QACC,gene,2,0.01574416227690856,2
+MexW,gene,1,0,9
+waaF,gene,2,0.006813952878895091,9
+algR,gene,4,0.019439912719306687,9
+PA1459,gene,1,0,9
+xcpT,gene,2,9.072692869840252e-4,9
+fliE,gene,1,0,9
+xcpR,gene,1,0,9
+AAC(6')-Ii,gene,1,0,8
+msrC,gene,1,0,8
+ErmA,gene,1,0,8
+ANT(9)-Ia,gene,1,0,8
+vanSA,gene,1,0,8
+vanRA,gene,1,0,8
+vanHA,gene,1,0,8
+rep18b_1_BO23315710(pE1p13),gene,1,0,8
+rep11a_1_repA(pB82),gene,1,0,8
+rep14a_4_rep(AUS0004p3),gene,1,0,8
+rep14a_2_ORF1(pKQ10),gene,1,0,8
+rep2_1_orf1(pRE25),gene,1,0,8
+repUS15_2_repA(pNB2354p1),gene,1,0,8
+rep18b_2_repA(pEF418),gene,1,0,8
+sgrA,gene,1,0,8
+acm,gene,1,0,8
+TETU,gene,1,0,8
+sul1,gene,7,0.015218746224689736,5
+Agrobacterium_fabrum_chloramphenicol_acetyltransferase,gene,2,3.2759388840841784e-6,5
+smeF,gene,1,0,5
+tet(42),gene,8,0.049106323872421836,5
+BKC-1,gene,3,0.03459391461592892,5
+tet(Z),gene,1,0,5
+acpXL,gene,4,0.017699897790706815,5
+SULI,gene,7,0.015218746224689736,5
+EMRBSM,gene,2,0.0017755588751736248,5
+MYRA,gene,1,0,5
+TETZ,gene,1,0,5
+EMRASM,gene,2,0.0017755588751736248,5
+rep21_25_rep(pSHaeA),gene,1,0,2
+rep21_1_rep(pWBG754),gene,2,0.01574416227690856,2
+clpV1,gene,1,0,10
+tssK,gene,2,9.831608545790357e-5,6
+PA1664,gene,4,0.0021022667092850528,6
+icmH/tssL,gene,3,5.657365682519168e-4,6
+tssB,gene,5,0.012514118666649284,12
+CATA,gene,1,0,13
+smeC,gene,1,0,5
+smeB,gene,2,0.005307020992216369,5
+smeA,gene,2,0.005307020992216369,5
+smeD,gene,2,0.06866367901040438,5
+repUS1_1_repE(DOp2),gene,1,0,9
+tssE,gene,1,0,9
+SMET,gene,1,0,5
+APH3-DPRIME,gene,1,0,5
+L1,gene,1,0,5
+blaL1,gene,1,0,5
+qacG,gene,1,0,1
+rep21_26_rep(pSK108),gene,1,0,2
+rep21_15_SAP108D001(SAP108D),gene,1,0,1
+rep21_3_rep(pS0385),gene,1,0,1
+rep13_7_rep(pLNU9),gene,1,0,2
+APH(9)-Ic,gene,1,0,5
+smeS,gene,1,0,5
+smeR,gene,1,0,5
+ANT(2'')-Ia,gene,4,0.00921405932128834,9
+OXA-10,gene,3,0.001161766502256436,5
+qacEdelta1,gene,6,0.013443187349516108,5
+smeE,gene,1,0,5
+VIM-4,gene,2,4.870393348468006e-6,5
+AAC(6')-Il,gene,2,4.870393348468006e-6,5
+SGM-1,gene,1,0,5
+APH(3')-IIc,gene,1,0,5
+OXA-17,gene,1,0,5
+ANT2-DPRIME,gene,4,0.00921405932128834,9
+SMR,gene,5,0.011088879271487623,5
+VIM,gene,2,4.870393348468006e-6,5
+EMRCSM,gene,1,0,5
+tssF,gene,1,0,10
+fliR,gene,1,0,11
+OXA-824,gene,1,0,5
+vanR_gene_in_vanO_cluster,gene,1,0,5
+OXA-677,gene,1,0,9
+OXA-656,gene,1,0,5
+OXA-2,gene,1,0,5
+MTRAD,gene,1,0,5
+APH(6)-Id,gene,1,0,3

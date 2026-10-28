@@ -47,6 +47,9 @@ In order to successfully run hosMicro, two specific input CSV files are required
 For reference and guidance, two sample CSV files demonstrating the required format and content are available in the data repository.
 
 
+## Manuscript analysis
+Scripts and processed datasets for the hospital air and surface microbiome manuscript are in [`manuscript/`](manuscript/README.md). The analysis pipeline is [meridian](https://github.com/Julio92-C/meridian).
+
 ## Tutorial
 If you'd like to get to know the app functionality better, feel free to check out the tutorial linked below! It's a great way to learn about all its features.
 
