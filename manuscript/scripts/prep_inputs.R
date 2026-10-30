@@ -274,6 +274,24 @@ ctrl_rows <- tibble(
   location    = NA_character_
 )
 meta_out <- bind_rows(meta, ctrl_rows)
+
+# `site`: the sampling site used for the shared-fraction linkage map
+# (shared_fraction.linkage_vars). Air samples by ward ("Ward B"); ward E surface
+# samples by room, taken from the description ("SR 16, Room Vent" -> "SR 16").
+surface_room <- function(desc) {
+  room <- trimws(sub("[,;].*$", "", desc))
+  dplyr::recode(room,
+    "Chemo Freezer"            = "Nurse bay",
+    "Helmer Blood bank fridge" = "Blood bank",
+    "Stem cell fridge"         = "Stem cell unit",
+    "Staff room freezer"       = "Staff room",
+    "Corridor Vent"            = "Corridor")
+}
+meta_out <- meta_out |>
+  mutate(site = dplyr::case_when(
+    type == "Air"     ~ paste("Ward", ward),
+    type == "Surface" ~ surface_room(description),
+    TRUE              ~ NA_character_))
 write_csv(meta_out, file.path(MET, "hospital_metadata.csv"))
 cat(sprintf("[out] Metadata/hospital_metadata.csv  (%d rows: %d samples + %d controls)\n",
             nrow(meta_out), nrow(meta), length(CONTROLS)))

@@ -200,3 +200,17 @@ outputs:
   figures_dir:  "test_run_v2/Figures"
   report_html:  "test_run_v2/Reports/pipeline_report.html"
   log_file:     "test_run_v2/Reports/pipeline.log"
+
+# Shared fraction of species between air and surfaces (meridian stage
+# shared_fraction, schema 1.3). Five samples in each compartment reproduces the
+# collaborator note (13 widespread species); the pipeline default is >= 3 samples
+# and >= 10% prevalence. `site` = ward for air, room for ward E surfaces.
+shared_fraction:
+  widespread_min_samples: 5
+  widespread_min_prev:    0
+  linkage_vars:           [site, ward]
+  linkage_min_shared:     5     # draw links of >= 5 widespread species (as in the note)
+  linkage_test:           true
+  linkage_n_perm:         999
+taxa_tree:
+  top_n:                  60

@@ -1,67 +1,67 @@
-ID,sample,type,description,ward,location
-A20,A20,Air,Beb 1-5,B,Private bed
-A22,A22,Air,Parents Kitchen,B,Kitchen
-A25,A25,Air,Dirty Room,C,Dirty room
-A26,A26,Air,Bed 14-17,C,Bed bay
-A27,A27,Air,Bed 5-8,C,Bed bay
-A29,A29,Air,Bed 19 +7D,C,Private bed
-A30,A30,Air,Bed 34-36,D,Bed bay
-A31,A31,Air,Bed 46,D,Private bed
-A32,A32,Air,Treatment Room,D,Treatment room
-A33,A33,Air,Bed 34-36 +5D,D,Bed bay
-A36,A36,Air,Bed 26,E,Private bed
-A37,A37,Air,Bay 1-4,F,Bed bay
-A38,A38,Air,Reception,F,Reception
-A40,A40,Air,Bed 4,K,Private bed
-A41,A41,Air,Bay 17-21,K,Bed bay
-A44,A44,Air,Intervention CT,K,Treatment room
-A48,A48,Air,Endoscopy Blue Rest,J,Treatment room
-A50,A50,Air,Bay 50-53,I,Bed bay
-A51,A51,Air,Clinic E Corridor,I,Corridor
-A52,A52,Air,Room 4,I,Private bed
-A53,A53,Air,Corridor,I,Corridor
-A55,A55,Air,Hydrotherapy Pool,H,Treatment room
-A56,A56,Air,Gymnasium,H,Treatment room
-A57,A57,Air,Majors Corridor,G,Corridor
-A58,A58,Air,SDEC Corridor,G,Corridor
-A61,A61,Air,Treatment Room 18,T,Treatment room
-A62,A62,Air,Treatment Room 20,T,Treatment room
-A63,A63,Air,Waiting Area,W,Waiting area
-S1,S1,Surface,"SR 16, Room Vent",E,Vent
-S2,S2,Surface,"SR 16, Bathroom Vent",E,Vent
-S3,S3,Surface,"SR 16, Fridge inside drain",E,Fridge
-S4,S4,Surface,"SR 16, Fridge rear, drainage tank",E,Fridge
-S5,S5,Surface,"SR 26, Room Vent",E,Vent
-S6,S6,Surface,"SR 26, Bathroom Vent",E,Vent
-S7,S7,Surface,"SR 26, Fridge interior drain",E,Fridge
-S8,S8,Surface,"SR 26, Fridge rear, drainage tank",E,Fridge
-S9,S9,Surface,"Dirty Utility, Vent 1",E,Dirty utility
-S10,S10,Surface,"Dirty Utility, Vent 2",E,Dirty utility
-S11,S11,Surface,"Dirty Utility, Macerator side port",E,Dirty utility
-S12,S12,Surface,"Clean Utility, Vent 1",E,Clean utility
-S13,S13,Surface,"Clean Utility, Smoke detector",E,Clean utility
-S14,S14,Surface,"Corridor Vent, outside SR 16",E,Corridor
-S15,S15,Surface,"Corridor Vent, outside SR 26",E,Corridor
-S16,S16,Surface,"Beverage Bay, Vent",E,Vent
-S17,S17,Surface,"Beverage Bay, Fridge, interior drain",E,Fridge
-S18,S18,Surface,"Beverage Bay, Fridge, interior fan",E,Fridge
-S19,S19,Surface,"Beverage Bay, Fridge rear, drainage tank",E,Fridge
-S20,S20,Surface,"Clean Utility, Vent 1",E,Clean utility
-S21,S21,Surface,"Clean Utility, Vent 2",E,Clean utility
-S22,S22,Surface,"Clean Utility, Medicine freezer (not working but operating)",E,Clean utility
-S23,S23,Surface,Chemo Freezer; Nr. Nurse Bay; interior fan,E,Freezer
-S24,S24,Surface,Helmer Blood bank fridge; scan bed,E,Fridge
-S25,S25,Surface,Stem cell fridge; interior drain,E,Fridge
-S26,S26,Surface,"Staff room freezer, interior drain",E,Freezer
-S27,S27,Surface,"Staff room freezer, rear draining tank",E,Freezer
-S28,S28,Surface,"Kitchen, Vent 1",E,Vent
-S29,S29,Surface,"Kitchen, Vent 2",E,Vent
-S30,S30,Surface,"Kitchen, Vent 3",E,Vent
-S31,S31,Surface,"Kitchen, Vent 4",E,Vent
-S32,S32,Surface,"Kitchen, air-conditioner unit vent",E,Fridge
-S33,S33,Surface,Kitchen; Fridge 1; interior fan,E,Fridge
-S34,S34,Surface,Kitchen; Fridge 2; interior fan,E,Fridge
-S35,S35,Surface,Kitchen; Fridge 3; interior fan,E,Fridge
-S36,S36,Surface,Chemo Freezer; Nr. Nurse Bay; rear drainage tank,E,Freezer
-NX,NX,Control,Negative extraction control (NX),NA,NA
-N3,N3,Control,Negative control (N3),NA,NA
+ID,sample,type,description,ward,location,site
+A20,A20,Air,Beb 1-5,B,Private bed,Ward B
+A22,A22,Air,Parents Kitchen,B,Kitchen,Ward B
+A25,A25,Air,Dirty Room,C,Dirty room,Ward C
+A26,A26,Air,Bed 14-17,C,Bed bay,Ward C
+A27,A27,Air,Bed 5-8,C,Bed bay,Ward C
+A29,A29,Air,Bed 19 +7D,C,Private bed,Ward C
+A30,A30,Air,Bed 34-36,D,Bed bay,Ward D
+A31,A31,Air,Bed 46,D,Private bed,Ward D
+A32,A32,Air,Treatment Room,D,Treatment room,Ward D
+A33,A33,Air,Bed 34-36 +5D,D,Bed bay,Ward D
+A36,A36,Air,Bed 26,E,Private bed,Ward E
+A37,A37,Air,Bay 1-4,F,Bed bay,Ward F
+A38,A38,Air,Reception,F,Reception,Ward F
+A40,A40,Air,Bed 4,K,Private bed,Ward K
+A41,A41,Air,Bay 17-21,K,Bed bay,Ward K
+A44,A44,Air,Intervention CT,K,Treatment room,Ward K
+A48,A48,Air,Endoscopy Blue Rest,J,Treatment room,Ward J
+A50,A50,Air,Bay 50-53,I,Bed bay,Ward I
+A51,A51,Air,Clinic E Corridor,I,Corridor,Ward I
+A52,A52,Air,Room 4,I,Private bed,Ward I
+A53,A53,Air,Corridor,I,Corridor,Ward I
+A55,A55,Air,Hydrotherapy Pool,H,Treatment room,Ward H
+A56,A56,Air,Gymnasium,H,Treatment room,Ward H
+A57,A57,Air,Majors Corridor,G,Corridor,Ward G
+A58,A58,Air,SDEC Corridor,G,Corridor,Ward G
+A61,A61,Air,Treatment Room 18,T,Treatment room,Ward T
+A62,A62,Air,Treatment Room 20,T,Treatment room,Ward T
+A63,A63,Air,Waiting Area,W,Waiting area,Ward W
+S1,S1,Surface,"SR 16, Room Vent",E,Vent,SR 16
+S2,S2,Surface,"SR 16, Bathroom Vent",E,Vent,SR 16
+S3,S3,Surface,"SR 16, Fridge inside drain",E,Fridge,SR 16
+S4,S4,Surface,"SR 16, Fridge rear, drainage tank",E,Fridge,SR 16
+S5,S5,Surface,"SR 26, Room Vent",E,Vent,SR 26
+S6,S6,Surface,"SR 26, Bathroom Vent",E,Vent,SR 26
+S7,S7,Surface,"SR 26, Fridge interior drain",E,Fridge,SR 26
+S8,S8,Surface,"SR 26, Fridge rear, drainage tank",E,Fridge,SR 26
+S9,S9,Surface,"Dirty Utility, Vent 1",E,Dirty utility,Dirty Utility
+S10,S10,Surface,"Dirty Utility, Vent 2",E,Dirty utility,Dirty Utility
+S11,S11,Surface,"Dirty Utility, Macerator side port",E,Dirty utility,Dirty Utility
+S12,S12,Surface,"Clean Utility, Vent 1",E,Clean utility,Clean Utility
+S13,S13,Surface,"Clean Utility, Smoke detector",E,Clean utility,Clean Utility
+S14,S14,Surface,"Corridor Vent, outside SR 16",E,Corridor,Corridor
+S15,S15,Surface,"Corridor Vent, outside SR 26",E,Corridor,Corridor
+S16,S16,Surface,"Beverage Bay, Vent",E,Vent,Beverage Bay
+S17,S17,Surface,"Beverage Bay, Fridge, interior drain",E,Fridge,Beverage Bay
+S18,S18,Surface,"Beverage Bay, Fridge, interior fan",E,Fridge,Beverage Bay
+S19,S19,Surface,"Beverage Bay, Fridge rear, drainage tank",E,Fridge,Beverage Bay
+S20,S20,Surface,"Clean Utility, Vent 1",E,Clean utility,Clean Utility
+S21,S21,Surface,"Clean Utility, Vent 2",E,Clean utility,Clean Utility
+S22,S22,Surface,"Clean Utility, Medicine freezer (not working but operating)",E,Clean utility,Clean Utility
+S23,S23,Surface,Chemo Freezer; Nr. Nurse Bay; interior fan,E,Freezer,Nurse bay
+S24,S24,Surface,Helmer Blood bank fridge; scan bed,E,Fridge,Blood bank
+S25,S25,Surface,Stem cell fridge; interior drain,E,Fridge,Stem cell unit
+S26,S26,Surface,"Staff room freezer, interior drain",E,Freezer,Staff room
+S27,S27,Surface,"Staff room freezer, rear draining tank",E,Freezer,Staff room
+S28,S28,Surface,"Kitchen, Vent 1",E,Vent,Kitchen
+S29,S29,Surface,"Kitchen, Vent 2",E,Vent,Kitchen
+S30,S30,Surface,"Kitchen, Vent 3",E,Vent,Kitchen
+S31,S31,Surface,"Kitchen, Vent 4",E,Vent,Kitchen
+S32,S32,Surface,"Kitchen, air-conditioner unit vent",E,Fridge,Kitchen
+S33,S33,Surface,Kitchen; Fridge 1; interior fan,E,Fridge,Kitchen
+S34,S34,Surface,Kitchen; Fridge 2; interior fan,E,Fridge,Kitchen
+S35,S35,Surface,Kitchen; Fridge 3; interior fan,E,Fridge,Kitchen
+S36,S36,Surface,Chemo Freezer; Nr. Nurse Bay; rear drainage tank,E,Freezer,Nurse bay
+NX,NX,Control,Negative extraction control (NX),NA,NA,NA
+N3,N3,Control,Negative control (N3),NA,NA,NA
