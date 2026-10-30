@@ -9,6 +9,7 @@ Project-specific scripts and processed datasets for the manuscript *Hospital air
 | `scripts/config.yaml` | meridian configuration for this study (NX subtraction, microbial-only taxa, >10-read floor, ALDEx2 settings) |
 | `scripts/prep_inputs.R` | Builds pipeline-ready inputs (combined Kraken2 report, Bracken-shaped table, metadata with controls) from the upstream files |
 | `scripts/polish_*.R` | Manuscript figures and tables built from the pipeline outputs: Figure 1 (`polish_taxa_overview.R`), Figure 2 and Figure S3 (`polish_relative_abundance.R`), Figure 4 chord (`polish_chord.R`), Figure S2 (`polish_alpha_panel.R`), Figure S4 (`polish_beta_venn.R`), Figure S5 (`polish_ge_heatmap.R`), Table 1 (`polish_table1.R`) |
+| `scripts/shared_fraction/` | Exploratory air–surface shared-fraction analysis and collaborator note (outputs in `notes/shared_fraction/`) |
 | `data/metadata/hospital_metadata.csv` | Sample metadata (type, ward, location), including negative controls |
 | `data/processed/taxa_counts_floor10.csv.gz` | Taxon counts per sample after NX subtraction and removal of non-microbial reads, keeping only entries with more than 10 reads (long format) |
 | `data/processed/abri_kraken2_cleaned.csv` | Element-carrying reads: ABRicate hits (CARD, VFDB, PlasmidFinder) linked to their Kraken2 taxon |

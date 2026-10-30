@@ -1,0 +1,14 @@
+name,Air B,Air C,Air D,Air E,Air F,Air G,Air H,Air I,Air J,Air K,E: Beverage Bay,E: Blood bank,E: Clean Utility,E: Corridor,E: Dirty Utility,E: Kitchen,E: Nurse bay,E: SR 16,E: SR 26,E: Staff room,E: Stem cell unit
+Pseudomonas putida,0,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1
+Pseudomonas fluorescens,1,0,1,0,0,1,1,1,0,0,1,1,1,0,1,1,1,1,1,0,1
+Stutzerimonas stutzeri,0,1,1,0,0,1,0,1,0,0,1,0,1,1,1,1,1,1,1,1,1
+Escherichia coli,1,1,1,0,0,1,1,1,0,1,0,0,0,0,1,1,1,1,1,0,1
+Pseudomonas aeruginosa,1,0,1,0,0,1,0,1,0,0,1,0,1,1,1,1,1,1,0,0,1
+Rahnella aceris,1,1,1,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,0
+Serratia marcescens,1,1,1,0,0,1,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0
+Serratia proteamaculans,1,1,1,0,0,1,1,1,1,0,1,0,0,1,0,0,0,1,1,0,0
+Pantoea agglomerans,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,1,0,1,0,0,0
+Acinetobacter baumannii,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,1,0,1,1,0,0
+Stenotrophomonas maltophilia,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1
+Chlamydomonas reinhardtii,0,1,1,0,0,1,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0
+Serratia quinivorans,1,0,1,0,0,1,1,1,1,0,1,0,0,1,0,0,0,1,1,0,0
