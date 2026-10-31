@@ -219,3 +219,8 @@ taxa_tree:
 # PDF for editing in Illustrator).
 figures:
   formats:                [tiff, pdf]
+
+# Taxonomic tree of the differentially abundant taxa (meridian daa_tree):
+# every taxon with |ALDEx2 effect| >= 0.5.
+daa_tree:
+  min_effect:             0.5
