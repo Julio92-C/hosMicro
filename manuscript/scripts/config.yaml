@@ -214,3 +214,8 @@ shared_fraction:
   linkage_n_perm:         999
 taxa_tree:
   top_n:                  60
+
+# Extra formats for the shared_fraction / taxa_tree figures (TIFF for the journal,
+# PDF for editing in Illustrator).
+figures:
+  formats:                [tiff, pdf]
